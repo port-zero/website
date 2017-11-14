@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400');
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+}
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  font-family: "Fira Sans";
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.logo {
+  margin-top: 80px;
+  display: inline-block;
+  width: 200px;
+}
+
+.text {
+  margin-top: 80px;
+  display: inline-block;
+  float: right;
+  padding: 1em;
+  width: calc(100% - 240px);
+}
+
+.tagline {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #0099cc;
+  border-bottom: 2px solid #09c;
+  height: 18px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #004c66;
+  border-bottom: 2px solid #004c66;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #09c;
+  position: absolute;
+  bottom: 10px;
+}
+
+.footer-section {
+  border-left: 1px solid #09c;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.footer-section h3 {
+  color: #09c;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
+.footer-section ul {
+  margin: 0;
+  padding-left: 0.1em;
+  list-style: none;
+}
+
+.footer-section li a {
+  border-bottom: 0;
+}
+
+.imprint-legalese {
+  max-width: 700px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.imprint-section {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.imprint-section p {
+  margin: 0;
+}
+
+.img-link {
+  display: inline-block;
+}
+
+.small-logo {
+  margin-top: 1em;
+  width: 20px;
+  display: inline-block;
+}
+
+.img-header {
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: super;
+}
