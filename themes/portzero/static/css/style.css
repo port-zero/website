@@ -66,6 +66,7 @@ a:hover {
 
 .sidebar .menu {
   padding: 0 14px 0 14px;
+  margin-top: 10px;
 }
 
 .sidebar .menu .active a {
@@ -101,9 +102,32 @@ a:hover {
   margin-top: 35px;
 }
 
-.logo {
+.logo_a {
+  text-align: center;
   width: 100%;
 }
+
+.logo_a:hover {
+  border: none;
+}
+
+.logo_a h1 {
+  color: black;
+  margin: -5px 0 0 0;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.logo {
+  width: 100%;
+  max-width: 160px;
+}
+
+.copyright {
+  margin-left: 14px;
+  font-size: 12px;
+}
+
 
 .text {
   border-left: 1px solid #09C;
@@ -205,6 +229,19 @@ a:hover {
 	margin: 0px;
 }
 
+.teammember {
+  padding: 0;
+}
+
+.teammember-text {
+  padding: 5px;
+}
+
+.teammember-image {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 
 
 
@@ -213,24 +250,51 @@ a:hover {
 
   .content {
     min-width: 200px;
+    margin-top: 5px;
   }	
 
   .sidebar {
     min-width: 100%;
     padding: 0;
+	padding-bottom: 10px;
     margin: 0;
     float: none;
 	border-right: none;
-    border-bottom: 1px solid #0c9;
+    border-bottom: 1px solid #09C;
   }
 
   .sidebar a {
     min-width: 100%;
   }
 
+  .logo {
+	max-height: 100px;
+	width: auto;
+  }
+
+  .logo_a h1 {
+	font-size: 1em;
+  }
+
+  .menu_main {
+	display: inline-block;
+  }
+
+  .menu_secondary {
+	float: right;
+	text-align: right;
+  }
+
+  .copyright {
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+  }
+
   .text {
     padding: 0;
     margin: 0;
+	margin-top: 10px;
 	border: none;
   }
 
