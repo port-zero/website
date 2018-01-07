@@ -3,4 +3,4 @@
 The new Port Zero website. Minimalistic, Responsice, using the Hugo Static Content Generator.
 
 # Font
-The used Font is ["Fira Sans"](https://github.com/mozilla/Fira). The ["themes/portzero/static/fonts/"](License) is located in the Font-Dir.
+The used Font is ["Fira Sans"](https://github.com/mozilla/Fira). The [License](themes/portzero/static/fonts/") is located in the Font-Dir.
