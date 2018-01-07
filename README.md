@@ -1,3 +1,6 @@
-# website II
+# Website Redesign 2018
 
-A second jab at a website for Port Zero, this time simplistic and static.
+The new Port Zero website. Minimalistic, Responsice, using the Hugo Static Content Generator.
+
+# Font
+The used Font is ["Fira Sans"](https://github.com/mozilla/Fira). The ["themes/portzero/static/fonts/"](License) is located in the Font-Dir.
