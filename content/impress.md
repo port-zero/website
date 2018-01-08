@@ -1,7 +1,7 @@
 ---
-title: Team
+title: Impress
 language: en
-slug: /team/
+slug: /impress/
 ---
 
 Lorem Ipsum dolor sit atmet. 
