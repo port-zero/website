@@ -4,7 +4,6 @@ language: en
 slug: /imprint/
 ---
 
-# Impressum
 Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
 
 
