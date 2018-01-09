@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: Imprint
 language: en
 slug: /imprint/
