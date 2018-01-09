@@ -2,6 +2,7 @@
 <h2 class="tagline">{{ .Title }}</h2>
 {{ .Content }}
 <br />
+<div class="team">
     {{ range sort .Data.Pages .Params.weight }}
 		<article class="teammember">
     		{{ with .Params.image }}
@@ -16,5 +17,5 @@
 			</div>
 		</article>
     {{ end }}
-
+</div>
 {{ end }}
