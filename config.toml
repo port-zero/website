@@ -1,4 +1,4 @@
-baseURL = "https://port-zero.com/"
+baseURL = "http://staging.port-zero.com/"
 languageCode = "en-us"
 title = "Port Zero"
 theme = "portzero"
@@ -31,10 +31,10 @@ theme = "portzero"
   identifier = "contact"
   url = "mailto:contact@port-zero.com"
 [[menu.main]]
-  name = "Impress"
+  name = "Imprint"
   weight = -60
-  identifier = "impress"
-  url = "/impress/"
+  identifier = "imprint"
+  url = "/imprint/"
 
 
 
