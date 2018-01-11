@@ -3,37 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://staging.port-zero.com/team/michael-prinzinger/</loc>
+    <loc>http://0.0.0.0:8000/team/michael-prinzinger/</loc>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/team/veit-heller/</loc>
+    <loc>http://0.0.0.0:8000/team/veit-heller/</loc>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/team/david-weber/</loc>
+    <loc>http://0.0.0.0:8000/team/david-weber/</loc>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/categories/</loc>
+    <loc>http://0.0.0.0:8000/references/ecix/</loc>
+  </url>
+  
+  <url>
+    <loc>http://0.0.0.0:8000/references/orderbird/</loc>
+  </url>
+  
+  <url>
+    <loc>http://0.0.0.0:8000/references/resmio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://0.0.0.0:8000/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/</loc>
+    <loc>http://0.0.0.0:8000/</loc>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/imprint/</loc>
+    <loc>http://0.0.0.0:8000/imprint/</loc>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/tags/</loc>
+    <loc>http://0.0.0.0:8000/references/</loc>
+  </url>
+  
+  <url>
+    <loc>http://0.0.0.0:8000/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://staging.port-zero.com/team/</loc>
+    <loc>http://0.0.0.0:8000/team/</loc>
   </url>
   
 </urlset>

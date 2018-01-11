@@ -247,6 +247,50 @@ a:hover {
   margin-top: 5px;
 }
 
+.client {
+	border-bottom: 1px solid #09c;
+	padding: 5px;
+	width: 100%;
+	margin-top: 10px;
+	display: inline-block;
+	clear: left;
+}
+
+.clients article:last-child {
+	border: none;
+}
+
+.client-image {
+	max-width: 135px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.client .position {
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-bottom: 0px;
+}
+
+.client h4 {
+	margin: 0px;
+}
+
+.client {
+  padding: 0;
+}
+
+.client-text {
+  padding: 5px;
+}
+
+.client-image {
+  margin-left: 5px;
+  margin-top: 5px;
+  max-width: 10%;
+}
 
 
 

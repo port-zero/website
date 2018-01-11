@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h2 class="tagline">{{ .Title }}</h2>
+{{ .Content }}
+<br />
+<div class="clients">
+    {{ range sort .Data.Pages .Params.weight }}
+		<article class="client">
+    		{{ with .Params.image }}
+       			<img src="{{ . }}" class="client-image" />
+			{{ else }}
+				<img src="img/logo.png" class="teammember-image" />
+			{{ end }}
+			<div class="client-text">
+				<h4>{{ .Title }}</h4>
+				<p class="position">{{ .Params.description }}</p>
+        			{{ .Content }}
+			</div>
+		</article>
+    {{ end }}
+</div>
+{{ end }}
