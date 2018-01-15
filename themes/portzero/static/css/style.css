@@ -123,6 +123,10 @@ a:hover {
   max-width: 160px;
 }
 
+.mobile_footer {
+	display: none;
+}
+
 .copyright {
   margin-left: 14px;
   font-size: 12px;
@@ -288,6 +292,17 @@ a:hover {
   .menu_secondary {
 	float: right;
 	text-align: right;
+  }
+
+  .sidebar .copyright {
+	display: none;
+  }
+
+  .mobile_footer {
+	display: block;
+  	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #09C;
   }
 
   .copyright {
