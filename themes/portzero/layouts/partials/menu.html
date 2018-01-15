@@ -9,7 +9,7 @@
 
     <ul class="menu_secondary">
         {{ range .Site.Menus.secondary -}}
-        <li{{ if $.IsPage }}{{ if eq .Identifier $.Type }}class="active"{{ end }}{{ end }}><a href="{{.URL}}">{{ .Name }}</a></li>
+        <li{{ if $.IsPage }}{{ if eq .Identifier $.Type }}class="active"{{ end }}{{ end }}><a href="{{.URL}}" target="_BLANK">{{ .Name }}</a></li>
         {{- end  }}
     </ul>
 
