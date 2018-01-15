@@ -1,6 +1,6 @@
 ---
 title: Jonas Becker
-description: System Engineer
+description: DevOps
 weight: -500
 type: teammember
 image: img/team/jonas.jpg
