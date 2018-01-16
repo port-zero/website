@@ -1,5 +1,5 @@
 ---
-title: References
+title: Referenzen
 language: en
 slug: /references/
 ---

@@ -11,7 +11,7 @@ theme = "portzero"
 
 
 [[menu.main]]
-  name = "Company"
+  name = "Unternehmen"
   weight = -100
   identifier = "company"
   url = "/"
@@ -21,17 +21,17 @@ theme = "portzero"
   identifier = "team"
   url = "/team/"
 [[menu.main]]
-  name = "References"
+  name = "Referenzen"
   weight = -80
   identifier = "references"
   url = "/references/"
 [[menu.main]]
-  name = "Contact Us"
+  name = "Kontakt"
   weight = -70
   identifier = "contact"
   url = "mailto:contact@port-zero.com"
 [[menu.main]]
-  name = "Imprint"
+  name = "Impressum"
   weight = -60
   identifier = "imprint"
   url = "/imprint/"

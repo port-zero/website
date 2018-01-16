@@ -1,5 +1,5 @@
 ---
-title: Imprint
+title: Impressum
 language: en
 slug: /imprint/
 ---
