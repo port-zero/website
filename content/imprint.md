@@ -33,7 +33,7 @@ Adalbertstraße 7-8<br />
 
 **Ausschluss der Haftung:**
 
-1. Haftung für Inhalte
+Haftung für Inhalte
 
 Sämtliche Inhalte unserer Internetseiten sind mit größtmöglicher
 Sorgfalt erstellt worden. Dennoch ist es uns nicht möglich, eine
@@ -51,7 +51,7 @@ Kenntnis erlangen. Wenn wir von einer solchen Verletzung von Rechten
 Kenntnis erlangen, wird eine unverzügliche Entfernung der entsprechenden
 Inhalte erfolgen.
 
-2. Haftung für Links
+Haftung für Links
 
 Unsere Internetseiten enthalten Links, die zu externen Internetseiten
 von Dritten führen. Auf die Inhalte dieser externen Seiten haben wir
@@ -66,7 +66,7 @@ nicht zugemutet werden, ständig die verlinkten Internetseiten inhaltlich
 zu kontrollieren. Wenn wir jedoch von einer Rechtsverletzung Kenntnis
 erlangen, werden wir den entsprechenden Link unverzüglich entfernen.
 
-3. Urheberrecht
+Urheberrecht
 
 Die auf unseren Internetseiten enthaltenen Werke und Inhalte unterstehen
 dem Urheberrecht. Ohne schriftliche Genehmigung des jeweiligen
@@ -83,7 +83,7 @@ Urheberrechtsverletzung gestoßen sind. Wenn wir von einer solchen
 Urheberrechtsverletzung Kenntnis erlangen, werden wir den entsprechenden
 Inhalt unverzüglich entfernen.
 
-4. Datenschutz
+Datenschutz
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. 
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. 
