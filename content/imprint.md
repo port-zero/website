@@ -1,6 +1,6 @@
 ---
 title: Impressum
-language: en
+language: de
 slug: /imprint/
 ---
 

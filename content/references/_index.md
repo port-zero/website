@@ -1,6 +1,6 @@
 ---
 title: Referenzen
-language: en
+language: de
 slug: /references/
 ---
 
