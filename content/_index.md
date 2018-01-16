@@ -1,16 +1,15 @@
 ---
-title: Excellent Software Solutions
-language: en
+title: IT-Security and Software Development Experts
+language: de
 slug: /
 ---
 
-We develop and operate systems with a focus on security and stability.
+Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilität. Im Bereich IT-Sicherheit beraten wir mit höchstem technischen Anspruch und unterstützen bei der Einführung und Umsetzung von:
 
-* Software Architecture
-* Software Development
-* Security Consulting
-* Architecture and Operating of Linux Servers and Networks 
+* Software Architektur und Entwicklung
+* IT-Sicherheitsberatung
+* Architektur und Betrieb von Linux Servern und Netzwerken 
 
-Our [team](/team/) is experienced in various fields and willing to help you with all kinds of challenges.
+Unser [Team](/team/) steht mit seinen vielfältigen Erfahrungen und Kenntnissen bereit, Sie bei Ihren Herausforderungen zu unterstützen.
 
-[Get in touch with us!](mailto:contact@port-zero.com)
+Treten Sie mit uns in [Kontakt!](mailto:contact@port-zero.com)
