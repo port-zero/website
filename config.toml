@@ -1,9 +1,9 @@
 baseURL = "http://staging.port-zero.com/"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "Port Zero"
 theme = "portzero"
 [params]
-  description = "Excellent Software Solutions"
+  description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
   licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
 [outputs]
   home = ["HTML"]
