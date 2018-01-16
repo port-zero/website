@@ -1,7 +1,7 @@
 ---
 title: eichberg
-description: Lorem Ipsum
+description: Kohleerzeugnisse für Elektromotoren
 weight: -100
 image: img/references/eichberg.gif
 ---
-Lorem Ipsum
+Den Familienbetrieb unterstützen wir beim Betrieb ihrer historisch gewachsenen IT-Infrastruktur.
