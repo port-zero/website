@@ -1,7 +1,7 @@
 ---
 title: Team
-language: en
+language: de
 slug: /team/
 ---
 
-PORT ZERO ist in dieser Konstellation noch ein junges Unternehmen, doch mit erheblicher Erfahrung jedes einzelnen Akteurs. Unsere Performance ist in zahlreichen Projekten in der Vergangenheit gewachsen, der Erfolg und die überaus produktive Zusammenarbeit führten konsequenterweise zur Gründung. Hier stellen wir einige zentrale Figuren und Personen von PORT ZERO vor, so können Sie sich leicht ein Bild von uns und unserer Geschichte machen.
+PORT ZERO umfasst aktuell ein Team von 10 festangestellten IT-Experten unterstützt von einem großen Neztwerk aus Partnern und freiberuflichen Mitarbeitern. Hier stellen wir einige zentrale Personen von PORT ZERO vor, so können Sie sich leicht ein Bild von uns machen.
