@@ -1,7 +1,7 @@
 ---
 title: computop 
-description: Lorem Ipsum 
+description: Führender internationaler Zahlungsdienstleister
 weight: -100
 image: img/references/computop.jpg
 ---
-Lorem Ipsum
+Wir beraten Computop bei Security-Themen und nehmen das Penetration-Testing vor.
