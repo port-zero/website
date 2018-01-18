@@ -2,6 +2,7 @@
 title: ecix
 description: European Commercial Internet Exchange
 weight: -130
+type: client
 image: img/references/ecix.jpg
 ---
 Gemeinsam mit ecix entwickelten wir sowohl In-House-Lösungen für
