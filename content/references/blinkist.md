@@ -4,4 +4,5 @@ description: Stellen die Kernaussagen von Fachbüchern in 15-minütigen audio-vi
 weight: -100
 image: img/references/blinkist.png
 ---
-Pen-Testing und IT-Sicherheitsberatung zur Blinkist-App und Webseite.
+Bei blinkist führen wir Pen-Tests aus und beraten zum Thema IT-Sicherheit
+in der Blinkist-App und auf der Webseite.
