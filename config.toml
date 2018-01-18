@@ -1,4 +1,4 @@
-baseURL = "http://staging.port-zero.com/"
+baseURL = "https://port-zero.com/"
 languageCode = "de-de"
 title = "Port Zero"
 theme = "portzero"

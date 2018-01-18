@@ -7,7 +7,7 @@ slug: /imprint/
 Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
 
 
-**PORT ZERO UG (haftungsbeschränkt)**
+**Port Zero UG (haftungsbeschränkt)**
 
 Softwareentwicklung & IT Service<br />
 Adalbertstraße 7-8<br />
