@@ -35,7 +35,7 @@ html, body {
 }
 
 h1, h2, h3, h4 {
-	margin: 10px 0 5px 0;
+  margin: 10px 0 5px 0;
 }
 
 p {
@@ -70,11 +70,11 @@ a:hover {
 }
 
 .sidebar .menu .active a {
-	color: black;
+  color: black;
 }
 
 .sidebar .menu .active a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .sidebar .menu h3 {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .mobile_footer {
-	display: none;
+  display: none;
 }
 
 .copyright {
@@ -137,6 +137,7 @@ a:hover {
   border-left: 1px solid #09C;
   padding-left: 20px;
   margin-left: 220px;
+  text-align: justify;
 }
 
 .tagline {
@@ -208,34 +209,34 @@ a:hover {
 }
 
 .teammember {
-	border-bottom: 1px solid #09c;
-	padding: 5px;
-	width: 100%;
-	margin-top: 10px;
-	display: inline-block;
-	clear: left;
+  border-bottom: 1px solid #09c;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  display: inline-block;
+  clear: left;
 }
 
 .team article:last-child {
-	border: none;
+  border: none;
 }
 
 .teammember-image {
-	max-width: 135px;
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 5px;
-	display: inline-block;
+  max-width: 135px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .teammember .position {
-	font-weight: bold;
-	font-size: 0.9em;
-	margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0px;
 }
 
 .teammember h4 {
-	margin: 0px;
+  margin: 0px;
 }
 
 .teammember {
@@ -252,34 +253,34 @@ a:hover {
 }
 
 .client {
-	border-bottom: 1px solid #09c;
-	padding: 5px;
-	width: 100%;
-	margin-top: 10px;
-	display: inline-block;
-	clear: left;
+  border-bottom: 1px solid #09c;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  display: inline-block;
+  clear: left;
 }
 
 .clients article:last-child {
-	border: none;
+  border: none;
 }
 
 .client-image {
-	max-width: 135px;
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 5px;
-	display: inline-block;
+  max-width: 135px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .client .position {
-	font-weight: bold;
-	font-size: 0.9em;
-	margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0px;
 }
 
 .client h4 {
-	margin: 0px;
+  margin: 0px;
 }
 
 .client {
@@ -296,23 +297,19 @@ a:hover {
   max-width: 10%;
 }
 
-
-
-
 @media (max-width: 649px) {
-
   .content {
     min-width: 200px;
     margin-top: 5px;
-  }	
+  }
 
   .sidebar {
     min-width: 100%;
     padding: 0;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
     margin: 0;
     float: none;
-	border-right: none;
+    border-right: none;
     border-bottom: 1px solid #09C;
   }
 
@@ -321,51 +318,50 @@ a:hover {
   }
 
   .logo {
-	max-height: 100px;
-	width: auto;
+    max-height: 100px;
+    width: auto;
   }
 
   .logo_a h1 {
-	font-size: 1em;
+    font-size: 1em;
   }
 
   .menu_main {
-	display: inline-block;
+    display: inline-block;
   }
 
   .menu_secondary {
-	float: right;
-	text-align: right;
+    float: right;
+    text-align: right;
   }
 
   .sidebar .copyright {
-	display: none;
+    display: none;
   }
 
   .mobile_footer {
-	display: block;
-  	margin-top: 10px;
-	padding-top: 10px;
-	border-top: 1px solid #09C;
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #09C;
   }
 
   .copyright {
-	margin: 0;
-	font-size: 12px;
-	text-align: center;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
   }
 
   .text {
-    padding: 0;
+    padding: 1em;
     margin: 0;
-	margin-top: 10px;
-	border: none;
+    margin-top: 10px;
+    border: none;
   }
 
   .content {
     padding-bottom: 0;
   }
-
 }
 
 
