@@ -3,12 +3,12 @@
 {{ .Content }}
 <br />
 <div class="clients">
-    {{ range sort .Data.Pages .Params.weight }}
+    {{ range where .Data.Pages "Type" "=" "client" }}
 		<article class="client">
     		{{ with .Params.image }}
        			<img src="{{ . }}" class="client-image" />
 			{{ else }}
-				<img src="img/logo.png" class="teammember-image" />
+				<img src="img/logo.png" class="client-image" />
 			{{ end }}
 			<div class="client-text">
 				<h4>{{ .Title }}</h4>
@@ -16,6 +16,19 @@
         			{{ .Content }}
 			</div>
 		</article>
+    {{ end }}
+</div>
+<h2 class="tagline">{{ .Params.partnertitle }}</h2>
+{{ .Params.partnercontent }}
+<div class="partners">
+    {{ range where .Data.Pages "Type" "=" "partner" }}
+		<article class="partner">
+			<div class="partner-text">
+				<h4>{{ .Title }}</h4>
+				<p class="position ref-descr">{{ .Params.description }}</p>
+        			{{ .Content }}
+			</div>
+    </article>
     {{ end }}
 </div>
 {{ end }}

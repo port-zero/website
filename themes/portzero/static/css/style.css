@@ -302,6 +302,51 @@ a:hover {
   max-width: 10%;
 }
 
+.partner {
+  border-bottom: 1px solid #09c;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  display: inline-block;
+  clear: left;
+}
+
+.partners article:last-child {
+  border: none;
+}
+
+.partner-image {
+  max-width: 135px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.partner .position {
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0px;
+}
+
+.partner h4 {
+  margin: 0px;
+}
+
+.partner {
+  padding: 0;
+}
+
+.partner-text {
+  padding: 5px;
+}
+
+.partner-image {
+  margin-left: 5px;
+  margin-top: 5px;
+  max-width: 10%;
+}
+
 @media (max-width: 649px) {
   .content {
     min-width: 200px;
