@@ -234,6 +234,11 @@ a:hover {
 	margin-bottom: 0px;
 }
 
+.ref-descr {
+	font-size: 0.7em;
+	margin: 0;
+}
+
 .teammember h4 {
 	margin: 0px;
 }
