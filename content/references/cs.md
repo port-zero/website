@@ -1,10 +1,11 @@
 ---
-title: CS
+title: cybernetic solutions
 description: Software Services
 weight: -130
 type: partner
-image: img/references/cs.jpg
+image: img/references/cs.png
 ---
 
-CS ist ein IT-DIenstleister aus Nürnberg, mit welchem wir diverse erfolgreiche
-Projekte bei unserem Kunden Axiros gemeinsam zum Erfolg bringen durften.
+Cybernetic Solutions ist ein IT-Dienstleister aus Nürnberg, mit welchem wir
+diverse Projekte bei unserem Kunden Axiros gemeinsam zum Erfolg bringen
+dürfen.
