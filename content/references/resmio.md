@@ -1,6 +1,6 @@
 ---
 title: resmio
-description: Reservierungssysteme für Restuaurants
+description: Reservierungssysteme für Restaurants
 weight: -105
 type: client
 image: img/references/resmio.jpg
