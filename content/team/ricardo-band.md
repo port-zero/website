@@ -3,7 +3,7 @@ title: Ricardo Band
 description: Development & Operations
 weight: -500
 type: teammember
-image: img/team/ricardo.jpg
+image: img/team/ricardo.png
 ---
 
 betreut Software gern von Anfang bis Ende. Von Architektur und
