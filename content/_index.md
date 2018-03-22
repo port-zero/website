@@ -13,4 +13,4 @@ Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilit
 
 Unser [Team](/team/) steht mit seinen vielfältigen Erfahrungen und Kenntnissen bereit, Sie bei Ihren Herausforderungen zu unterstützen.
 
-Treten Sie gerne mit uns in [Kontakt!](mailto:contact@port-zero.com)
+Treten Sie gerne mit uns in [Kontakt!](/contact/)

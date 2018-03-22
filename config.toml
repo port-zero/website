@@ -29,7 +29,7 @@ theme = "portzero"
   name = "Kontakt"
   weight = -70
   identifier = "contact"
-  url = "mailto:contact@port-zero.com"
+  url = "/contact/"
 [[menu.main]]
   name = "Impressum"
   weight = -60
