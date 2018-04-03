@@ -2,6 +2,9 @@
 title: Kontakt
 language: de
 slug: /contact/
+menu:
+  main:
+    parent: contact
 ---
 
 Treten Sie gerne mit uns in Kontakt!

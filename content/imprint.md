@@ -2,6 +2,9 @@
 title: Impressum
 language: de
 slug: /imprint/
+menu:
+  main:
+    parent: imprint
 ---
 
 Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
