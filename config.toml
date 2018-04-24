@@ -23,7 +23,7 @@ DefaultContentLanguage = "de"
 
 
 [[menu.main]]
-  name = "Unternehmen"
+  name = "Company"
   weight = -100
   identifier = "company"
   url = "/"
@@ -33,24 +33,48 @@ DefaultContentLanguage = "de"
   identifier = "team"
   url = "/team/"
 [[menu.main]]
-  name = "Referenzen"
+  name = "References"
   weight = -80
   identifier = "references"
   url = "/references/"
 [[menu.main]]
-  name = "Kontakt"
+  name = "Contact"
   weight = -70
   identifier = "contact"
   url = "/contact/"
 [[menu.main]]
-  name = "Impressum"
+  name = "Imprint"
   weight = -60
   identifier = "imprint"
   url = "/imprint/"
 
 
 
-
+[[languages.de.menu.main]]
+  name = "Unternehmen"
+  weight = -100
+  identifier = "company"
+  url = "/"
+[[languages.de.menu.main]]
+  name = "Team"
+  weight = -90
+  identifier = "team"
+  url = "/team/"
+[[languages.de.menu.main]]
+  name = "Referenzen"
+  weight = -80
+  identifier = "references"
+  url = "/references/"
+[[languages.de.menu.main]]
+  name = "Kontakt"
+  weight = -70
+  identifier = "contact"
+  url = "/contact/"
+[[languages.de.menu.main]]
+  name = "Impressum"
+  weight = -60
+  identifier = "imprint"
+  url = "/imprint/"
 
 
 
@@ -65,4 +89,17 @@ DefaultContentLanguage = "de"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
+
+[[languages.de.menu.secondary]]
+  name = "GitHub"
+  weight = -100
+  identifier = "github"
+  url = "https://github.com/port-zero"
+[[languages.de.menu.secondary]]
+  name = "LinkedIn"
+  weight = -90
+  identifier = "linkedin"
+  url = "https://www.linkedin.com/company/5061707/"
+
+
 
