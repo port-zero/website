@@ -1,13 +1,25 @@
 baseURL = "https://port-zero.com/"
-languageCode = "de-de"
-title = "Port Zero"
 theme = "portzero"
-[params]
-  description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
-  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
+
+
+[languages]
+  [languages.en]
+    title = "Port Zero"
+	languageName = "English"
+    weight = 1
+    [languages.en.params]
+      description = "IT-Security and software development"
+  [languages.de]
+    title = "Port Zero"
+	languageName = "Deutsch"
+    weight = 2
+    [languages.de.params]
+      description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
+
+DefaultContentLanguage = "de"
 
 
 [[menu.main]]

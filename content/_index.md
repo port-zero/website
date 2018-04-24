@@ -1,16 +1,16 @@
 ---
 title: IT-Sicherheit und Softwareentwicklung auf höchstem Niveau
-language: de
+language: en
 slug: /
 ---
 
-Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilität. Im Bereich IT-Sicherheit beraten wir mit höchstem technischen Anspruch und unterstützen bei der Einführung und Umsetzung von Sicherheitskonzepten. Unsere Kernkompetenzen umfassen:
+We develop and operate systems with a focus on security and stability. In IT-Security we consult with the highest technical standards and support at the implementation and rollout of security concepts. Our core capabilities include:
 
-* Softwarearchitektur und -entwicklung
-* IT-Sicherheitsberatung
-* Integration von Softwarelösungen
-* Architektur und Betrieb von Linux-Servern und Netzwerken 
+* Software architecture and development
+* IT-Security consultation
+* Integration of software solutions
+* Architecture and Operation of Linux-Servers and Networks
 
-Unser [Team](/team/) steht mit seinen vielfältigen Erfahrungen und Kenntnissen bereit um Sie bei Ihren Herausforderungen zu unterstützen.
+Our [Team](/team/) with manifold experience in various fields is looking forward to help you to master your challenges.
 
-Treten Sie gerne mit uns in [Kontakt!](/contact/)
+You are welcome to [contact us!](/contact/)
