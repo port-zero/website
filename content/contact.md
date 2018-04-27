@@ -1,13 +1,13 @@
 ---
-title: Kontakt
-language: de
+title: Contact
+language: en
 slug: /contact/
 menu:
   main:
     parent: contact
 ---
 
-Treten Sie gerne mit uns in Kontakt!
+Get in touch with us!
 
 <div class="team">
     <article class="teammember">
