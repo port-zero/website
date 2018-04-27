@@ -5,5 +5,6 @@ weight: -500
 type: teammember
 image: img/team/sebastian.jpeg
 ---
-
-Werdender Master der Informatik. Beschäftigt sich in Beruf, Studium und Freizeit mit hardwarenaher Programmierung und IT Security. Hat Fähigkeiten von Platinenlayout bis Anwendungsentwicklung.
+soon to be Master of Computer Science.
+Deals with embedded programming and IT Security as profession, study and leisure.
+Has skills ranging from circuit board layout to application development.
