@@ -3,6 +3,4 @@ title: Team
 language: en
 slug: /team/
 ---
-
-Port Zero umfasst aktuell ein Team von 10 festangestellten IT-Experten unterstützt von einem großen Netzwerk aus Partnern und freiberuflichen Mitarbeitern. Hier stellen wir einige zentrale Personen von Port Zero vor, so können Sie sich leicht ein Bild von uns machen.
-
+Port Zero is currently composed by a team of 10 IT Experts and supported by a wide net of partners and freelancers. Here we present you some of the central personalities of Port Zero.

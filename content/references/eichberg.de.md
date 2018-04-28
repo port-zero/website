@@ -1,10 +1,8 @@
 ---
 title: eichberg
 description: Kohleerzeugnisse für Elektromotoren
-description: Coal Manufacture for electric motors
 weight: -100
 type: client
 image: img/references/eichberg.gif
 ---
-We support the family business with their historically grown IT Infrastructure.
-
+Den Familienbetrieb unterstützen wir beim Betrieb ihrer historisch gewachsenen IT-Infrastruktur.

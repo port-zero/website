@@ -1,10 +1,9 @@
 ---
-title: Referenzen
+title: References
 partnertitle: Partner
-partnercontent: Port Zero arbeitet mit einigen hervorragenden Partnerunternehmen zusammen.
-language: de
+partnercontent: Port Zero cooperates with some outstanding companies
+language: en
 slug: /references/
 ---
 
-Hier möchten wir Ihnen einige der Kunden vorstellen, mit denen wir
-zusammenarbeiten.
+Here we would like to present some of our partners:

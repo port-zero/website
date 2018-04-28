@@ -5,5 +5,4 @@ weight: -88
 type: teammember
 image: img/team/thomas.jpg
 ---
-
-erforscht seit geraumer Zeit die Welt der UNIX-oiden Betriebssysteme und bringt nun seine Fähigkeiten in den Bereichen Administration, Skripting und Automatisierung in unser ISP-Team mit ein. Des Weiteren entwirft und implementiert er System- und Anwendungssoftware in C/C++ und Python.
+has been investigating for a fairly long time the world of UNIX-oids Operating Systems and brings to our ISP Team his skils in Administration, Scripting and Automation. Furthermore he designs and implements Systems and Application software in C/C++ and Python.
