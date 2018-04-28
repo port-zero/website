@@ -1,6 +1,6 @@
 ---
 title: Team
-language: en
+language: de
 slug: /team/
 ---
 

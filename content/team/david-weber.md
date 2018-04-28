@@ -5,4 +5,5 @@ type: teammember
 weight: -100
 image: img/team/david.jpg
 ---
-fühlt sich in der Linux-Shell zuhause. Er administriert Server und automatisiert mit Ansible. Daneben interessiert er sich für (Funk)netzwerke, Hardware-Basteleien, programmiert am liebsten in Python und lernt Rust.
+feels at home in the Linux-Shell. He administrates servers and automates using ansible. Besides he's interested in
+(wireless) networks, tinkerin with hardware and programming in Python and Rust.

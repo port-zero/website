@@ -54,27 +54,27 @@ DefaultContentLanguage = "de"
   name = "Unternehmen"
   weight = -100
   identifier = "company"
-  url = "/"
+  url = "/de/"
 [[languages.de.menu.main]]
   name = "Team"
   weight = -90
   identifier = "team"
-  url = "/team/"
+  url = "/de/team/"
 [[languages.de.menu.main]]
   name = "Referenzen"
   weight = -80
   identifier = "references"
-  url = "/references/"
+  url = "/de/references/"
 [[languages.de.menu.main]]
   name = "Kontakt"
   weight = -70
   identifier = "contact"
-  url = "/contact/"
+  url = "/de/contact/"
 [[languages.de.menu.main]]
   name = "Impressum"
   weight = -60
   identifier = "imprint"
-  url = "/imprint/"
+  url = "/de/imprint/"
 
 
 
