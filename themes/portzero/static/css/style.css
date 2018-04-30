@@ -73,7 +73,7 @@ a:hover {
   margin-top: 10px;
 }
 
-.sidebar .menu .active a {
+.sidebar .menu .active a, .sidebar .active {
   color: black;
 }
 

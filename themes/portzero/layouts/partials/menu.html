@@ -1,12 +1,24 @@
 <div class="menu">
 
-    <ul>
-      {{ range $.Site.Home.AllTranslations }}
-      <li{{ if false }}class="active"{{ end }}>
-          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-      </li>
-    {{ end}}
-    </ul>
+    {{ if .IsTranslated }}
+        <ul>
+        {{ if eq .Language.LanguageName "English"}}
+            <li>
+                <a href="{{ .Permalink }}" class="active">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end }}
+        {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end}}
+        {{ if eq .Language.LanguageName "Deutsch"}}
+            <li>
+                <a href="{{ .Permalink }}" class="active">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    {{ end }}
 
     <ul class="menu_main">
 		{{ $currentNode := . }}
