@@ -35,7 +35,11 @@ Michael Prinzinger<br />
 Adalbertstraße 7-8<br />
 10999 Berlin<br /><br />
 
+**Privacy**
 
+[General Privacy Policy](/privacypolicy/)
+
+<br />
 **Disclaimer:**
 
 Content
@@ -64,12 +68,3 @@ The author of the website has the exclusive copyright to all published objects c
 The reproduction or use of any such graphics, audio documents, video sequences or texts in other electronic or printed publications is prohibited without the author's express consent.
 If we infriged your copyrights, we would be grateful if you inform us.
 If we become an acknowledgement of copyright infringiment, we would remove the corresponding content immediately.
-
-Data Privacy
-
-On some pages you have the possibility to enter personal or business data (e. g. e-mail addresses, names, postal addresses, etc.).
-The disclosure of this data is voluntary.
-If technically feasible and where reasonable, all services offered can be used without disclosing personal information or by use of anonymised data or aliases.
-Exceptions are forms for ordering publications or other materials, registration forms for events or accreditation forms.
-Third parties are prohibited to send unsolicited information to mailing addresses, phone or fax numbers or e-mail addresses published on the imprint page or similar pages.
-We reserve the right to take legal action against anyone violating this prohibition by sending so-called spam.

@@ -36,6 +36,11 @@ Adalbertstraße 7-8<br />
 10999 Berlin<br /><br />
 
 
+**Datenschutz:**
+
+Unsere Datenschutzerklärung finden Sie auf der [eigens dafür eingerichteten Seite](/de/privacypolicy/").
+
+<br />
 **Ausschluss der Haftung:**
 
 Haftung für Inhalte

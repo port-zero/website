@@ -38,10 +38,20 @@ DefaultContentLanguage = "de"
   identifier = "references"
   url = "/references/"
 [[menu.main]]
+  name = "GDPR-Compliance"
+  weight = -75
+  identifier = "gdpr"
+  url = "/gdpr/"
+[[menu.main]]
   name = "Contact"
   weight = -70
   identifier = "contact"
   url = "/contact/"
+[[menu.main]]
+  name = "Privacy Policy"
+  weight = -65
+  identifier = "privacypolicy"
+  url = "/privacypolicy/"
 [[menu.main]]
   name = "Imprint"
   weight = -60
@@ -66,10 +76,20 @@ DefaultContentLanguage = "de"
   identifier = "references"
   url = "/de/references/"
 [[languages.de.menu.main]]
+  name = "DSGV-Compliance"
+  weight = -75
+  identifier = "gdpr"
+  url = "/de/gdpr/"
+[[languages.de.menu.main]]
   name = "Kontakt"
   weight = -70
   identifier = "contact"
   url = "/de/contact/"
+[[languages.de.menu.main]]
+  name = "Datenschutzerklärung"
+  weight = -65
+  identifier = "privacypolicy"
+  url = "/de/privacypolicy/"
 [[languages.de.menu.main]]
   name = "Impressum"
   weight = -60
