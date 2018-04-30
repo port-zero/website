@@ -1,5 +1,5 @@
 ---
-title: IT-Sicherheit und Softwareentwicklung auf höchstem Niveau
+title: Excellence in software development and security
 language: en
 slug: /
 ---
