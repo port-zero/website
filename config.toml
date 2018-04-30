@@ -76,7 +76,7 @@ DefaultContentLanguage = "de"
   identifier = "references"
   url = "/de/references/"
 [[languages.de.menu.main]]
-  name = "DSGV-Compliance"
+  name = "DSGVO-Compliance"
   weight = -75
   identifier = "gdpr"
   url = "/de/gdpr/"
