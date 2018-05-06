@@ -44,18 +44,18 @@ Adalbertstraße 7-8<br />
 
 Content
 
-All the information contained in our site was compiled with the greatest possible care.
+All of the information contained on our site was compiled with the greatest possible care.
 However we take no responsibility for the timeliness, accuracy, completeness or quality of the information provided.
-In accordance with the § 7 Paragaph 1 TMG, we are responsible for our own content in our site.
-In accordance with §§ 8, 9 and 10 TMG, we have however no obligation to ensure the timeliness, accuracy, completeness or quality of the information provided by third parties.
+In accordance with the § 7 Paragaph 1 TMG, we are responsible for our own content on our site.
+In accordance with §§ 8, 9 and 10 TMG, we have, however, no obligation to ensure the timeliness, accuracy, completeness or quality of the information provided by third parties.
 We are still obligated to block or remove information that the general laws comes to impose.
 We take liability only when we receive a concrete acknowledgement of trangression of rights.
-In that case, we will remove the content promptly.
+In this case, we will remove the content promptly.
 
 Links
 
 Our website contains links to external sites from third parties.
-These links are being provided as a convenience and for informational purposes only; they do not constitute an endorsement or an approval by Port Zero of any of the products, services or opinions of the corporation or organization or individual.
+These links are provided as a convenience and for informational purposes only; they do not constitute an endorsement or an approval by Port Zero of any of the products, services or opinions of the corporation or organization or individual.
 Port Zero bears no responsibility for the accuracy, legality or content of the external site or for that of subsequent links.
 Contact the external site for answers to questions regarding its content.
 

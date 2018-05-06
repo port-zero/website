@@ -5,6 +5,4 @@ weight: -500
 type: teammember
 image: img/team/sebastian.jpeg
 ---
-soon to be Master of Computer Science.
-Deals with embedded programming and IT Security as profession, study and leisure.
-Has skills ranging from circuit board layout to application development.
+is soon to be a Master of Computer Science. He handles embedded programming and IT Security as a profession, in his studies and for leisure. Sebastian has skills ranging from circuit board layout to application development.
