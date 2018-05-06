@@ -6,4 +6,4 @@ language: en
 slug: /references/
 ---
 
-Here we would like to present some of our partners:
+Allow us to introduce some of our partners:
