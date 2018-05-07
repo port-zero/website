@@ -11,6 +11,6 @@ Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilit
 * Integration von Softwarelösungen
 * Architektur und Betrieb von Linux-Servern und Netzwerken 
 
-Unser [Team](/team/) steht mit seinen vielfältigen Erfahrungen und Kenntnissen bereit um Sie bei Ihren Herausforderungen zu unterstützen.
+Unser [Team](/de/team/) steht mit seinen vielfältigen Erfahrungen und Kenntnissen bereit um Sie bei Ihren Herausforderungen zu unterstützen.
 
-Treten Sie gerne mit uns in [Kontakt!](/contact/)
+Treten Sie gerne mit uns in [Kontakt!](/de/contact/)
