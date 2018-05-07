@@ -109,6 +109,12 @@ DefaultContentLanguage = "de"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
+[[menu.secondary]]
+  name = "Twitter"
+  weight = -80
+  identifier = "twitter"
+  url = "https://twitter.com/port_zer0"
+
 
 [[languages.de.menu.secondary]]
   name = "GitHub"
@@ -120,6 +126,13 @@ DefaultContentLanguage = "de"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
+[[languages.de.menu.secondary]]
+  name = "Twitter"
+  weight = -80
+  identifier = "twitter"
+  url = "https://twitter.com/port_zer0"
+
+
 
 
 
