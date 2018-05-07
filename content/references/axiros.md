@@ -5,4 +5,4 @@ weight: -150
 type: client
 image: img/references/axiros.png
 ---
-We are the main partners for system integrations of Axiros Management System in the DACH-Area (Germany, Austria, Switzerland) and we have implemented and manage it for over 60 Internet Service Providers.
+We are the main partners for system integrations at Axiros Management System in the DACH-Area (Germany, Austria, Switzerland). We have implemented and managed the system for over 60 Internet Service Providers.

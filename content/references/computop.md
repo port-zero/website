@@ -1,9 +1,9 @@
 ---
 title: computop 
-description: Lead international Payment Service Provider
+description: Leading international Payment Service Provider
 weight: -100
 type: client
 image: img/references/computop.jpg
 ---
 Wir beraten Computop im Themenfeld Sicherheit und nehmen Penetration-Tests vor.
-We adise Computop in IT Security and conduct Penetrations Tests.
+We advise Computop in IT security and conduct Penetrations Tests.

@@ -1,6 +1,6 @@
 ---
 title: orderbird
-description: Germany's lead iPad-Billing System for Gastronomy
+description: Germany's leading iPad-billing system for gastronomy
 weight: -110
 type: client
 image: img/references/orderbird.jpg

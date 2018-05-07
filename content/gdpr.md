@@ -6,21 +6,20 @@ menu:
   main:
     parent: gdpr
 ---
-Finally! In December 2015 the European Union agreed on the new General Data Protection Regulation (GDPR). It will harmonize data privacy laws across Europe.
+Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Beginning May 2018, the GDPR will unify data privacy laws across Europe.
 Timetable – Data Protection
 
--   March 2016 – official german version of GDPR
--   April 2016 – consultation process within EU-Council of Ministers, after that voting in European Parliament
--   May 25th 2018 – applicability of new General Data Protection Regulation Goals and Principles
+-   March 2016 – official German version of GDPR
+-   April 2016 – consultation process within EU-Council of Ministers, followed by voting in European Parliament
+-   May 25th 2018 – new General Data Protection Regulation Goals and Principles goes into effect
 
-The main goals of the new GDPR is the protection of fundamental rights
+The main goals of the new GDPR are the protection of fundamental rights
 and freedoms of natural persons with regard to the processing of
 personal data and rules relating to the free movement of personal data.
 
-The new law shall be data protection friendlier for the individuals and
-users concerned. The citizen shall get back the power over his or her
-data. There has been developed a set of principles to assure that in
-Art. 5 of GDPR. Data shall be :
+The new law intends to be data protection-friendlier for individuals and
+users. Control of personal data will be returned to the citizen. A set of 
+principles laid out in Article 5 of the GDPR ensures that data shall be: 
 
 -   processed lawfully, fairly and in a transparent manner in relation
     to the data subject (**lawfulness**, **fairness** and
@@ -51,57 +50,55 @@ Art. 5 of GDPR. Data shall be :
 -   The controller shall be responsible, and be able to demonstrate
     compliance **('accountability')**
 
-Heads Up! In terms of responsibility and accountability, company
+Heads up! In terms of responsibility and accountability, company
 managers have to prove their compliance to escape liability.
 
 **Financial penalties**
 
 One of the significant but very unpleasant changes is that under GDPR,
 firms can be fined up to **€20 million** ($28m) or **four percent of
-group worldwide turnover**, whichever is greater. So companies start
-fearing that the threat of **insolvency** or even **closure** as a
-result of GDPR penalties will soon be very real for all businesses.
+group worldwide turnover**, whichever is greater. Companies are therefore 
+beginning to fear **insolvency** or even **closure** as a
+result of the GDPR penalties that will soon be very real for all businesses.
 
 **Personal data**
 
-GDPR does not apply, unless you are dealing with personal data. Personal
-data means any information relating to an identified or identifiable
-natural person; an identifiable natural person is one who can be
+GDPR applies only in situations involving personal data. Personal
+data is understood as any information relating to an identified or 
+identifiable natural person; an identifiable natural person is one who can be
 identified, directly or indirectly, in particular by reference to an
 identifier such as a name, an identification number, location data,
 IP-adress or to one or more factors specific to the physical,
 physiological, genetic, mental, economic, cultural or social identity of
-that natural person,
+that natural person.
 
 **Who does it concern?**
 
 All companies who are based on EU-ground as resident enterprises.
 
-But also non-european countries have to follow the regulations if:
+Non-European countries must also comply with the regulations if:
 
--   Companies that have a branch based within the EU or
+-   A company has a branch based within the EU, or
 
--   Process personal data of EU-citizens
+-   They process personal data of EU-citizens.
 
-In case you have questions regarding one of the previously stated
-subjects or other subjects in relation to data protection and GDPR,
+If you have any questions regarding one of the avobe-mentioned
+subjects, data protection in general, and/or a GDPR-relevant subject,
 
-**Port Zero** will gladly offer their consulting-services in these
-matters due to our profound Know-How in the fields of **Data
+**Port Zero** is happy to offer consulting-services in this
+area, based on extensive experience and competence in the fields of **Data
 protection**, **Data-Protection-Compliance**, **IT-Security**. Our
-consulting-process is designed to identify problems and risks early and
-thorough to find sustainable solutions for developing compliance with
-GDPR-requirements on data privacy. We also gladly assist you with the
-implementation of a **Dataprotectionmanagementsystem** (DPMS) and an
+consulting-process is designed to quickly and thoroughly identify problems 
+and risks and to find sustainable solutions in compliance with
+GDPR-requirements on data privacy. We will also gladly assist in
+implementing a **Dataprotectionmanagementsystem** (DPMS) and an
 **Informationsecuritymanagementsystem** (ISMS).
 
-Another area of expertise for us is **Informationtechnology** and
-**IT-solutions**. Consulting on modern Data privacy can not be seperated
-from IT-based subjects. For example to ensure the best preparation for
-an audit und adjust the given IT-systems, a great deal of
-**IT-expertise** is needed. Because we can count on our **long-term
-experience** in this field which goes back to our IT-based everyday
-business we were able to acquire **large Know-How** which all our
-customers can profit from.
+A further area of expertise is **Informationtechnology** and
+**IT-solutions**. Modern data privacy and IT-based subjects are inseparable.
+To ensure the best preparation for an audit und adjust applicable IT-systems, 
+for example, a great deal of **IT-expertise** is required. Having accrued **considerable
+experience** over the years in the IT business, we've gained **substantial Know-How** 
+which will certainly benefit all of our data security customers.
 
 

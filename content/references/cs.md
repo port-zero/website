@@ -5,4 +5,4 @@ weight: -130
 type: partner
 image: img/references/cs.png
 ---
-Cybernetic Solutions is an IT Service Provider from Nürnbern, with whom we brough to a close several successful projects from Axiros.
+Cybernetic Solutions is an IT Service Provider from Nuremberg, with whom we have worked on several successful projects together at our client Axiros.
