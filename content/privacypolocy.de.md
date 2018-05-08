@@ -45,8 +45,8 @@ Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten
 Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer
 personenbezogenen Daten.
 
-Zu diesem Zweck kontaktieren Sie uns bitte unter contact@port-zero.com.
-Hier bekommen Sie auch gerne weitere Informationen zum Datenschutz.
+Zu diesem Zweck kontaktieren Sie uns bitte unter unseren Datenschutzbeauftragten unter [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com).
+Hier bekommen Sie auch gerne weitere Informationen.
 
 Die Geltendmachung dieser Rechte ist für Sie kostenlos.
 
