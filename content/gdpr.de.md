@@ -1,10 +1,9 @@
 ---
-title: Datenschutz und DSGVO-Compliance
+title: DSGVO-Compliance
 language: de
 slug: /gdpr/
-menu:
-  main:
-    parent: gdpr
+menu: main
+weight: 30
 ---
 
 Es ist soweit! Im Dezember 2015 erfolgte die europäische Einigung auf

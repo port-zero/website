@@ -1,11 +1,11 @@
 ---
-title: Data-Protection and GDPR-Compliance
+title: GDPR-Compliance
 language: en
 slug: /gdpr/
-menu:
-  main:
-    parent: gdpr
+menu: main
+weight: 30
 ---
+
 Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Beginning May 2018, the GDPR will unify data privacy laws across Europe.
 Timetable – Data Protection
 

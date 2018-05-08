@@ -2,9 +2,8 @@
 title: Kontakt
 language: de
 slug: /contact/
-menu:
-  main:
-    parent: contact
+menu: main
+weight: 40
 ---
 
 Treten Sie gerne mit uns in Kontakt!

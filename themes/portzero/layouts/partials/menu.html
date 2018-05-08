@@ -21,9 +21,30 @@
     {{ end }}
 
     <ul class="menu_main">
-		{{ $currentNode := . }}
+
+        {{ $currentNode := . }}
         {{ range .Site.Menus.main -}}
-        <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}"><a href="{{.URL}}">{{ .Name }}</a></li>
+            {{ if .HasChildren }}
+                <li class="{{ if $currentNode.HasMenuCurrent "main" . }}active{{ end }}">
+                    <a href="#">
+                        {{ .Name }}
+                    </a>
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li class="{{ if $currentNode.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                <li class="
+                    {{if ($currentNode.IsMenuCurrent "main" .) }}
+                        active
+                    {{end}}">
+                    <a href="{{.URL}}">{{ .Name }}</a>
+                </li>
+            {{ end }}
         {{- end  }}
     </ul>
 

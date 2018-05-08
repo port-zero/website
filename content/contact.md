@@ -2,9 +2,8 @@
 title: Contact
 language: en
 slug: /contact/
-menu:
-  main:
-    parent: contact
+menu: main
+weight: 40
 ---
 
 Get in touch with us!

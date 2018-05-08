@@ -1,10 +1,9 @@
 ---
-title: Allgemeine Datenschutzerklärung
+title: Privacy Policy
 language: de
 slug: /privacypolicy/
-menu:
-  main:
-    parent: privacypolicy
+menu: main
+weight: 50
 ---
 
 Durch die Nutzung unserer Website erklären Sie sich mit der Erhebung,
