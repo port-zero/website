@@ -25,10 +25,8 @@
         {{ $currentNode := . }}
         {{ range .Site.Menus.main -}}
             {{ if .HasChildren }}
-                <li class="{{ if $currentNode.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="#">
-                        {{ .Name }}
-                    </a>
+                <li class="withchildren {{ if $currentNode.HasMenuCurrent "main" . }}active{{ end }}">
+                    {{ .Name }}
                 </li>
                 <ul class="sub-menu">
                     {{ range .Children }}

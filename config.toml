@@ -21,6 +21,15 @@ theme = "portzero"
 
 DefaultContentLanguage = "de"
 
+[[menu.main]]
+  identifier = "GDPR"
+  name = "GDPR"
+  weight = 30
+
+[[languages.de.menu.main]]
+  identifier = "DSGVO"
+  name = "DSGVO"
+  weight = 30
 
 [[menu.secondary]]
   name = "GitHub"

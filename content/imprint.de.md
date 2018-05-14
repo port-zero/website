@@ -3,7 +3,7 @@ title: Impressum
 language: de
 slug: /imprint/
 menu: main
-weight: 60
+weight: 90
 ---
 
 Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
