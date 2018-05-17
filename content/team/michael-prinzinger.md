@@ -5,6 +5,4 @@ weight: -1000
 type: teammember
 image: img/team/michael.png
 ---
-
-Gründer und Geschäftsführer von Port Zero. Hat nach seinem Diplominformatikstudium erkannt, dass seine Fähigkeiten vor allem darin liegen ein Team großartiger Menschen zusammen zu bringen, um anspruchvollste Aufgaben und Herausforderungen zu bewältigen. Hat einen großen kommunikativen Hintergrund, den er innerhalb der Firma, und vor allem auch im Kontakt mit unseren Kunden zur Geltung bringt. Im Geschäfft brennt er dafür echte Win:Win Situationen zu finden und Port Zeros Kunden einen echten nachhaltigen Mehrwert, sowie eine angenehme beide Seiten bereichernde Zusammenarbeit aufzubauen.
-
+Founder and CEO of Port Zero. After graduating university with a degree in Computer Science, he realized that his skills could best be utilized building a team of amazing people and providing them with tasks and challenges. He has a background of strong communication, which he uses to his advantage, ensuring the company and especially the contact with clients runs smoothly. When doing business, his goal is always to establish sustainable and longlasting win-win situations for his clients and for Port Zero, while fostering positive and enriching cooperation.

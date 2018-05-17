@@ -1,12 +1,12 @@
 ---
-title: Contact
-language: en
+title: Kontakt
+language: de
 slug: /contact/
 menu: main
 weight: 40
 ---
 
-Get in touch with us!
+Treten Sie gerne mit uns in Kontakt!
 
 <div class="team">
     <article class="teammember">

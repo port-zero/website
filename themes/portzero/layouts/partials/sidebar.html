@@ -1,6 +1,9 @@
 <div class="sidebar">
-
+{{ if eq .Language.LanguageName "Deutsch"}}
+<a class="logo_a" href="/de/">
+{{ else }}
 <a class="logo_a" href="/">
+{{ end }}
   <img class="logo" src="img/logo.svg" alt="Port Zero"/>
   <h1>Port Zero</h1>
 </a>

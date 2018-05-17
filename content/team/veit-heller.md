@@ -5,5 +5,6 @@ weight: -500
 type: teammember
 image: img/team/veit.jpg
 ---
-
-hat umfangreiche Erfahrung in der Programmierung von webbasierten Anwendungen und Werkzeugen, auf jeder Ebene des Stacks – vom Monitoring-Tool für den Routeserver bis zur reaktiven, modernen Webseite. Er ist neben seiner Tätigkeit bei Port Zero sehr aktiv in der [Open-Source-Szene](https://github.com/hellerve).
+has extensive programming experience in web-based applications and tools on every layer of the Stack - ranging from monitoring tools for router servers to modern reactive websites.
+Alongside his activities by Port Zero, he is also very active in the
+[open source scene.](https://github.com/hellerve)

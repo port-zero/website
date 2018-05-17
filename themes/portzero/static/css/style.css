@@ -73,7 +73,15 @@ a:hover {
   margin-top: 10px;
 }
 
-.sidebar .menu .active a {
+.sidebar .menu li {
+  color: #0099cc;
+}
+
+.sidebar .menu .active {
+    color: black; 
+}
+
+.sidebar .menu .active a, .sidebar .active {
   color: black;
 }
 
@@ -93,6 +101,14 @@ a:hover {
 
 .sidebar .menu ul li {
   list-style: none;
+}
+
+.sidebar .menu .sub-menu {
+  margin-left: 5px;
+}
+
+.sidebar .menu .withchildren {
+  margin-top: 10px;
 }
 
 .content {
@@ -144,6 +160,10 @@ a:hover {
   margin-left: 220px;
   text-align: justify;
   hyphens: auto;
+}
+
+.text ul {
+  margin-top: 0px;
 }
 
 .tagline {

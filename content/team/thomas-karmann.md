@@ -5,5 +5,4 @@ weight: -88
 type: teammember
 image: img/team/thomas.jpg
 ---
-
-erforscht seit geraumer Zeit die Welt der UNIX-oiden Betriebssysteme und bringt nun seine Fähigkeiten in den Bereichen Administration, Skripting und Automatisierung in unser ISP-Team mit ein. Des Weiteren entwirft und implementiert er System- und Anwendungssoftware in C/C++ und Python.
+has been investigating UNIX-oid Operating Systems for a fairly long time now and is happy to be able to contribute his skills in administration, scripting and automation to the Port Zero ISP team. He also develops system and application software in C/C++ and Python.

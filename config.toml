@@ -1,47 +1,35 @@
 baseURL = "https://port-zero.com/"
-languageCode = "de-de"
-title = "Port Zero"
 theme = "portzero"
-[params]
-  description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
-  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
 
 
+[languages]
+  [languages.en]
+    title = "Port Zero"
+	languageName = "English"
+    weight = 1
+    [languages.en.params]
+      description = "IT-Security and software development"
+  [languages.de]
+    title = "Port Zero"
+	languageName = "Deutsch"
+    weight = 2
+    [languages.de.params]
+      description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
+
+DefaultContentLanguage = "de"
+
 [[menu.main]]
-  name = "Unternehmen"
-  weight = -100
-  identifier = "company"
-  url = "/"
-[[menu.main]]
-  name = "Team"
-  weight = -90
-  identifier = "team"
-  url = "/team/"
-[[menu.main]]
-  name = "Referenzen"
-  weight = -80
-  identifier = "references"
-  url = "/references/"
-[[menu.main]]
-  name = "Kontakt"
-  weight = -70
-  identifier = "contact"
-  url = "/contact/"
-[[menu.main]]
-  name = "Impressum"
-  weight = -60
-  identifier = "imprint"
-  url = "/imprint/"
+  identifier = "GDPR"
+  name = "GDPR"
+  weight = 30
 
-
-
-
-
-
-
+[[languages.de.menu.main]]
+  identifier = "DSGVO"
+  name = "DSGVO"
+  weight = 30
 
 [[menu.secondary]]
   name = "GitHub"
@@ -53,4 +41,30 @@ theme = "portzero"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
+[[menu.secondary]]
+  name = "Twitter"
+  weight = -80
+  identifier = "twitter"
+  url = "https://twitter.com/port_zer0"
+
+
+[[languages.de.menu.secondary]]
+  name = "GitHub"
+  weight = -100
+  identifier = "github"
+  url = "https://github.com/port-zero"
+[[languages.de.menu.secondary]]
+  name = "LinkedIn"
+  weight = -90
+  identifier = "linkedin"
+  url = "https://www.linkedin.com/company/5061707/"
+[[languages.de.menu.secondary]]
+  name = "Twitter"
+  weight = -80
+  identifier = "twitter"
+  url = "https://twitter.com/port_zer0"
+
+
+
+
 

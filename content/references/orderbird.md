@@ -1,9 +1,9 @@
 ---
 title: orderbird
-description: Deutschlands führendes iPad-Kassensystem für die Gastronomie
+description: Germany's leading iPad-billing system for gastronomy
 weight: -110
 type: client
 image: img/references/orderbird.jpg
 ---
-Bei orderbird kümmen wir uns um die Themen Datenschutz und Sicherheit in
-Operations, Infrastruktur und Programmierung.
+
+At Orderbird we take care of Data Privacy and Security in Operations, Infrastructure and Development.

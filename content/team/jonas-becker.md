@@ -5,10 +5,8 @@ weight: -500
 type: teammember
 image: img/team/jonas.jpg
 ---
-
-betreut seit Jahren für Port Zero die Providersparte und vereinigt hier die
-Bereiche Programmierung, Administration und Projektmanagement. 
-Projekte werden eigenständig abgewickelt und auch internationale 
-Großprojekte sind inzwischen Routine. Auch gelegentliche Trainingseinheiten und
-Konzeptionierung gehören zu seinen Spezialitäten. Mittlerweile ist er mit einem
-kleinen Team ausgestattet und baut mit diesem seine Managementerfahrungen aus.
+oversees the Provider Division at Port Zero which unifies Programming, Administration and Project Management.
+He carries out projects with precision, and, by now, even great international projects have become routine.
+His specialties include conceptual design and occasional training sessions.
+Since beginning at Port Zero, he has been appointed leader of a small team and is building his Management
+skills.

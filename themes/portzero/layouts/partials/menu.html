@@ -1,9 +1,48 @@
 <div class="menu">
 
+    {{ if .IsTranslated }}
+        <ul>
+        {{ if eq .Language.LanguageName "English"}}
+            <li>
+                <a href="{{ .Permalink }}" class="active">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end }}
+        {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end}}
+        {{ if eq .Language.LanguageName "Deutsch"}}
+            <li>
+                <a href="{{ .Permalink }}" class="active">{{ .Language.LanguageName }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    {{ end }}
+
     <ul class="menu_main">
-		{{ $currentNode := . }}
+
+        {{ $currentNode := . }}
         {{ range .Site.Menus.main -}}
-        <li class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}"><a href="{{.URL}}">{{ .Name }}</a></li>
+            {{ if .HasChildren }}
+                <li class="withchildren {{ if $currentNode.HasMenuCurrent "main" . }}active{{ end }}">
+                    {{ .Name }}
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li class="{{ if $currentNode.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                <li class="
+                    {{if ($currentNode.IsMenuCurrent "main" .) }}
+                        active
+                    {{end}}">
+                    <a href="{{.URL}}">{{ .Name }}</a>
+                </li>
+            {{ end }}
         {{- end  }}
     </ul>
 

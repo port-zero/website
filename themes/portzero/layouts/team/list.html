@@ -3,7 +3,7 @@
 {{ .Content }}
 <br />
 <div class="team">
-    {{ range sort .Data.Pages .Params.weight }}
+    {{ range sort .Data.Pages }}
 		<article class="teammember">
     		{{ with .Params.image }}
        			<img src="{{ . }}" class="teammember-image" />
