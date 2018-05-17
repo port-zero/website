@@ -4,7 +4,7 @@ language: en
 slug: /gdpr/info/
 menu:
   main:
-    parent: GDPR
+    parent: GDPR Compliance
 weight: 10
 ---
 

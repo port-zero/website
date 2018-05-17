@@ -4,7 +4,7 @@ language: de
 slug: /gdpr/info/
 menu:
   main:
-    parent: DSGVO
+    parent: Die neue DSGVO
 weight: 10
 ---
 

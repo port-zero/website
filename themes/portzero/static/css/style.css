@@ -104,11 +104,8 @@ a:hover {
 }
 
 .sidebar .menu .sub-menu {
-  margin-left: 5px;
-}
-
-.sidebar .menu .withchildren {
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .content {

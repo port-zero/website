@@ -4,7 +4,7 @@ language: en
 slug: /gdpr/offers/
 menu:
   main:
-    parent: GDPR
+    parent: GDPR Compliance
 weight: 30
 ---
 

@@ -4,7 +4,7 @@ language: en
 slug: /gdpr/offers/
 menu:
   main:
-    parent: DSGVO
+    parent: Die neue DSGVO
 weight: 30
 ---
 
