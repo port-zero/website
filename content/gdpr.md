@@ -1,7 +1,7 @@
 ---
 title: GDPR Compliance
 language: en
-slug: /gdpr/compliance/
+slug: /gdpr/
 menu: main
 weight: 30
 ---
