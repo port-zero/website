@@ -6,14 +6,7 @@ menu: main
 weight: 50
 ---
 
-Durch die Nutzung unserer Website erklären Sie sich mit der Erhebung,
-Verarbeitung und Nutzung von Daten gemäß der nachfolgenden Beschreibung
-einverstanden. Unsere Website kann grundsätzlich ohne Registrierung
-besucht werden. Dabei werden Daten über den Zugriff auf die Seite auf
-dem Server als „Server-Logfiles" gespeichert, ohne dass diese
-unmittelbar auf Ihre Person bezogen werden können. Dies dient den
-Zwecken der Statistik und des Angriffs-Trackings. Folgende Daten werden
-so protokolliert:
+Durch die Nutzung unserer Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäß der nachfolgenden Beschreibung einverstanden. Unsere Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten über den Zugriff auf die Seite auf dem Server als „Server-Logfiles“ gespeichert, ohne dass diese unmittelbar auf Ihre Person bezogen werden können. Dies dient den Zwecken der Statistik und des Angriffs-Trackings. Folgende Daten werden so protokolliert:
 
 -   aufgerufene Seiten bzw. Namen der abgerufenen Datei
 
@@ -45,10 +38,14 @@ Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten
 Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer
 personenbezogenen Daten.
 
+Wir möchten Sie hiermit darauf hinweisen, dass Sie ein Auskunftsrecht bezüglich Ihrer von uns erhobenen und auf dieser Website verarbeiteten personenbezogenen Daten haben (Für den Fall, dass Ihnen diese Erklärung nicht ausreicht) und können sich jederzeit bei uns entsprechende Informationen einholen können. Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z.B. Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer personenbezogenen Daten.
+
 Zu diesem Zweck kontaktieren Sie uns bitte unter unseren Datenschutzbeauftragten unter [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com).
 Hier bekommen Sie auch gerne weitere Informationen.
 
 Die Geltendmachung dieser Rechte ist für Sie kostenlos.
+
+Falls Sie Fragen zum unternehmensinternen Datenschutz haben oder nähere Informationen bezüglich der Datenverarbeitung bei PORT ZERO haben oder Ihr Auskunftsrecht wahrnehmen wollen, kontaktieren Sie uns bitte unter [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com).
 
 **Ausdrucken und Abspeichern dieser Datenschutzhinweise**
 
