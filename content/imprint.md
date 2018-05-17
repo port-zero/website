@@ -66,4 +66,4 @@ The sole mentioning of a trade mark on this website should not lead to the assum
 The author of the website has the exclusive copyright to all published objects created by him-/herself.
 The reproduction or use of any such graphics, audio documents, video sequences or texts in other electronic or printed publications is prohibited without the author's express consent.
 If we infriged your copyrights, we would be grateful if you inform us.
-If we become an acknowledgement of copyright infringiment, we would remove the corresponding content immediately.
+If we receive an acknowledgement of copyright infringiment, we would remove the corresponding content immediately.
