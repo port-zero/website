@@ -55,8 +55,13 @@ a {
 }
 
 a:hover {
-  color: #004c66;
+  color: #006080;
   border-bottom: 2px solid #004c66;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #09C;
 }
 
 .sidebar {
@@ -169,6 +174,11 @@ a:hover {
   margin: 5px 0 5px 0;
 }
 
+.smallline {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
 .footer {
   width: 100%;
   display: flex;
@@ -229,6 +239,31 @@ a:hover {
   margin: 0;
   padding-left: 1em;
   vertical-align: super;
+}
+
+.next-arrow:before {
+  content: "➔"
+}
+
+.next-arrow {
+  float: right;
+  font-size: 50px;
+  color: #09C;
+  margin-top: -35px;
+}
+
+.job-item:hover .next-arrow {
+  color: #006080;
+}
+
+.job-item {
+  display: block;
+  height: auto;
+  border-bottom: 1px solid #09c;
+}
+
+.job-item:hover {
+  border-bottom: 1px solid #006080;
 }
 
 .teammember {

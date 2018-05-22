@@ -4,18 +4,20 @@
 <br />
 <div class="team">
     {{ range sort .Data.Pages }}
-		<article class="teammember">
+    <a href="{{ .Permalink }}" class="job-item">
+        <article class="teammember">
     		{{ with .Params.image }}
        			<img src="{{ . }}" class="teammember-image" />
 			{{ else }}
 				<img src="img/logo.png" class="teammember-image" />
 			{{ end }}
 			<div class="teammember-text">
-				<p class="position">{{ .Params.description }}</p>
 				<h4>{{ .Title }}</h4>
-        			{{ .Content }}
+				<p>{{ .Params.description }}</p>
 			</div>
+            <span class="next-arrow"></span>
 		</article>
+    </a>
     {{ end }}
 </div>
 {{ end }}
