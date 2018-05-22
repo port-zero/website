@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h2 class="tagline">{{ .Title }}</h2>
+{{ .Content }}
+<br />
+<div class="team">
+    {{ range sort .Data.Pages }}
+		<article class="teammember">
+    		{{ with .Params.image }}
+       			<img src="{{ . }}" class="teammember-image" />
+			{{ else }}
+				<img src="img/logo.png" class="teammember-image" />
+			{{ end }}
+			<div class="teammember-text">
+				<p class="position">{{ .Params.description }}</p>
+				<h4>{{ .Title }}</h4>
+        			{{ .Content }}
+			</div>
+		</article>
+    {{ end }}
+</div>
+{{ end }}
