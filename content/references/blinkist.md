@@ -6,4 +6,4 @@ weight: -100
 type: client
 image: img/references/blinkist.png
 ---
-At Blinkist, we perform penetration tests and provide IT Security advice in the Blinkist App and on the website.
+At Blinkist, we perform penetration tests and provide IT Security advice for the Blinkist App and on the website.
