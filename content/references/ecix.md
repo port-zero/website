@@ -8,8 +8,4 @@ image: img/references/ecix.jpg
 Together with ecix we developed in-house solutions
 for Client and Resource Management and Monitoring,
 as well as an open-source 
-[Looking-Glass-System](https://github.com/ecix/birdseye).
-
-Gemeinsam mit ecix entwickelten wir sowohl In-House-Lösungen für
-die Kunden- und Resourcen-Verwaltung und Monitoring, als auch ein
-quelloffenes [Looking-Glass-System](https://github.com/ecix/birdseye).
+[Looking Glass system](https://github.com/ecix/birdseye).
