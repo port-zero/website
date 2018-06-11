@@ -6,7 +6,8 @@ content generator.
 ## Build
 
 Building the website is as easy as running `build.sh`. You’ll need access
-to `web-temp.port-zero.com`, though.
+to `web01.port-ze.ro`, though. If you’re an external person, you’ll need to
+update the build script to point to your web host after changing the content.
 
 ## Font
 
