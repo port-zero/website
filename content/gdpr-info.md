@@ -8,8 +8,10 @@ menu:
 weight: 10
 ---
 
+
 Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Since May 2018, the GDPR unifies data privacy laws across Europe.
-Timetable – Data Protection
+
+**Timetable – Data Protection**
 
 -   March 2016 – official German version of GDPR
 -   April 2016 – consultation process within EU-Council of Ministers, followed by voting in European Parliament
