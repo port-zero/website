@@ -9,12 +9,12 @@ weight: 10
 ---
 
 Es ist soweit! Im Dezember 2015 erfolgte die europäische Einigung auf
-eine EU-Datenschutz-Grundverordnung (EU-DSGVO). Diese wird zu einer
-weitgehenden Vereinheitlichung europäischen Datenschutzrechtes führen.
+eine EU-Datenschutz-Grundverordnung (EU-DSGVO). Diese führte zu einer
+weitgehenden Vereinheitlichung des europäischen Datenschutzrechts.
 Während bislang durch nationale Gesetzgebungen auf Grundlage der
-EU-Datenschutzrichtlinie doch erhebliche Unterschiede bestanden, wird
-die Datenschutz-Grundverordnung direkt geltendes Recht in allen
-Mitgliedsstaaten sein.
+EU-Datenschutzrichtlinie doch erhebliche Unterschiede bestanden, ist
+die Datenschutz-Grundverordnung jetzt direkt geltendes Recht in allen
+Mitgliedsstaaten.
 
 **Zeitplan -- Datenschutz**
 
