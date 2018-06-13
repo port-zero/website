@@ -6,14 +6,8 @@
     {{ range sort .Data.Pages }}
     <a href="{{ .Permalink }}" class="job-item">
         <article class="teammember">
-    		{{ with .Params.image }}
-       			<img src="{{ . }}" class="teammember-image" />
-			{{ else }}
-				<img src="img/logo.png" class="teammember-image" />
-			{{ end }}
 			<div class="teammember-text">
-				<h4>{{ .Title }}</h4>
-				<p>{{ .Params.description }}</p>
+				<p>{{ .Title }}</p>
 			</div>
             <span class="next-arrow"></span>
 		</article>

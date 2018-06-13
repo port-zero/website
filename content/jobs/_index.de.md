@@ -5,4 +5,5 @@ slug: /jobs/
 menu: main
 weight: 45
 ---
-Lorem Ipsum auf deutsch!
+Du möchtest mit uns arbeiten? Über eine Bewerbung zu folgenden Stellen würden
+wir uns freuen:
