@@ -4,7 +4,8 @@ type: jobs
 weight: -100
 image: img/noimage.png
 ---
-wir sind ein kleines IT-Unternehmen in eigenem Besitz und entwickeln und betreiben Softwaresysteme mit Fokus auf Sicherheit und Stabilität.
+Wir sind ein kleines unabhängiges IT-Unternehmen, das Softwaresysteme mit einem
+Fokus auf Sicherheit und Stabilität entwickelt und betreibt.
 
 Ein Teilbereich unserer Dienstleistungen umfasst die Integration, Erweiterung und Live-Provisionierung einer komplexen Zope-Anwendung für Internet Service Provider auf der ganzen Welt.
 
@@ -47,6 +48,6 @@ Hierfür suchen wir zur längerfristigen Unterstützung erfahrene System Enginee
 
 ---
 
-Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Text an
-[jobs@port-zero.com](mailto:jobs@port-zero.com).
-Foto und Alter sind nicht erforderlich.
+Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Text an [jobs@port-zero.com](mailto:jobs@port-zero.com). Wenn du
+uns dein Github-Profil oder andere Projekten von dir zeigen möchtest,
+interessiert uns auch das! Foto und Alter sind nicht erforderlich.
