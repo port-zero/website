@@ -1,5 +1,5 @@
 ---
-title: Tobias
+title: Tobias Brosge
 description: Software Engineer
 weight: -27
 type: teammember
