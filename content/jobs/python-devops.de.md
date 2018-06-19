@@ -9,11 +9,12 @@ Fokus auf Sicherheit und Stabilität entwickelt und betreibt.
 
 Ein Teilbereich unserer Dienstleistungen umfasst die Integration, Erweiterung und Live-Provisionierung einer komplexen Zope-Anwendung für Internet Service Provider auf der ganzen Welt.
 
-Hierfür suchen wir zur längerfristigen Unterstützung erfahrene System Engineers mit umfassenden Fähigkeiten in den drei Bereichen:
+Hierfür suchen wir zur längerfristigen Unterstützung erfahrene System Engineers mit umfassenden Fähigkeiten in den vier Bereichen:
 
 * Linux-Serveradministration
 * Python-Programmierung
 * Kommunikation mit und Unterstützung des Kunden über Telefon und Remotesessions
+* Grundlagen der IT-Sicherheit oder Interesse, diese zu lernen
 
 **Rahmenbedingungen:**
 
