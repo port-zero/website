@@ -1,6 +1,6 @@
 ---
 title: Myriam Utz
-description: Assistentin der Geschäftsleitung
+description: Executive Assistent
 weight: -500
 type: teammember
 image: img/team/myriam.jpg
