@@ -16,6 +16,6 @@ We develop and operate systems with a focus on security and stability. We consul
 * Integration of software solutions
 * Architecture and Operation of Linux servers and networks
 
-Our experienced, skillfully diverse [team](/team/) is looking forward to helping you overcome your challenges.
+Our experienced, skillfully diverse [team](/team/) is looking forward to helping you work through your technical challenges.
 
 You are welcome to [contact us!](/contact/)
