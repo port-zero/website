@@ -1,5 +1,5 @@
 ---
-title: Company
+title: About Port Zero
 language: en
 slug: /
 menu: main
