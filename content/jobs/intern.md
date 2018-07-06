@@ -12,9 +12,9 @@ We are looking for an intern (all genders welcome) to support us on projects and
 
 **Job Profile:**
 
-*You are a student looking for a company where you can complete your mandatory internship, or you'd like to complete an internship before studying. 
-*You are open and interested in working on lots of different projects and learning lots of new things.
-*You are organized and self-motivated: following the training period, you'll be able to decide your own work hours.
+* You are a student looking for a company where you can complete your mandatory internship, or you'd like to complete an internship before studying. 
+* You are open and interested in working on lots of different projects and learning lots of new things.
+* You are organized and self-motivated: following the training period, you'll be able to decide your own work hours.
 
 **Your Tasks:**
 
