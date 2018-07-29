@@ -1,7 +1,7 @@
 ---
-title: Veit Heller 
-description: Senior System Engineer
-weight: -500
+title: Veit Heller
+description: CTO
+weight: -900
 type: teammember
 image: img/team/veit.jpg
 ---
