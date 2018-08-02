@@ -9,10 +9,10 @@ weight: 90
 Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
 
 
-**Port Zero UG (haftungsbeschränkt)**
+**Port Zero GmbH**
 
 Softwareentwicklung & IT Service<br />
-Adalbertstraße 7-8<br />
+Paul-Lincke-Ufer 7e<br />
 10999 Berlin<br />
 
 Geschäftsführer: Michael Prinzinger<br />
@@ -31,7 +31,7 @@ PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)
 **Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 RStV:**
 
 Michael Prinzinger<br />
-Adalbertstraße 7-8<br />
+Paul-Lincke-Ufer 7e<br />
 10999 Berlin<br /><br />
 
 
