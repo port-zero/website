@@ -1,7 +1,6 @@
 ---
 title: Die neue DSGVO
 language: de
-slug: /gdpr/
 menu: main
 weight: 30
 ---
@@ -16,5 +15,6 @@ Kontakt: [dsgvo@port-zero.com](mailto:dsgvo@port-zero.com) | +49 30 120893454
 
 Mehr Informationen:
 
+* [Gesetzgebung](/de/gdpr/gesetz/)
 * [Was ändert sich?](/de/gdpr/info/)
 * [Unsere Angebote](/de/gdpr/offers/)

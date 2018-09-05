@@ -1,7 +1,6 @@
 ---
 title: What has changed?
 language: en
-slug: /gdpr/info/
 menu:
   main:
     parent: GDPR Compliance
