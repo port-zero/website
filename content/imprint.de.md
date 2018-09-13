@@ -12,7 +12,7 @@ Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
 **Port Zero UG (haftungsbeschränkt)**
 
 Softwareentwicklung & IT Service<br />
-Adalbertstraße 7-8<br />
+Paul-Lincke-Ufer 7e<br />
 10999 Berlin<br />
 
 Geschäftsführer: Michael Prinzinger<br />
@@ -31,7 +31,7 @@ PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)
 **Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 RStV:**
 
 Michael Prinzinger<br />
-Adalbertstraße 7-8<br />
+Paul-Lincke-Ufer 7e<br />
 10999 Berlin<br /><br />
 
 
@@ -46,7 +46,7 @@ Haftung für Inhalte
 
 Sämtliche Inhalte unserer Internetseiten sind mit größtmöglicher
 Sorgfalt erstellt worden. Dennoch ist es uns nicht möglich, eine
-Gewähr dafür zu übernehmen, dass diese Inhalte richtig, vollständig 
+Gewähr dafür zu übernehmen, dass diese Inhalte richtig, vollständig
 und aktuell sind. Wir sind gemäß § 7 Abs. 1 TMG für die eigenen Inhalte
 auf unseren Internetseiten verantwortlich. Gemäß den §§ 8, 9 und 10 TMG
 besteht für uns allerdings keine Verpflichtung, dass wir Informationen
@@ -94,9 +94,8 @@ Inhalt unverzüglich entfernen.
 
 Datenschutz
 
-Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. 
-Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. 
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
 Muster-Impressum von der Flegl Rechtsanwälte GmbH
-
