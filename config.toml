@@ -8,13 +8,13 @@ theme = "portzero"
 [languages]
   [languages.en]
     title = "Port Zero"
-	languageName = "English"
+    languageName = "English"
     weight = 1
     [languages.en.params]
       description = "IT-Security and software development"
   [languages.de]
     title = "Port Zero"
-	languageName = "Deutsch"
+    languageName = "Deutsch"
     weight = 2
     [languages.de.params]
       description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
@@ -53,8 +53,3 @@ DefaultContentLanguage = "de"
   weight = -80
   identifier = "twitter"
   url = "https://twitter.com/port_zer0"
-
-
-
-
-
