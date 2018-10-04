@@ -26,9 +26,8 @@ We would like to make clear that you have right of access to your personal data 
 
 Please contact our data protection officer at
 [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com)
-(PGP-key: [C56E F7FD 3D3A 34F5 39AA  1304 E0E2 BAEE 4887
-F679](/pubkey-datenschutz.asc)) to this
-end or for more information.
+(PGP-key: [C56E F7FD 3D3A 34F5 39AA 1304 E0E2 BAEE 4887
+F679](/pubkey-datenschutz.asc) — [what is PGP](https://emailselfdefense.fsf.org/en/infographic.html)?) to this end or for more information.
 
 Assertion of these rights is free of charge.
 
