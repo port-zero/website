@@ -50,7 +50,7 @@ nähere Informationen bezüglich der Datenverarbeitung bei PORT ZERO
 haben oder Ihr Auskunftsrecht wahrnehmen wollen, kontaktieren Sie uns
 bitte unter
 [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com)
-(PGP-key: [C56E F7FD 3D3A 34F5 39AA  1304 E0E2 BAEE 4887
+(PGP Key: [C56E F7FD 3D3A 34F5 39AA  1304 E0E2 BAEE 4887
 F679](/pubkey-datenschutz.asc) — [was ist PGP](https://emailselfdefense.fsf.org/de/infographic.html)?).
 
 **Ausdrucken und Abspeichern dieser Datenschutzhinweise**
