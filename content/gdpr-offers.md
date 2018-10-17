@@ -1,6 +1,7 @@
 ---
 title: Offers
 language: en
+slug: /gdpr/offers/
 menu:
   main:
     parent: GDPR Compliance
