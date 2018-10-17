@@ -1,7 +1,6 @@
 ---
 title: Unsere Angebote
 language: en
-slug: /gdpr/offers/
 menu:
   main:
     parent: Die neue DSGVO
