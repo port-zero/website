@@ -25,7 +25,7 @@ We're looking for longterm support from experienced system engineers with compre
 **Departments:**
 
 * Service Providers: Internet, telephone, TV
-* Network technologies: TCP?IP, CWMP, TR-069, SSL, HTTP, DSL, DOCSIS, voIP
+* Network technologies: TCP/IP, CWMP, TR-069, SSL, HTTP, DSL, DOCSIS, voIP
 * Highly available Linux server (Debian, CentOS)
 * Linux system administration (with a focus on networks, databases, clustering)
 * Security of systems, processes and communication channels
