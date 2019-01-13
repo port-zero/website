@@ -15,4 +15,5 @@ an office full of plants, programmers and possibilities.
 
 Feel free to join and contact us via jobs@port-zero.com!
 
-Contributors to this site: @vidister, @hellerve, @vilwarin, @krmnn, @meredithmichael, @jonbecker, @wieueberall, @Akendo, @XenGi, @hugurp.
+Contributors to this site: @vidister, @hellerve, @vilwarin, @krmnn,
+@meredithmichael, @jonbecker, @wieueberall, @Akendo, @XenGi, @hugurp.
