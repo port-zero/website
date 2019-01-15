@@ -38,7 +38,7 @@ Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten
 Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer
 personenbezogenen Daten.
 
-Desweiteren haben Sie Sie ein Auskunftsrecht bezüglich Ihrer von uns erhobenen und auf dieser Website verarbeiteten personenbezogenen Daten (Für den Fall, dass Ihnen diese Erklärung nicht ausreicht) und können sich jederzeit bei uns entsprechende Informationen einholen können. Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z.B. Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer personenbezogenen Daten.
+Desweiteren haben Sie ein Auskunftsrecht bezüglich Ihrer von uns erhobenen und auf dieser Website verarbeiteten personenbezogenen Daten (Für den Fall, dass Ihnen diese Erklärung nicht ausreicht) und können sich auch hierzu jederzeit bei uns entsprechende Informationen einholen. Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z.B. Vorratsdatenspeicherung) kollidiert, haben Sie hier ebenfalls ein Anrecht auf Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer personenbezogenen Daten.
 
 Zu diesem Zweck kontaktieren Sie uns bitte unter unseren Datenschutzbeauftragten unter [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com).
 Hier bekommen Sie auch gerne weitere Informationen.
