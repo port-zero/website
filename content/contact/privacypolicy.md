@@ -1,9 +1,10 @@
 ---
 title: Privacy Policy
-language: de
-slug: /privacypolicy/
-menu: main
-weight: 50
+language: en
+slug: privacypolicy/
+menu:
+  main:
+    parent: Contact
 ---
 
 By using our website, you consent to the collection, processing, and usage of data as described below. Our website can be visited without registration. Data accessed on the site on the server are saved as “server log files” without being directly traceable to your person. These data provide useful information for statistics and attack-tracking. The following data are logged:

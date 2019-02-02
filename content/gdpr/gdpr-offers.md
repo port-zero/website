@@ -1,11 +1,11 @@
 ---
 title: Offers
 language: en
-slug: /gdpr/offers/
+slug: offers/
 menu:
   main:
-    parent: GDPR Compliance
-weight: 30
+    parent: GDPR
+weight: 20
 ---
 
 The following packages provide an initial overview of the services we offer. We’re of course happy to customize packages according to your wishes and needs, as well as for your financial requirements (ranging from minimal compliance to all-encompassing security strategies).  

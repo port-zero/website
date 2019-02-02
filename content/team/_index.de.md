@@ -2,7 +2,9 @@
 title: Team
 language: de
 slug: /team/
-menu: main
+menu: 
+  main:
+    parent: Port-Zero
 weight: 10
 ---
 

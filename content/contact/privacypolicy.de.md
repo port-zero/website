@@ -2,7 +2,9 @@
 title: Datenschutzerklärung
 language: de
 slug: /privacypolicy/
-menu: main
+menu: 
+  main:
+    parent: Kontakt
 weight: 50
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: What has changed?
+title: In-Depth
 language: en
-slug: /gdpr/info/
+slug: info/
 menu:
   main:
-    parent: GDPR Compliance
+    parent: GDPR
 weight: 10
 ---
 

@@ -5,12 +5,7 @@
 <div class="team">
     {{ range sort .Data.Pages }}
     <a href="{{ .Permalink }}" class="job-item">
-        <article class="teammember">
-			<div class="teammember-text">
-				<p>{{ .Title }}</p>
-			</div>
-            <span class="next-arrow"></span>
-		</article>
+      {{ .Title }}
     </a>
     {{ end }}
 </div>

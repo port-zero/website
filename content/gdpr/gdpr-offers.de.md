@@ -1,10 +1,10 @@
 ---
 title: Unsere Angebote
-language: en
-slug: /gdpr/offers/
+language: de
+slug: /services/gdpr/offers/
 menu:
   main:
-    parent: Die neue DSGVO
+    parent: DSGVO
 weight: 30
 ---
 
