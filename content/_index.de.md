@@ -5,7 +5,7 @@ slug: /
 menu: main
 weight: 1
 ---
-
+<img src="img/logo.svg" alt="company logo" width="100px" style="float:right; margin-top:2em; margin-left:0.5em "/>
 *IT-Sicherheit und Softwareentwicklung auf höchstem Niveau*
 
 Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilität. Im Bereich IT-Sicherheit beraten wir mit höchstem technischen Anspruch und unterstützen bei der Einführung und Umsetzung von Sicherheitskonzepten. Unsere Kernkompetenzen umfassen:

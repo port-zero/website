@@ -61,7 +61,7 @@ a:hover {
 
 hr {
     border: none;
-    border-bottom: 1px solid #09C;
+    border-bottom: 1px solid #0d96d5;
 }
 
 .sidebar {
@@ -209,18 +209,18 @@ hr {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  border-top: 1px solid #09c;
+  border-top: 1px solid #0d96d5;
   bottom: 10px;
 }
 
 .footer-section {
-  border-left: 1px solid #09c;
+  border-left: 1px solid #0d96d5;
   padding: 0.5em;
   margin: 1em;
 }
 
 .footer-section h3 {
-  color: #09c;
+  color: #0d96d5;
   margin-bottom: 0.2em;
   margin-top: 0;
 }
@@ -267,25 +267,13 @@ hr {
   vertical-align: super;
 }
 
-.next-arrow:before {
-  content: "➔"
-}
-
-.next-arrow {
-  float: right;
-  font-size: 50px;
-  color: #09C;
-  margin-top: -50px;
-}
-
-
 .job-item {
   display: block;
   height: auto;
 }
 
 .teammember {
-  border-bottom: 1px solid #09c;
+  border-bottom: 1px solid #0d96d5;
   padding: 5px;
   width: 100%;
   margin-top: 10px;
@@ -336,7 +324,7 @@ hr {
 }
 
 .client {
-  border-bottom: 1px solid #09c;
+  border-bottom: 1px solid #0d96d5;
   padding: 5px;
   width: 100%;
   margin-top: 10px;
@@ -381,7 +369,7 @@ hr {
 }
 
 .partner {
-  border-bottom: 1px solid #09c;
+  border-bottom: 1px solid #0d96d5;
   padding: 5px;
   width: 100%;
   margin-top: 10px;
@@ -438,7 +426,7 @@ hr {
     margin: 0;
     float: none;
     border-right: none;
-    border-bottom: 1px solid #09C;
+    border-bottom: 1px solid #0d96d5;
   }
 
   .sidebar a {
@@ -474,7 +462,7 @@ hr {
     display: block;
     margin-top: 10px;
     padding-top: 10px;
-    border-top: 1px solid #09C;
+    border-top: 1px solid #0d96d5;
   }
 
   .copyright {
