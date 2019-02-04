@@ -264,11 +264,6 @@ hr {
   vertical-align: super;
 }
 
-.job-item {
-  display: block;
-  height: auto;
-}
-
 .ref-descr {
   font-size: 0.7em;
   margin: 0;

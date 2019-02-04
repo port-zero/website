@@ -6,7 +6,7 @@
 <ul>
   {{ range sort .Data.Pages }}
   <li>
-    <a href="{{ .Permalink }}" class="job-item"> {{ .Title }} </a>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
   </li>
   {{ end }}
 </ul>
