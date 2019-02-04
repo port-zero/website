@@ -1,25 +1,44 @@
-/* fira-sans-300 - latin */
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/fira-sans-v8-latin-300.eot'); /* IE9 Compat Modes */
   src:
-    local('Fira Sans Light'),
-    local('FiraSans-Light'),
     url('../fonts/fira-sans-v8-latin-300.woff2') format('woff2'),
     url('../fonts/fira-sans-v8-latin-300.woff') format('woff');
 }
-/* fira-sans-regular - latin */
+
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 400;
   src:
-    local('Fira Sans Regular'),
-    local('FiraSans-Regular'),
-    url('../fonts/fira-sans-v8-latin-regular.woff2') format('woff2'),
-    url('../fonts/fira-sans-v8-latin-regular.woff') format('woff');
+    url('../fonts/fira-sans-v8-latin-400.woff2') format('woff2'),
+    url('../fonts/fira-sans-v8-latin-400.woff') format('woff');
+}
+
+/* @font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('../fonts/fira-sans-v8-latin-500.woff2') format('woff2'),
+    url('../fonts/fira-sans-v8-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../fonts/fira-sans-v8-latin-600.woff2') format('woff2'),
+    url('../fonts/fira-sans-v8-latin-600.woff') format('woff');
+} */
+
+html {
+  font-family: 'Fira Sans';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 html,
