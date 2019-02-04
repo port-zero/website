@@ -11,7 +11,7 @@ weight: 10
 
 Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Since May 2018, the GDPR unifies data privacy laws across Europe.
 
-**Timetable – Data Protection**
+## Timetable – Data Protection
 
 -   March 2016 – official German version of GDPR
 -   April 2016 – consultation process within EU-Council of Ministers, followed by voting in European Parliament
@@ -57,7 +57,7 @@ principles laid out in Article 5 of the GDPR ensures that data shall be:
 Heads up! In terms of responsibility and accountability, company
 managers have to prove their compliance to escape liability.
 
-**Financial penalties**
+## Financial penalties
 
 One of the significant but very unpleasant changes is that under GDPR,
 firms can be fined up to **€20 million** ($28m) or **four percent of
@@ -65,7 +65,7 @@ group worldwide turnover**, whichever is greater. Companies are therefore
 beginning to fear **insolvency** or even **closure** as a
 result of the GDPR penalties that will soon be very real for all businesses.
 
-**Personal data**
+## Personal data
 
 GDPR applies only in situations involving personal data. Personal
 data is understood as any information relating to an identified or 
@@ -76,7 +76,7 @@ IP-adress or to one or more factors specific to the physical,
 physiological, genetic, mental, economic, cultural or social identity of
 that natural person.
 
-**Who does it concern?**
+## Who does it concern?
 
 All companies who are based on EU-ground as resident enterprises.
 
@@ -104,6 +104,3 @@ To ensure the best preparation for an audit und adjust applicable IT-systems,
 for example, a great deal of **IT-expertise** is required. Having accrued **considerable
 experience** over the years in the IT business, we've gained **substantial Know-How** 
 which will certainly benefit all of our data security customers.
-
-
-
