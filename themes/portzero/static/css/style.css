@@ -151,30 +151,17 @@ hr {
 
 /* Logo */
 
-.logo_a {
-  /* display: none; */
-  /* text-align: center; */
+.Logo {
   display: block;
 }
 
-.logo_a img {
-  max-width: 4rem;
-}
-
-.logo_a:hover {
+.Logo:hover {
   text-decoration: none;
 }
 
-.logo_a h1 {
-  color: black;
-  margin: -5px 0 0 18px;
-  text-transform: uppercase;
-}
-
-.logo {
-  width: 100%;
-  padding: 0px 0px 5px 22px;
-  max-width: 180px;
+.Logo img {
+  width: auto;
+  height: 4rem;
 }
 
 .footer {
@@ -229,16 +216,6 @@ hr {
   margin: 0;
 }
 
-.img-link {
-  display: inline-block;
-}
-
-.small-logo {
-  margin-top: 1em;
-  width: 20px;
-  display: inline-block;
-}
-
 /* Lists as seen on references, partners and team pages etc. */
 .List {}
 .List-item {
@@ -280,15 +257,6 @@ hr {
 
   .text {
     margin-left: 0;
-  }
-
-  .logo {
-    max-height: 100px;
-    width: auto;
-  }
-
-  .logo_a h1 {
-    font-size: 1em;
   }
 
   .sidebar .menu_language,
