@@ -2,7 +2,7 @@
 title: Axiros
 description: World Market Leader in Device Management for Internet Service Providers
 weight: -150
-type: client
+type: partner
 image: img/references/axiros.png
 ---
 We are the main partners for system integrations of the [Axiros Management

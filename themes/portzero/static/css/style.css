@@ -272,13 +272,12 @@ hr {
   height: auto;
 }
 
+
 .teammember {
-  border-bottom: 1px solid #0d96d5;
   padding: 5px;
-  width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-bottom: 30px;
+  display: flex;
 }
 
 .team article:last-child {
@@ -287,10 +286,9 @@ hr {
 
 .teammember-image {
   max-width: 135px;
-  float: left;
   margin-right: 10px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
 }
 
 .teammember .position {
@@ -315,7 +313,6 @@ hr {
 
 .teammember-text {
   padding: 5px;
-  margin-left: 150px;
 }
 
 .teammember-image {
@@ -324,12 +321,10 @@ hr {
 }
 
 .client {
-  border-bottom: 1px solid #0d96d5;
+  display: flex;
   padding: 5px;
-  width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-bottom: 30px;
 }
 
 .clients article:last-child {
@@ -337,11 +332,12 @@ hr {
 }
 
 .client-image {
-  max-width: 135px;
-  float: left;
   margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
+  max-width: 80px;
 }
 
 .client .position {
@@ -362,19 +358,12 @@ hr {
   padding: 5px;
 }
 
-.client-image {
-  margin-left: 5px;
-  margin-top: 5px;
-  max-width: 10%;
-}
-
 .partner {
-  border-bottom: 1px solid #0d96d5;
+  display: flex;
   padding: 5px;
   width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-top: 30px;
 }
 
 .partners article:last-child {
@@ -382,11 +371,10 @@ hr {
 }
 
 .partner-image {
-  max-width: 135px;
-  float: left;
+  width: 80px;
   margin-right: 10px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
 }
 
 .partner .position {
