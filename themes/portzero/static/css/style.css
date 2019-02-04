@@ -37,7 +37,6 @@
 html {
   font-family: 'Fira Sans';
   font-weight: 300;
-  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -71,11 +70,8 @@ h1,
   font-size: 2rem;
 }
 
+h2,
 .tagline + p {
-  font-size: 1.25rem;
-}
-
-h2 {
   font-size: 1.25rem;
 }
 
@@ -267,9 +263,4 @@ hr {
   .mobile_footer {
     display: block;
   }
-}
-
-
-h3 small {
-  font-size: 1em;
 }
