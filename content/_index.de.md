@@ -1,5 +1,5 @@
 ---
-title: Port-Zero
+title: Port Zero
 language: de
 slug: /
 menu: main

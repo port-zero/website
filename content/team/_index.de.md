@@ -4,7 +4,7 @@ language: de
 slug: /team/
 menu: 
   main:
-    parent: Port-Zero
+    parent: Port Zero
 weight: 10
 ---
 

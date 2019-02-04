@@ -1,9 +1,9 @@
 baseURL = "https://port-zero.com/"
 theme = "portzero"
+
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
-
 
 [languages]
   [languages.en]
