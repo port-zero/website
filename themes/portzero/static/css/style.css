@@ -272,135 +272,32 @@ hr {
   height: auto;
 }
 
-
-.teammember {
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  display: flex;
-}
-
-.team article:last-child {
-  border: none;
-}
-
-.teammember-image {
-  max-width: 135px;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  align-self: flex-start;
-}
-
-.teammember .position {
-  font-weight: bold;
-  font-size: 0.9em;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
 .ref-descr {
-	font-size: 0.7em;
-	margin: 0;
+  font-size: 0.7em;
+  margin: 0;
 }
 
-.teammember h4 {
-  margin: 0px;
-}
-
-.teammember {
-  padding: 0;
-}
-
-.teammember-text {
-  padding: 5px;
-}
-
-.teammember-image {
-  margin-left: 5px;
-  margin-top: 5px;
-}
-
-.client {
+/* Lists as seen on references, partners and team pages etc. */
+.List {}
+.List-item {
   display: flex;
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 2em;
 }
-
-.clients article:last-child {
-  border: none;
-}
-
-.client-image {
-  margin-right: 10px;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+.List-image {
+  flex-basis: 5em;
+  flex-shrink: 0;
   align-self: flex-start;
-  max-width: 80px;
+  margin-right: 1em;
+}
+.List h4 {
+  margin: 0;
+}
+.List-text > :first-child {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.client .position {
-  font-weight: bold;
-  font-size: 0.9em;
-  margin-bottom: 0px;
-}
-
-.client h4 {
-  margin: 0px;
-}
-
-.client {
-  padding: 0;
-}
-
-.client-text {
-  padding: 5px;
-}
-
-.partner {
-  display: flex;
-  padding: 5px;
-  width: 100%;
-  margin-top: 10px;
-  margin-top: 30px;
-}
-
-.partners article:last-child {
-  border: none;
-}
-
-.partner-image {
-  width: 80px;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  align-self: flex-start;
-}
-
-.partner .position {
-  font-weight: bold;
-  font-size: 0.9em;
-  margin-bottom: 0px;
-}
-
-.partner h4 {
-  margin: 0px;
-}
-
-.partner {
-  padding: 0;
-}
-
-.partner-text {
-  padding: 5px;
-}
-
-.partner-image {
-  margin-left: 5px;
-  margin-top: 5px;
-  max-width: 10%;
-}
-
+/* Smaller screens */
 @media (max-width: 649px) {
   .content {
     min-width: 200px;
@@ -470,5 +367,3 @@ hr {
     padding-bottom: 0;
   }
 }
-
-
