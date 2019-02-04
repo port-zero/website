@@ -221,7 +221,7 @@ hr {
 
 .List-image {
   /* border: 1px inset; */
-  flex-basis: 3em;
+  width: 3em;
   flex-shrink: 0;
   align-self: flex-start;
   margin-right: 1em;
@@ -229,7 +229,7 @@ hr {
 
 @media (min-width: 30em) {
   .List-image {
-    flex-basis: 6em;
+    width: 6em;
   }
 }
 
