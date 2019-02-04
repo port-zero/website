@@ -3,20 +3,22 @@
 <h1 class="tagline">{{ .Title }}</h1>
 {{ .Content }}
 <br />
+
 <div class="List">
-    {{ range where .Data.Pages "Type" "=" "client" }}
-		<article class="List-item">
-    		{{ with .Params.image }}
-       			<img src="{{ . }}" class="List-image" />
-			{{ else }}
-				<img src="img/logo.png" class="List-image" />
-			{{ end }}
-			<div class="List-text">
-				<h4>{{ .Title }}</h4>
-				<p class="position ref-descr">{{ .Params.description }}</p>
-        {{ .Content }}
-			</div>
-		</article>
+  {{ range where .Data.Pages "Type" "=" "client" }}
+  <article class="List-item">
+    {{ with .Params.image }}
+      <img src="{{ . }}" class="List-image" />
+    {{ else }}
+      <img src="img/logo.png" class="List-image" />
     {{ end }}
+    <div class="List-text">
+      <h3>{{ .Title }}</h3>
+      <h4>{{ .Params.description }}</h4>
+      {{ .Content }}
+    </div>
+  </article>
+  {{ end }}
 </div>
+
 {{ end }}
