@@ -3,7 +3,7 @@ title: Kontakt
 language: de
 slug: /contact/
 menu: main
-weight: 40
+weight: 80
 ---
 
 Treten Sie gerne mit uns in Kontakt!

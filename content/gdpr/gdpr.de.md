@@ -1,9 +1,9 @@
 ---
-title: Die neue DSGVO
+title: DSGVO
 language: de
 slug: /gdpr/
 menu: main
-weight: 30
+weight: 20
 ---
 
 Die am 25.05.2018 in Kraft tretende neue Datenschutz Grundverordnung (DS-GVO) sorgt in der Firmenwelt für Aufruhr. Welche Relevanz hat das für Sie und Ihre Firma?

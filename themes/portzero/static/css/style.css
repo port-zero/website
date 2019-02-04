@@ -48,9 +48,9 @@ p {
 
 a {
   text-decoration: none;
-  color: #0099cc;
+  /*color: #0099cc;*/
+  color: #0d96d5;
   border-bottom: 2px solid transparent;
-  height: 18px;
   display: inline-block;
 }
 
@@ -61,21 +61,21 @@ a:hover {
 
 hr {
     border: none;
-    border-bottom: 1px solid #09C;
+    border-bottom: 1px solid #0d96d5;
 }
 
 .sidebar {
   float: left;
   width: 33%;
   max-width: 200px;
-  border-right: 1px solid #09C;
+ /* border-right: 1px solid #09C; */
   margin-right: 20px;
   padding-right: 20px;
 }
 
 .sidebar .menu {
   padding: 0 14px 0 14px;
-  margin-top: 10px;
+  text-align: right;
 }
 
 .sidebar .menu li {
@@ -108,9 +108,34 @@ hr {
   list-style: none;
 }
 
+.sidebar .menu .main-menu {
+  margin-bottom: 8px;
+}
+
 .sidebar .menu .sub-menu {
   margin-left: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
+  font-size: 0.8em;
+}
+
+.sidebar .menu .menu_language {
+  display: inline-flex;
+  font-size: 0.8em;
+}
+
+.sidebar .menu .menu_language ul li {
+  display: inline;
+}
+
+.sidebar .menu_main {
+}
+
+.sidebar .menu .menu_social {
+  font-size: 0.8em;
+}
+
+.sidebar .menu .menu_social ul li {
+  display: inline;
 }
 
 .content {
@@ -125,6 +150,7 @@ hr {
 }
 
 .logo_a {
+  display: none;
   text-align: center;
   width: 100%;
 }
@@ -151,16 +177,16 @@ hr {
 }
 
 .copyright {
-  margin-left: 14px;
+  margin-right: 14px;
   font-size: 12px;
+  text-align: right;
 }
 
 
 .text {
-  border-left: 1px solid #09C;
+  font-size: 0.92em;
   padding-left: 20px;
   margin-left: 220px;
-  text-align: justify;
   hyphens: auto;
 }
 
@@ -183,18 +209,18 @@ hr {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  border-top: 1px solid #09c;
+  border-top: 1px solid #0d96d5;
   bottom: 10px;
 }
 
 .footer-section {
-  border-left: 1px solid #09c;
+  border-left: 1px solid #0d96d5;
   padding: 0.5em;
   margin: 1em;
 }
 
 .footer-section h3 {
-  color: #09c;
+  color: #0d96d5;
   margin-bottom: 0.2em;
   margin-top: 0;
 }
@@ -241,38 +267,17 @@ hr {
   vertical-align: super;
 }
 
-.next-arrow:before {
-  content: "➔"
-}
-
-.next-arrow {
-  float: right;
-  font-size: 50px;
-  color: #09C;
-  margin-top: -50px;
-}
-
-.job-item:hover .next-arrow {
-  color: #006080;
-}
-
 .job-item {
   display: block;
   height: auto;
-  border-bottom: 1px solid #09c;
 }
 
-.job-item:hover {
-  border-bottom: 1px solid #006080;
-}
 
 .teammember {
-  border-bottom: 1px solid #09c;
   padding: 5px;
-  width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-bottom: 30px;
+  display: flex;
 }
 
 .team article:last-child {
@@ -281,10 +286,9 @@ hr {
 
 .teammember-image {
   max-width: 135px;
-  float: left;
   margin-right: 10px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
 }
 
 .teammember .position {
@@ -309,7 +313,6 @@ hr {
 
 .teammember-text {
   padding: 5px;
-  margin-left: 150px;
 }
 
 .teammember-image {
@@ -318,12 +321,10 @@ hr {
 }
 
 .client {
-  border-bottom: 1px solid #09c;
+  display: flex;
   padding: 5px;
-  width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-bottom: 30px;
 }
 
 .clients article:last-child {
@@ -331,11 +332,12 @@ hr {
 }
 
 .client-image {
-  max-width: 135px;
-  float: left;
   margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
+  max-width: 80px;
 }
 
 .client .position {
@@ -356,19 +358,12 @@ hr {
   padding: 5px;
 }
 
-.client-image {
-  margin-left: 5px;
-  margin-top: 5px;
-  max-width: 10%;
-}
-
 .partner {
-  border-bottom: 1px solid #09c;
+  display: flex;
   padding: 5px;
   width: 100%;
   margin-top: 10px;
-  display: inline-block;
-  clear: left;
+  margin-top: 30px;
 }
 
 .partners article:last-child {
@@ -376,11 +371,10 @@ hr {
 }
 
 .partner-image {
-  max-width: 135px;
-  float: left;
+  width: 80px;
   margin-right: 10px;
   margin-bottom: 5px;
-  display: inline-block;
+  align-self: flex-start;
 }
 
 .partner .position {
@@ -420,7 +414,7 @@ hr {
     margin: 0;
     float: none;
     border-right: none;
-    border-bottom: 1px solid #09C;
+    border-bottom: 1px solid #0d96d5;
   }
 
   .sidebar a {
@@ -436,13 +430,16 @@ hr {
     font-size: 1em;
   }
 
+  .sidebar .menu .menu_language {
+    display: none;
+  }
+
   .menu_main {
     display: inline-block;
   }
 
-  .menu_secondary {
-    float: right;
-    text-align: right;
+  .menu_social {
+    display: inline-block;
   }
 
   .sidebar .copyright {
@@ -453,7 +450,7 @@ hr {
     display: block;
     margin-top: 10px;
     padding-top: 10px;
-    border-top: 1px solid #09C;
+    border-top: 1px solid #0d96d5;
   }
 
   .copyright {

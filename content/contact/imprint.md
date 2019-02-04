@@ -2,8 +2,9 @@
 title: Imprint
 language: en
 slug: /imprint/
-menu: main
-weight: 60
+menu: 
+  main:
+    parent: Contact
 ---
 
 In accordance with § 5 Telemediengesetz (TMG):<br /><br />
