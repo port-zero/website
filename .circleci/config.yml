@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - checkout
+      - run: hugo
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Deploy
+          command: |
+            scp -r public/* root@web01.port-ze.ro:/srv/www/port-zero.com/html
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+                - feature/continuous-deployment # Temporary for testing continuous deployment
