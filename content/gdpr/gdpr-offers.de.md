@@ -4,7 +4,7 @@ language: de
 slug: /services/gdpr/offers/
 menu:
   main:
-    parent: DSGVO
+    parent: Datenschutz
 weight: 30
 ---
 

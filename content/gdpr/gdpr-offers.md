@@ -5,7 +5,7 @@ slug: offers/
 menu:
   main:
     parent: GDPR
-weight: 20
+weight: 30
 ---
 
 The following packages provide an initial overview of the services we offer. We’re of course happy to customize packages according to your wishes and needs, as well as for your financial requirements (ranging from minimal compliance to all-encompassing security strategies).  

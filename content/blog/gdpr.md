@@ -1,11 +1,9 @@
 ---
-title: In-Depth
+title: GDPR
 language: en
-slug: info/
-menu:
-  main:
-    parent: GDPR
-weight: 10
+slug: gdpr
+menu: main
+weight: 40
 ---
 
 

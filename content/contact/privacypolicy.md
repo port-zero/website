@@ -5,6 +5,7 @@ slug: privacypolicy/
 menu:
   main:
     parent: Contact
+weight: 20
 ---
 
 By using our website, you consent to the collection, processing, and usage of data as described below. Our website can be visited without registration. Data accessed on the site on the server are saved as “server log files” without being directly traceable to your person. These data provide useful information for statistics and attack-tracking. The following data are logged:

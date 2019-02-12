@@ -8,42 +8,42 @@ theme = "portzero"
 [languages]
   [languages.en]
     title = "Port Zero"
-    languageName = "en"
+    languageName = "Deutsch"
     weight = 1
     [languages.en.params]
       description = "IT-Security and software development"
   [languages.de]
     title = "Port Zero"
-    languageName = "de"
+    languageName = "English"
     weight = 2
     [languages.de.params]
       description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
 
-DefaultContentLanguage = "de"
+DefaultContentLanguage = "Deutsch"
 
 [[menu.main]]
   name = "GitHub"
-  weight = 20
-  parent = "References"
+  weight = 30
+  parent = "Contact"
   identifier = "github"
   url = "https://github.com/port-zero"
 [[menu.main]]
   name = "LinkedIn"
-  parent = "References"
-  weight = 30
+  parent = "Contact"
+  weight = 40
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
 
 
 [[languages.de.menu.social]]
   name = "GitHub"
-  weight = -100
-  parent = "Referenzen"
+  weight = 30 
+  parent = "Kontakt"
   identifier = "github"
   url = "https://github.com/port-zero"
 [[languages.de.menu.social]]
   name = "LinkedIn"
-  parent = "Referenzen"
-  weight = -90
+  parent = "Kontakt"
+  weight = 40 
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
