@@ -1,7 +1,7 @@
 ---
 title: Was ändert sich?
 language: de
-slug: /gdpr/info/
+slug: /blog/gdpr
 menu:
   main:
     parent: DSGVO

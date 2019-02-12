@@ -1,7 +1,8 @@
 ---
 title: Blog
 language: en
-menu: 
+slug: /blog/
+menu:
   main:
     parent: Port Zero GmbH
 weight: 50

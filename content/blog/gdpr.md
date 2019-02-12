@@ -1,7 +1,7 @@
 ---
 title: GDPR
 language: en
-slug: gdpr
+slug: /blog/gdpr
 menu: main
 weight: 40
 ---
@@ -59,14 +59,14 @@ managers have to prove their compliance to escape liability.
 
 One of the significant but very unpleasant changes is that under GDPR,
 firms can be fined up to **€20 million** ($28m) or **four percent of
-group worldwide turnover**, whichever is greater. Companies are therefore 
+group worldwide turnover**, whichever is greater. Companies are therefore
 beginning to fear **insolvency** or even **closure** as a
 result of the GDPR penalties that will soon be very real for all businesses.
 
 ## Personal data
 
 GDPR applies only in situations involving personal data. Personal
-data is understood as any information relating to an identified or 
+data is understood as any information relating to an identified or
 identifiable natural person; an identifiable natural person is one who can be
 identified, directly or indirectly, in particular by reference to an
 identifier such as a name, an identification number, location data,
@@ -90,7 +90,7 @@ subjects, data protection in general, and/or a GDPR-relevant subject,
 **Port Zero** is happy to offer consulting-services in this
 area, based on extensive experience and competence in the fields of **Data
 protection**, **Data-Protection-Compliance**, **IT-Security**. Our
-consulting-process is designed to quickly and thoroughly identify problems 
+consulting-process is designed to quickly and thoroughly identify problems
 and risks and to find sustainable solutions in compliance with
 GDPR-requirements on data privacy. We will also gladly assist in
 implementing a **Dataprotectionmanagementsystem** (DPMS) and an
@@ -98,7 +98,7 @@ implementing a **Dataprotectionmanagementsystem** (DPMS) and an
 
 A further area of expertise is **Informationtechnology** and
 **IT-solutions**. Modern data privacy and IT-based subjects are inseparable.
-To ensure the best preparation for an audit und adjust applicable IT-systems, 
+To ensure the best preparation for an audit und adjust applicable IT-systems,
 for example, a great deal of **IT-expertise** is required. Having accrued **considerable
-experience** over the years in the IT business, we've gained **substantial Know-How** 
+experience** over the years in the IT business, we've gained **substantial Know-How**
 which will certainly benefit all of our data security customers.

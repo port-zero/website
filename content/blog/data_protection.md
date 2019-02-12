@@ -1,8 +1,8 @@
 ---
 title: 2018-11-1 Data Protection
 language: en
-slug: /dataprotection
-menu: 
+slug: /blog/dataprotection
+menu:
   main:
     parent: Blog
 ---

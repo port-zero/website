@@ -1,7 +1,7 @@
 ---
 title: Services
 language: en
-slug: /
+slug: /services/
 menu: main
 weight: 30
 ---
