@@ -29,7 +29,7 @@ Ohne Ihre Einwilligung erfolgt **keine** Weitergabe der Daten an Dritte.
 Wir behalten uns vor, die Server-Logfiles nachträglich zu überprüfen,
 sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.
 
-**Widerspruchsrecht und Informationsmöglichkeiten**
+## Widerspruchsrecht und Informationsmöglichkeiten
 
 Wir möchten Sie hiermit darauf hinweisen, dass Sie ein Auskunftsrecht bezüglich Ihrer von uns erhobenen und auf dieser Website verarbeiteten personenbezogenen Daten haben (Für den Fall, dass Ihnen diese Erklärung nicht ausreicht) und sich hierzu jederzeit bei uns entsprechende Informationen einholen können. Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z.B. Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer personenbezogenen Daten.
 
@@ -46,13 +46,13 @@ bitte unter
 (PGP Key: [C56E F7FD 3D3A 34F5 39AA  1304 E0E2 BAEE 4887
 F679](/pubkey-datenschutz.asc) — [was ist PGP](https://emailselfdefense.fsf.org/de/infographic.html)?).
 
-**Ausdrucken und Abspeichern dieser Datenschutzhinweise**
+## Ausdrucken und Abspeichern dieser Datenschutzhinweise
 
 Diese Datenschutzhinweise können Sie unmittelbar ausdrucken und
 abspeichern, beispielsweise durch die Druck- bzw. Speicherfunktion in
 ihrem Browser.
 
-**Aktualisierung dieser Datenschutzhinweise**
+## Aktualisierung dieser Datenschutzhinweise
 
 Von Zeit zu Zeit kann eine Aktualisierung dieser Datenschutzhinweise
 notwendig werden, beispielsweise durch neue Angebote auf unserer

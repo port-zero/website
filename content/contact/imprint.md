@@ -5,6 +5,7 @@ slug: /imprint/
 menu: 
   main:
     parent: Contact
+weight: 10
 ---
 
 In accordance with § 5 Telemediengesetz (TMG):<br /><br />

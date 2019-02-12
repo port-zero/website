@@ -21,7 +21,7 @@ We will not disclose your data to third parties without your consent.
 
 We reserve the right to subsequently review the server log files if we discover concrete evidence of illegal use.
 
-**Right of Refusal and Information Options**
+### Right of Refusal and Information Options
 
 We would like to make clear that you have right of access to your personal data collected by us (in case this statement is insufficient) and can––at any time––obtain the relevant information from us. Unless your request conflicts with a legal obligation to store data (e.g. data retention), you are entitled to the correction of incorrect data and to block or erase your personal data.
 
@@ -32,12 +32,10 @@ F679](/pubkey-datenschutz.asc) — [what is PGP](https://emailselfdefense.fsf.or
 
 Assertion of these rights is free of charge.
 
-**Printing and Saving this Privacy Notice**
+### Printing and Saving this Privacy Notice
 
 You may directly print and save this privacy notice by using the print and/or save function in your browser.
 
-**Updating this Privacy Notice**
+### Updating this Privacy Notice
 
 Updating this privacy notice may be necessary from time to time, due to new offerings on our website, for instance. You will be informed about any changes here.
-
-

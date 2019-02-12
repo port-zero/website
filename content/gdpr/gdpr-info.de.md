@@ -16,7 +16,7 @@ EU-Datenschutzrichtlinie doch erhebliche Unterschiede bestanden, ist
 die Datenschutz-Grundverordnung jetzt direkt geltendes Recht in allen
 Mitgliedsstaaten.
 
-**Zeitplan -- Datenschutz**
+## Zeitplan -- Datenschutz
 
 Folgende Schritte stehen noch aus:
 
@@ -27,7 +27,7 @@ Folgende Schritte stehen noch aus:
 
 -   25\. Mai 2018 - Anwendbarkeit der EU-Datenschutz-Grundverordnung
 
-**Ziele und Grundsätze**
+## Ziele und Grundsätze
 
 Die Ziele der EU-DSGVO sind der Schutz der Grundrechte und
 Grundfreiheiten natürlicher Personen und insbesondere deren Recht auf
@@ -50,7 +50,7 @@ DSGVO) trifft vor allem die Entscheider in Unternehmen und
 Organisationen. Das Management trägt die **Beweislast** um einer
 möglichen **Haftung** zu entgehen.
 
-**Bußgelder**
+## Bußgelde
 
 Der europäische Gesetzgeber plant die Bußgelder für Datenschutzverstöße
 drastisch zu erhöhen, auch um dadurch eine abschreckende Wirkung zu
@@ -60,7 +60,7 @@ Geldbuße von bis zu **20 Millionen Euro** oder bis zu **4% des gesamten
 weltweit erzielten Jahresumsatzes** im vorangegangenen Geschäftsjahr
 vor.
 
-**Personenbezogene Daten**
+## Personenbezogene Daten
 
 Die Datenschutz-Grundverordnung ist nicht anzuwenden, soweit keine
 personenbezogenen Daten betroffen sind. Der Begriff der
@@ -77,7 +77,7 @@ JEDES Unternehmen, insbesondere dasjenige welches im Internet aktiv ist
 eigene Datenschutzerklärung, vieles ändert sich durch die
 Neuregelungen).
 
-**Wer ist betroffen?**
+## Wer ist betroffen?
 
 Alle Unternehmen, die in der EU ansässig sind.
 
@@ -88,7 +88,7 @@ Regelungen halten. Das gilt aber nur wenn sie:
 
 -   personenbezogene Daten von EU-Bürgern verarbeiten
 
-**Abmahnungen und die DSGVO**
+## Abmahnungen und die DSGVO
 
 Datenschutzverstöße können, auch nach der DSGVO abgemahnt werden. Dies
 wurde von den Gerichten in den letzten Jahren immer wieder entschieden.
