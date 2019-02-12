@@ -10,7 +10,7 @@ weight: 30
 
 Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebotenen Leistungen. Selbstverständlich stellen wir Ihnen gerne für Ihre eigenen Wünsche und Bedürfnisse, sowie für Ihren finanziellen Rahmen das richtige Paket zusammen (z.B. von minimaler Compliance zu allumfassenden Sicherheitsstrategien)
 
-**Rechtlich / Organisatorisch**
+## Rechtlich / Organisatorisch
 
 * Grundlagenschulung DS-GVO, speziell für das Management
  * damit verstehen Sie die für Sie relevanten Forderungen der neuen DS-GVO, können fundierte Entscheidungen in dem Bereich treffen, und Ihr verfügbares Budget am sinnvollsten einsetzen
@@ -21,8 +21,7 @@ Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebot
 * Zertifizierung
  * damit bereiten Sie sich auf eine Datenschutz-Zertifizierung vor und erhalten eine Übersicht sinnvoller Zertifizierungsmöglichkeiten
 
-
-**IT-Sicherheit / Technisch**
+## IT-Sicherheit / Technisch
 
 * Technisches DS-GVO Konzept
  * damit erarbeiten Sie ein umfassendes Konzept wie Sie technische DS-GVO Forderungen wie Speicherdauer, Datenexport, datenverarbeitende Prozesse dokumentieren, Zugriff/Deaktivieren/Löschen spezifischer Endkunden, Einstellungen/Limitierung/Widerspruch zur Datenverarbeitung realisieren
@@ -36,4 +35,3 @@ Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebot
  * damit erhalten Sie einen technischen Bericht, in welchem wir entdeckte Schwachstellen und Risiken detailliert aufzeigen, das Gefahrenpotential bewerten und Maßnahmen dagegen vorschlagen
 
 Neben Dienstleistungen im Bereich der neuen DS-GVO bieten wir auch unser Expertise im Bereich IT-Sicherheit, wie Pentests, Threat Modelling oder Code Audits an. Sprechen Sie uns gerne darauf an.
-
