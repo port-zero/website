@@ -5,7 +5,7 @@ slug: /privacypolicy/
 menu: 
   main:
     parent: Kontakt
-weight: 50
+weight: 20
 ---
 
 Durch die Nutzung unserer Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäß der nachfolgenden Beschreibung einverstanden. Unsere Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten über den Zugriff auf die Seite auf dem Server als „Server-Logfiles“ gespeichert, ohne dass diese unmittelbar auf Ihre Person bezogen werden können. Dies dient den Zwecken der Statistik und des Angriffs-Trackings. Folgende Daten werden so protokolliert:

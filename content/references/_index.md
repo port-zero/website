@@ -1,10 +1,10 @@
 ---
 title: References
 language: en
-slug: /references/
+slug: /portzero/references/
 menu: 
   main:
-    parent: Port Zero
+    parent: Port Zero GmbH
 weight: 10
 ---
 

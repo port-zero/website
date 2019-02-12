@@ -29,24 +29,4 @@
         {{- end  }}
     </ul>
 
-    {{ if .IsTranslated }}
-        <ul class="menu_language">
-        {{ if eq .Language.LanguageName "en"}}
-            <li>
-                <a href="{{ .Permalink }}" class="active">{{ .Language.LanguageName }}</a>| 
-            </li>
-        {{ end }}
-        {{ range .Translations }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-            </li>
-        {{ end}}
-        {{ if eq .Language.LanguageName "de"}}
-            <li>
-                |<a href="{{ .Permalink }}" class="active"> {{ .Language.LanguageName }}</a>
-            </li>
-        {{ end }}
-        </ul>
-    {{ end }}
-
 </div>
