@@ -229,7 +229,13 @@ hr {
 .List {}
 .List-item {
   display: flex;
-  margin-bottom: 1em;
+  min-height: 9rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+  background-color: hsla(0, 0%, 0%, 0.01);
+}
+.List-item:last-child {
+  border-bottom: 0 none;
 }
 
 .List-image {
@@ -247,6 +253,7 @@ hr {
 }
 
 .List h3 {
+  font-size: 1.1rem;
   margin-bottom: 0;
 }
 
