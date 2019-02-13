@@ -3,13 +3,6 @@
     {{ partial "head.html" . }}
     <body>
         <div class="content">
-            {{ if eq .Language.LanguageName "Deutsch"}}
-              <a class="Logo" href="/de/">
-              {{ else }}
-              <a class="Logo" href="/">
-              {{ end }}
-              <img src="img/logo.svg" alt="Port Zero"/>
-              </a>
             {{  partial "sidebar.html" .  }}
 		    <div class="text">
                 {{ block "main" . -}}{{- end }}
