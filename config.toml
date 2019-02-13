@@ -21,34 +21,34 @@ theme = "portzero"
 
 DefaultContentLanguage = "de"
 
-[[menu.secondary]]
+[[menu.social]]
   name = "GitHub"
   weight = -100
   identifier = "github"
   url = "https://github.com/port-zero"
-[[menu.secondary]]
+[[menu.social]]
   name = "LinkedIn"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
-[[menu.secondary]]
+[[menu.social]]
   name = "Twitter"
   weight = -80
   identifier = "twitter"
   url = "https://twitter.com/port_zer0"
 
 
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "GitHub"
   weight = -100
   identifier = "github"
   url = "https://github.com/port-zero"
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "LinkedIn"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "Twitter"
   weight = -80
   identifier = "twitter"

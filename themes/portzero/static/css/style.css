@@ -150,6 +150,14 @@ hr {
   display: inline;
 }
 
+.sidebar .menu .menu_social li a {
+  color: #212529;
+}
+
+.sidebar .menu .menu_social li a:hover {
+  text-decoration: none;
+}
+
 .sidebar .language {
   text-align: right;
   margin-bottom: 0;

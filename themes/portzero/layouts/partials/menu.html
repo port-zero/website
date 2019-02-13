@@ -25,7 +25,11 @@
 
     <ul class="menu_social">
         {{ range .Site.Menus.social -}}
-        <li{{ if $.IsPage }}{{ if eq .Identifier $.Type }}class="active"{{ end }}{{ end }}><a href="{{.URL}}" target="_BLANK">{{ .Name }}</a></li>
+        <li>
+            <a href="{{.URL}}" target="_BLANK" title="{{ .Name }}">
+                <i class="fab fa-{{ .Identifier }}"></i>
+            </a>
+        </li>
         {{- end  }}
     </ul>
 
