@@ -1,7 +1,7 @@
 ---
 title: Unsere Angebote
 language: de
-slug: /services/gdpr/offers/
+slug: offers
 menu:
   main:
     parent: Datenschutz

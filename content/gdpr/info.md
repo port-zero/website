@@ -1,7 +1,7 @@
 ---
 title: GDPR
 language: en
-slug: /blog/gdpr
+slug: info
 menu: main
 weight: 40
 ---
