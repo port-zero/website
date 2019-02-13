@@ -1,6 +1,7 @@
 ---
 title: 2018-11-1 Data Protection
 language: en
+draft: true
 slug: /blog/dataprotection
 menu:
   main:
