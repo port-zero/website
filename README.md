@@ -1,4 +1,4 @@
-# Website Redesign 2018
+# Website
 
 The new Port Zero website. Minimalistic, Responsive, using Hugo, the static
 content generator.
