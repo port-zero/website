@@ -1,7 +1,7 @@
 ---
 title: References
 language: en
-slug: /portzero/references/
+slug: /references/
 menu:
   main:
     parent: Port Zero

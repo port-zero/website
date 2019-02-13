@@ -7,6 +7,6 @@ slug: /partners
 menu:
   main:
     parent: Port Zero
-weight: 30
+weight: 20
 ---
 

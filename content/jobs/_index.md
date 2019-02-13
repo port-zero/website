@@ -1,7 +1,7 @@
 ---
 title: Jobs
 language: en
-slug: /team/jobs/
+slug: /jobs/
 menu:
   main:
     parent: Port Zero

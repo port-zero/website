@@ -8,7 +8,6 @@ weight: 50
 
 Treten Sie gerne mit uns in Kontakt!
 
-<br>
 Michael Prinzinger, CEO<br>
 Tel.: <a href="tel:00493012089345">+49 (0) 30 / 12 089 345</a><br>
 Fax: +49 (0) 30 / 92 108 032<br>
