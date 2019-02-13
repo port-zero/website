@@ -1,8 +1,10 @@
 <form style="text-align: right;">
   <label for="language">{{ i18n "language" . }}</label>
-  <select name="language" id="language" onchange="window.location = event.target.value">
-    {{ range $.Site.Home.AllTranslations }}
-    <option value="{{ .Permalink }}" {{ if eq $.Lang .Lang}}selected{{ end }}>{{ .Language.LanguageName }}</option>
+  <select name="language" id="language"
+          onchange="if (window.location.href !== event.target.value) window.location = event.target.value">
+    <option value="{{ .Permalink }}" selected>{{ .Language.LanguageName }}</option>
+    {{ range $.Translations }}
+    <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
     {{ end }}
   </select>
 
