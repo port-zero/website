@@ -4,9 +4,9 @@ partnertitle: Partner
 partnercontent: "Port Zero cooperates with following outstanding companies:"
 language: en
 slug: /partners
-menu: 
+menu:
   main:
-    parent: Port Zero GmbH
+    parent: Port Zero
 weight: 30
 ---
 

@@ -2,9 +2,9 @@
 title: References
 language: en
 slug: /portzero/references/
-menu: 
+menu:
   main:
-    parent: Port Zero GmbH
+    parent: Port Zero
 weight: 10
 ---
 
