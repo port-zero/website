@@ -4,8 +4,8 @@ language: de
 slug: offers
 menu:
   main:
-    parent: Datenschutz
-weight: 30
+    parent: DSGVO
+weight: 20
 ---
 
 Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebotenen Leistungen. Selbstverständlich stellen wir Ihnen gerne für Ihre eigenen Wünsche und Bedürfnisse, sowie für Ihren finanziellen Rahmen das richtige Paket zusammen (z.B. von minimaler Compliance zu allumfassenden Sicherheitsstrategien)

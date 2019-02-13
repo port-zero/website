@@ -1,9 +1,11 @@
 ---
-title: Datenschutz
+title: Was ändert sich?
 language: de
 slug: info
-menu: main
-weight: 40
+menu:
+  main:
+    parent: DSGVO
+weight: 10
 ---
 
 Es ist soweit! Im Dezember 2015 erfolgte die europäische Einigung auf

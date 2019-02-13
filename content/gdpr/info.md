@@ -1,11 +1,12 @@
 ---
-title: GDPR
+title: What has changed?
 language: en
 slug: info
-menu: main
-weight: 40
+menu:
+  main:
+    parent: GDPR
+weight: 10
 ---
-
 
 Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Since May 2018, the GDPR unifies data privacy laws across Europe.
 
