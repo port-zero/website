@@ -2,53 +2,49 @@
 title: Impressum
 language: de
 slug: /imprint/
-menu: 
+menu:
   main:
     parent: Kontakt
 weight: 10
 ---
 
-Angaben gemäß § 5 Telemediengesetz (TMG):<br /><br />
+Angaben gemäß § 5 Telemediengesetz (TMG):
 
-
-**Port Zero GmbH**
+## Port Zero GmbH
 
 Softwareentwicklung & IT Service<br />
 Paul-Lincke-Ufer 7e<br />
-10999 Berlin<br />
+10999 Berlin
 
 Geschäftsführer: Michael Prinzinger<br />
 Registergericht: Amtsgericht Charlottenburg, HRB 149523<br />
 Steuernummer: 29/464/10651<br />
-USt.IdNr.: DE290377155<br /><br />
+USt.IdNr.: DE290377155
 
-**Kontakt:**
+## Kontakt
 
 Tel.: +49 (0) 30 / 12 089 345<br />
 Fax: +49 (0) 30 / 92 108 032<br />
 E-Mail: contact at port-zero.com<br />
 PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)
-<br /><br />
 
-**Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 RStV:**
+## Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 RStV
 
 Michael Prinzinger<br />
 Paul-Lincke-Ufer 7e<br />
-10999 Berlin<br /><br />
+10999 Berlin
 
-
-**Datenschutz:**
+## Datenschutz
 
 Unsere Datenschutzerklärung finden Sie auf der [eigens dafür eingerichteten Seite](/de/privacypolicy/").
 
-<br />
-**Ausschluss der Haftung:**
+## Ausschluss der Haftung
 
-Haftung für Inhalte
+### Haftung für Inhalte
 
 Sämtliche Inhalte unserer Internetseiten sind mit größtmöglicher
 Sorgfalt erstellt worden. Dennoch ist es uns nicht möglich, eine
-Gewähr dafür zu übernehmen, dass diese Inhalte richtig, vollständig 
+Gewähr dafür zu übernehmen, dass diese Inhalte richtig, vollständig
 und aktuell sind. Wir sind gemäß § 7 Abs. 1 TMG für die eigenen Inhalte
 auf unseren Internetseiten verantwortlich. Gemäß den §§ 8, 9 und 10 TMG
 besteht für uns allerdings keine Verpflichtung, dass wir Informationen
@@ -62,7 +58,7 @@ Kenntnis erlangen. Wenn wir von einer solchen Verletzung von Rechten
 Kenntnis erlangen, wird eine unverzügliche Entfernung der entsprechenden
 Inhalte erfolgen.
 
-Haftung für Links
+### Haftung für Links
 
 Unsere Internetseiten enthalten Links, die zu externen Internetseiten
 von Dritten führen. Auf die Inhalte dieser externen Seiten haben wir
@@ -77,7 +73,7 @@ nicht zugemutet werden, ständig die verlinkten Internetseiten inhaltlich
 zu kontrollieren. Wenn wir jedoch von einer Rechtsverletzung Kenntnis
 erlangen, werden wir den entsprechenden Link unverzüglich entfernen.
 
-Urheberrecht
+### Urheberrecht
 
 Die auf unseren Internetseiten enthaltenen Werke und Inhalte unterstehen
 dem Urheberrecht. Ohne schriftliche Genehmigung des jeweiligen
@@ -94,10 +90,10 @@ Urheberrechtsverletzung gestoßen sind. Wenn wir von einer solchen
 Urheberrechtsverletzung Kenntnis erlangen, werden wir den entsprechenden
 Inhalt unverzüglich entfernen.
 
-Datenschutz
+### Datenschutz
 
-Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. 
-Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. 
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
 Muster-Impressum von der Flegl Rechtsanwälte GmbH

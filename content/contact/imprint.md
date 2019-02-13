@@ -2,48 +2,45 @@
 title: Imprint
 language: en
 slug: /imprint/
-menu: 
+menu:
   main:
     parent: Contact
 weight: 10
 ---
 
-In accordance with § 5 Telemediengesetz (TMG):<br /><br />
+In accordance with § 5 Telemediengesetz (TMG):
 
-
-**Port Zero GmbH**
+## Port Zero GmbH
 
 Software Development & IT Service<br />
 Paul-Lincke-Ufer 7E<br />
-10999 Berlin<br />
+10999 Berlin
 
 CEO: Michael Prinzinger<br />
 Register Court: Amtsgericht Charlottenburg, HRB 149523<br />
 Tax Number: 29/464/10651<br />
-USt.IdNr.: DE290377155<br /><br />
+USt.IdNr.: DE290377155
 
-**Contact:**
+## Contact
 
 Tel.: +49 (0) 30 / 12 089 345<br />
 Fax: +49 (0) 30 / 92 108 032<br />
 E-Mail: contact at port-zero.com<br />
 PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)
-<br /><br />
 
-**Liable for the content is, in accordance with § 55 Abs. 2 RStV:**
+## Liable for the content is, in accordance with § 55 Abs. 2 RStV
 
 Michael Prinzinger<br />
 Paul-Lincke-Ufer 7E<br />
-10999 Berlin<br /><br />
+10999 Berlin
 
-**Privacy**
+## Privacy
 
 [General Privacy Policy](/privacypolicy/)
 
-<br />
-**Disclaimer:**
+## Disclaimer
 
-Content
+### Content
 
 All of the information contained on our site was compiled with the greatest possible care.
 However we take no responsibility for the timeliness, accuracy, completeness or quality of the information provided.
@@ -53,14 +50,14 @@ We are still obligated to block or remove information that the general laws come
 We take liability only when we receive a concrete acknowledgement of trangression of rights.
 In this case, we will remove the content promptly.
 
-Links
+### Links
 
 Our website contains links to external sites from third parties.
 These links are provided as a convenience and for informational purposes only; they do not constitute an endorsement or an approval by Port Zero of any of the products, services or opinions of the corporation or organization or individual.
 Port Zero bears no responsibility for the accuracy, legality or content of the external site or for that of subsequent links.
 Contact the external site for answers to questions regarding its content.
 
-Copyright
+### Copyright
 
 We aim to observe the copyright of any graphic, audio document, video sequence or text in all publications, to use his/her own graphics, audio documents, video sequences or texts or to make use of license free graphics, audio documents, video sequences or texts.
 All trade marks and brands mentioned on the website, including those protected by third parties, are without limitation subject to the provisions under the respective labelling law and the rights of the copyright holder.
