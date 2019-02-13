@@ -79,7 +79,7 @@ hr {
 /* Layout */
 
 .content {
-  max-width: 60em;
+  max-width: 60rem;
   margin: 2rem auto 1rem;
 }
 
@@ -183,19 +183,19 @@ hr {
 
 .footer-section {
   border-left: 1px solid #0d96d5;
-  padding: 0.5em;
-  margin: 1em;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .footer-section h3 {
   color: #0d96d5;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.2rem;
   margin-top: 0;
 }
 
 .footer-section ul {
   margin: 0;
-  padding-left: 0.1em;
+  padding-left: 0.1rem;
   list-style: none;
 }
 
@@ -217,8 +217,8 @@ hr {
 }
 
 .imprint-section {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .imprint-section p {
@@ -240,13 +240,13 @@ hr {
 
 .List-image {
   /* border: 1px inset; */
-  width: 6em;
+  width: 6rem;
   flex-shrink: 0;
   align-self: flex-start;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   .List-image {
     width: 8rem;
   }
@@ -258,7 +258,7 @@ hr {
 }
 
 .List h4 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
 /* Smaller screens */
