@@ -16,24 +16,6 @@
     url('../fonts/fira-sans-v8-latin-400.woff') format('woff');
 }
 
-/* @font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 500;
-  src:
-    url('../fonts/fira-sans-v8-latin-500.woff2') format('woff2'),
-    url('../fonts/fira-sans-v8-latin-500.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 600;
-  src:
-    url('../fonts/fira-sans-v8-latin-600.woff2') format('woff2'),
-    url('../fonts/fira-sans-v8-latin-600.woff') format('woff');
-} */
-
 html {
   font-family: 'Fira Sans';
   font-weight: 300;
