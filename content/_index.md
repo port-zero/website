@@ -12,7 +12,7 @@ We develop and operate systems with a focus on security and stability.
 
 We consult in IT security using the highest technical standards and support for the implementation and rollout of security concepts.
 
-Our core capabilities include:
+__Our core capabilities include:__
 
 * Software architecture and development
   - Linux / UNIX, Cloud Environments
