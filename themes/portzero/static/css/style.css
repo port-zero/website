@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 300;
   src:
-    url('../fonts/fira-sans-v8-latin-300.woff2') format('woff2'),
-    url('../fonts/fira-sans-v8-latin-300.woff') format('woff');
+    url('../font/fira-sans-v8-latin-300.woff2') format('woff2'),
+    url('../font/fira-sans-v8-latin-300.woff') format('woff');
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../fonts/fira-sans-v8-latin-400.woff2') format('woff2'),
-    url('../fonts/fira-sans-v8-latin-400.woff') format('woff');
+    url('../font/fira-sans-v8-latin-400.woff2') format('woff2'),
+    url('../font/fira-sans-v8-latin-400.woff') format('woff');
 }
 
 html {
@@ -74,6 +74,11 @@ a:hover {
 hr {
   border: none;
   border-bottom: 1px solid #0d96d5;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /* Layout */
