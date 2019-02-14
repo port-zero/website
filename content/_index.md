@@ -6,7 +6,9 @@ menu: main
 weight: 1
 ---
 
-*Excellence in software development and security*
+<p class="lead" style="font-style: italic;">
+  Excellence in software development and security
+</p>
 
 We develop and operate systems with a focus on security and stability.
 

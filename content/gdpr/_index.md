@@ -6,7 +6,9 @@ menu: main
 weight: 20
 ---
 
-The new General Data Protection Regulation (GDPR), effective as of 25 May, 2018, is causing quite a commotion in the corporate world. How relevant is all of this for you and your company?
+<p class="lead">
+  The new General Data Protection Regulation (GDPR), effective as of 25 May, 2018, is causing quite a commotion in the corporate world. How relevant is all of this for you and your company?
+</p>
 
 The GDPR affects all companies of all types and sizes that process European citizens’ data. This includes your company. The primary new component is a revenue-dependent fine––up to 4% of annual sales or 20 million euros––may be imposed for violation of data protection regulations.
 

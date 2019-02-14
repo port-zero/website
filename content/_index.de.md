@@ -6,7 +6,9 @@ menu: main
 weight: 1
 ---
 
-*IT-Sicherheit und Softwareentwicklung auf höchstem Niveau*
+<p class="lead" style="font-style: italic;">
+  IT-Sicherheit und Softwareentwicklung auf höchstem Niveau
+</p>
 
 Wir entwickeln und betreiben Systeme mit einem Fokus auf Sicherheit und Stabilität. Im Bereich IT-Sicherheit beraten wir mit höchstem technischen Anspruch und unterstützen bei der Einführung und Umsetzung von Sicherheitskonzepten.
 

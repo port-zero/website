@@ -8,4 +8,6 @@ menu:
 weight: 10
 ---
 
-Allow us to introduce some of our clients:
+<p class="lead">
+  Allow us to introduce some of our clients:
+</p>

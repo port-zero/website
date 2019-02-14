@@ -52,8 +52,7 @@ h1,
   font-size: 1.85rem;
 }
 
-h2,
-.tagline + p {
+h2 {
   font-size: 1.25rem;
 }
 
@@ -74,6 +73,11 @@ a:hover {
 hr {
   border: none;
   border-bottom: 1px solid #0d96d5;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {

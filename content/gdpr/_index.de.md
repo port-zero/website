@@ -6,7 +6,9 @@ menu: main
 weight: 20
 ---
 
-Die am 25.05.2018 in Kraft tretende neue Datenschutz Grundverordnung (DS-GVO) sorgt in der Firmenwelt für Aufruhr. Welche Relevanz hat das für Sie und Ihre Firma?
+<p class="lead">
+  Die am 25.05.2018 in Kraft tretende neue Datenschutz Grundverordnung (DS-GVO) sorgt in der Firmenwelt für Aufruhr. Welche Relevanz hat das für Sie und Ihre Firma?
+</p>
 
 Die DS-GVO betrifft prinzipiell alle Firmenformen und -größen, wo Daten europäischer Bürger verarbeitet werden, und damit auch Ihre Firma. Neu sind vor allem umsatzabhängige Bußgelder bei Verletzung der Datenschutzbestimmungen: Bis zu 4% des Jahresumsatzes oder 20 Millionen Euro werden verhängt.
 

@@ -6,7 +6,9 @@ menu: main
 weight: 60
 ---
 
-Get in touch with us!
+<p class="lead">
+  Get in touch with us!
+</p>
 
 Michael Prinzinger, CEO<br>
 Tel.: [+49 (0) 30 / 12 089 345](tel:00493012089345)<br>
