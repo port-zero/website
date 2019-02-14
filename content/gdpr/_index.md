@@ -18,5 +18,5 @@ Contact: [dsgvo@port-zero.com](mailto:dsgvo@port-zero.com) | +49 30 120893454
 
 More information:
 
-* [What changes?](/gdpr/info/)
+* [What has changed?](/gdpr/info/)
 * [Our Offers](/gdpr/offers/)

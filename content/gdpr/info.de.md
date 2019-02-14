@@ -1,5 +1,5 @@
 ---
-title: Was ändert sich?
+title: Was hat sich geändert?
 language: de
 slug: info
 menu:
