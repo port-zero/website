@@ -16,6 +16,10 @@ You can run the [Hugo](https://gohugo.io/) server locally to build and serve the
 * [How to install Hugo?](https://gohugo.io/getting-started/installing/)
 * How to run Hugo? `hugo server`
 
+## In-depth documentation
+
+For for in-depth documentation check out the [docs folder](docs).
+
 ## License
 
 The theme and styles associated with this website are subject to MIT. The
