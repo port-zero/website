@@ -1,2 +1,8 @@
 [language]
 other = "Sprache"
+
+[no_posts]
+other = "Es existieren keine Beiträge. Komm doch später wieder vorbei ;-)"
+
+[posted_on]
+other = "Veröffentlicht am"

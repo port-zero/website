@@ -1,18 +1,15 @@
 # Website
 
-The new Port Zero website. Minimalistic, Responsive, using Hugo, the static
+The Port Zero website. Minimalistic, Responsive, using [Hugo](https://gohugo.io/), the static
 content generator.
 
-## Development
+## Using Hugo
 
-You can run the Hugo server locally to build and serve the page on your machine.
-[How to install Hugo](https://gohugo.io/getting-started/installing/)
+You can run the [Hugo](https://gohugo.io/) server locally to build and serve the website on your machine to preview changes.
 
-### Run Hugo
-
-```sh
-hugo server
-```
+* [How to install Hugo?](https://gohugo.io/getting-started/installing/)
+* How to run Hugo? `hugo server`
+* How to create a new post? `hugo new posts/my_post.md`
 
 ## Build
 

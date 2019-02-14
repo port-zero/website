@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <h3>{{ i18n "posted_on" . }} {{ .Date.Format "January 2, 2006" }}</h3>
+  <div class="Post">
+    {{ .Content }}
+  </div>
+{{ end }}
