@@ -9,4 +9,4 @@ image: img/team/jonas_aschenbrenner.jpg
 Jonas was techical co-founder of multiple start-ups.
 He has over 10 years of professional experience in the area
 of software development, specifically in the area of web development.
-He also also has highly developed communication skills.
+He also has highly developed communication skills.
