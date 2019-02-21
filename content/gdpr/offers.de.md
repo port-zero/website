@@ -8,7 +8,9 @@ menu:
 weight: 20
 ---
 
-Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebotenen Leistungen. Selbstverständlich stellen wir Ihnen gerne für Ihre eigenen Wünsche und Bedürfnisse, sowie für Ihren finanziellen Rahmen das richtige Paket zusammen (z.B. von minimaler Compliance zu allumfassenden Sicherheitsstrategien)
+<p class="lead">
+  Die folgenden Pakete verschaffen einen ersten Überblick über die von uns gebotenen Leistungen. Selbstverständlich stellen wir Ihnen gerne für Ihre eigenen Wünsche und Bedürfnisse, sowie für Ihren finanziellen Rahmen das richtige Paket zusammen (z.B. von minimaler Compliance zu allumfassenden Sicherheitsstrategien)
+</p>
 
 ## Rechtlich / Organisatorisch
 

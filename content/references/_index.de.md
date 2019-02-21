@@ -2,11 +2,13 @@
 title: Referenzen
 language: de
 slug: /references/
-menu: 
+menu:
   main:
     parent: Port Zero
 weight: 10
 ---
 
-Hier möchten wir Ihnen einige der Kunden vorstellen, mit denen wir
-zusammenarbeiten.
+<p class="lead">
+  Hier möchten wir Ihnen einige der Kunden vorstellen, mit denen wir
+  zusammenarbeiten.
+</p>

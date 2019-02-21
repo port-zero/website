@@ -1,7 +1,6 @@
 {{ define "main" }}
 <h2 class="tagline">{{ .Title }}</h2>
 {{ .Content }}
-<p>{{ .Params.partnercontent }}</p>
 <br />
 <div class="List">
   {{ range where .Data.Pages "Type" "=" "partner" }}

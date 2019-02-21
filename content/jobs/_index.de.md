@@ -9,5 +9,7 @@ menu:
 weight: 50
 ---
 
-Du möchtest mit uns arbeiten? Über eine Bewerbung zu folgenden Stellen würden
-wir uns freuen:
+<p class="lead">
+  Du möchtest mit uns arbeiten? Über eine Bewerbung zu folgenden Stellen würden
+  wir uns freuen:
+</p>
