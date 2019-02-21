@@ -255,7 +255,7 @@ hr {
   margin-right: 1rem;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 90rem) {
   .List-image {
     width: 8rem;
   }
