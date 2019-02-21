@@ -1,7 +1,6 @@
 <form style="text-align: right;">
   <label for="language">{{ i18n "language" . }}</label>
-  <select name="language" id="language"
-          onchange="if (window.location.href !== event.target.value) window.location = event.target.value">
+  <select name="language" id="language">
     <option value="{{ .Permalink }}" selected>{{ .Language.LanguageName }}</option>
     {{ range $.Translations }}
     <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
