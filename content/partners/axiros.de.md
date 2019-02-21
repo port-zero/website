@@ -2,7 +2,7 @@
 title: Axiros
 description: Weltmarktführer für Geräte-Management im ISP-Bereich
 weight: -150
-type: client
+type: partner
 image: img/references/axiros.png
 ---
 Wir sind der Hauptintegrator für [Axiros Management
