@@ -1,39 +1,24 @@
 {{ define "main" }}
-<h2 class="tagline">{{ .Title }}</h2>
+
+<h1 class="tagline">{{ .Title }}</h1>
 {{ .Content }}
 <br />
-<div class="clients">
-    {{ range where .Data.Pages "Type" "=" "client" }}
-		<article class="client">
-    		{{ with .Params.image }}
-       			<img src="{{ . }}" class="client-image" />
-			{{ else }}
-				<img src="img/logo.png" class="client-image" />
-			{{ end }}
-			<div class="client-text">
-				<h4>{{ .Title }}</h4>
-				<p class="position ref-descr">{{ .Params.description }}</p>
-        			{{ .Content }}
-			</div>
-		</article>
+
+<div class="List">
+  {{ range where .Data.Pages "Type" "=" "client" }}
+  <article class="List-item">
+    {{ with .Params.image }}
+      <img src="{{ . }}" class="List-image" />
+    {{ else }}
+      <img src="img/logo.png" class="List-image" />
     {{ end }}
+    <div class="List-text">
+      <h3>{{ .Title }}</h3>
+      <h4>{{ .Params.description }}</h4>
+      {{ .Content }}
+    </div>
+  </article>
+  {{ end }}
 </div>
-<h2 class="tagline">{{ .Params.partnertitle }}</h2>
-{{ .Params.partnercontent }}
-<div class="partners">
-    {{ range where .Data.Pages "Type" "=" "partner" }}
-		<article class="partner">
-    		{{ with .Params.image }}
-       			<img src="{{ . }}" class="partner-image" />
-			{{ else }}
-				<img src="img/logo.png" class="partner-image" />
-			{{ end }}
-			<div class="partner-text">
-				<h4>{{ .Title }}</h4>
-				<p class="position ref-descr">{{ .Params.description }}</p>
-        			{{ .Content }}
-			</div>
-    </article>
-    {{ end }}
-</div>
+
 {{ end }}

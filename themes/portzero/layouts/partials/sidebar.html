@@ -1,15 +1,15 @@
 <div class="sidebar">
-{{ if eq .Language.LanguageName "Deutsch"}}
-<a class="logo_a" href="/de/">
-{{ else }}
-<a class="logo_a" href="/">
-{{ end }}
-  <img class="logo" src="img/logo.svg" alt="Port Zero"/>
-  <h1>Port Zero</h1>
-</a>
+  {{ if eq .Language.LanguageName "Deutsch"}}
+  <a class="Logo" href="/de/">
+    {{ else }}
+    <a class="Logo" href="/">
+      {{ end }}
+      <img src="img/logo.svg" alt="Port Zero"/>
+    </a>
 
-{{  partial "menu.html" .  }}
+  {{ partial "menu.html" . }}
 
-{{  partial "footer.html" .  }}
+  {{ partial "allLanguages.html" . }}
 
+  {{ partial "footer.html" . }}
 </div>

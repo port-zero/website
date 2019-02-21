@@ -1,17 +1,14 @@
 {{ define "main" }}
+
 <h2 class="tagline">{{ .Title }}</h2>
 {{ .Content }}
-<br />
-<div class="team">
-    {{ range sort .Data.Pages }}
-    <a href="{{ .Permalink }}" class="job-item">
-        <article class="teammember">
-			<div class="teammember-text">
-				<p>{{ .Title }}</p>
-			</div>
-            <span class="next-arrow"></span>
-		</article>
-    </a>
-    {{ end }}
-</div>
+
+<ul>
+  {{ range sort .Data.Pages }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
 {{ end }}

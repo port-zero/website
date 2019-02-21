@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h2 class="tagline">{{ .Title }}</h2>
+{{ .Content }}
+<br />
+<div class="List">
+  {{ range where .Data.Pages "Type" "=" "partner" }}
+  <article class="List-item">
+    {{ with.Params.image }} <img src="{{ . }}" class="List-image" /> {{ else }}
+    <img src="img/logo.png" class="List-image" /> {{ end }}
+    <div class="List-text">
+      <h3>{{ .Title }}</h3>
+      <h4>{{ .Params.description }}</h4>
+      {{ .Content }}
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
