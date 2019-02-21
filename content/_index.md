@@ -17,18 +17,9 @@ We consult in IT security using the highest technical standards and support for 
 __Our core capabilities include:__
 
 * Software architecture and development
-  - Linux / UNIX, Cloud Environments
-  - Web-development, backends, databases
-  - Exotic stuff (Haskell, Smalltalk, Embedded)
 * IT Security consultation
-  - Conceptual
-  - Audits
-  - Pentests
 * Software Integration
 * Architecture and Operation of Linux servers and networks
-  - Automation, Configuration, Provisioning
-  - Monitoring
-  - Software Networking
 
 Our experienced, skillfully diverse [team](/team/) is looking forward to helping you work through your technical challenges.
 
