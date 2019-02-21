@@ -1,7 +1,5 @@
 ---
 title: Partners
-partnertitle: Partner
-partnercontent: "Port Zero cooperates with following outstanding companies:"
 language: en
 slug: /partners
 menu:
@@ -10,3 +8,6 @@ menu:
 weight: 20
 ---
 
+<p class="lead">
+  Port Zero cooperates with following outstanding companies:
+</p>

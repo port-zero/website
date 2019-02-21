@@ -1,5 +1,5 @@
 ---
-title: Was ändert sich?
+title: Was hat sich geändert?
 language: de
 slug: info
 menu:
@@ -8,13 +8,15 @@ menu:
 weight: 10
 ---
 
-Es ist soweit! Im Dezember 2015 erfolgte die europäische Einigung auf
-eine EU-Datenschutz-Grundverordnung (EU-DSGVO). Diese führte zu einer
-weitgehenden Vereinheitlichung des europäischen Datenschutzrechts.
-Während bislang durch nationale Gesetzgebungen auf Grundlage der
-EU-Datenschutzrichtlinie doch erhebliche Unterschiede bestanden, ist
-die Datenschutz-Grundverordnung jetzt direkt geltendes Recht in allen
-Mitgliedsstaaten.
+<p class="lead">
+  Es ist soweit! Im Dezember 2015 erfolgte die europäische Einigung auf
+  eine EU-Datenschutz-Grundverordnung (EU-DSGVO). Diese führte zu einer
+  weitgehenden Vereinheitlichung des europäischen Datenschutzrechts.
+  Während bislang durch nationale Gesetzgebungen auf Grundlage der
+  EU-Datenschutzrichtlinie doch erhebliche Unterschiede bestanden, ist
+  die Datenschutz-Grundverordnung jetzt direkt geltendes Recht in allen
+  Mitgliedsstaaten.
+</p>
 
 ## Zeitplan -- Datenschutz
 

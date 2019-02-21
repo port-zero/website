@@ -8,7 +8,9 @@ menu:
 weight: 10
 ---
 
-Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Since May 2018, the GDPR unifies data privacy laws across Europe.
+<p class="lead">
+  Finally! As of December 2015 the European Union has settled on the new General Data Protection Regulation (GDPR). Since May 2018, the GDPR unifies data privacy laws across Europe.
+</p>
 
 ## Timetable – Data Protection
 

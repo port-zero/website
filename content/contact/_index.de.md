@@ -6,7 +6,9 @@ menu: main
 weight: 50
 ---
 
-Treten Sie gerne mit uns in Kontakt!
+<p class="lead">
+  Treten Sie gerne mit uns in Kontakt!
+</p>
 
 Michael Prinzinger, CEO<br>
 Tel.: [+49 (0) 30 / 12 089 345](tel:00493012089345)<br>

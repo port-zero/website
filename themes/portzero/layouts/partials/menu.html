@@ -27,7 +27,7 @@
         {{ range .Site.Menus.social -}}
         <li>
             <a href="{{.URL}}" target="_BLANK" title="{{ .Name }}">
-                <i class="fab fa-{{ .Identifier }}"></i>
+                <i class="icon-{{ .Identifier }}"></i>
             </a>
         </li>
         {{- end  }}
