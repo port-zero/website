@@ -1,6 +1,6 @@
 ---
 title: Jonas Aschenbrenner
-description: Speciality Senior Engineer
+description: Senior Engineer
 weight: -5
 type: teammember
 image: img/team/jonas_aschenbrenner.jpg
