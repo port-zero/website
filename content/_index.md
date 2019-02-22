@@ -12,7 +12,7 @@ weight: 1
 
 We develop and operate systems with a focus on security and stability.
 
-We consult in IT security using the highest technical standards and support for the implementation and rollout of security concepts.
+We consult in IT security using the highest technical standards and support the implementation and rollout of security concepts.
 
 __Our core capabilities include:__
 
