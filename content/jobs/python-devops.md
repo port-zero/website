@@ -4,23 +4,23 @@ type: jobs
 weight: -100
 image: img/noimage.png
 ---
-We are a small, independent IT company that develops and operates software systems with a focus on security and stability. 
+We are a small, independent IT company that develops and operates software systems with a focus on security and stability.
 
 Part of our services includes integration, expansion and live provisioning of a complex Zope application for Internet Service Providers worldwide.
 
-We're looking for longterm support from experienced system engineers with comprehensive skills in the following four areas:
+**We're looking for longterm support from experienced system engineers with comprehensive skills in the following four areas:**
 
 * Linux server administration
-* Python programming 
+* Python programming
 * Customer communication and support via telephone as well as through remote sessions
 * Foundations of IT security or a developed interest in learning these
 
-**Job Profile:**
+**Job profile:**
 
 * Fulltime, collaborative employment for a minimum period of 2 years
-* Training will take place in Berlin. After successful completion of this phase, you will be able to work remotely. 
+* Training will take place in Berlin. After successful completion of this phase, you will be able to work remotely.
 * Following the training period, you may also determine your own work hours.
-* You should be able to work, organize and learn independently (with help from the team, if desired). 
+* You should be able to work, organize and learn independently (with help from the team, if desired).
 
 **Departments:**
 
@@ -43,10 +43,10 @@ We're looking for longterm support from experienced system engineers with compre
 
 * Young colleagues
 * Flat hierarchies and the possibility for lots of active participation on your part
-* You work independently as part of a team. Team members are responsible for supporting one another. You'll solve challenges together and share your knowledge and skills. 
+* You work independently as part of a team. Team members are responsible for supporting one another. You'll solve challenges together and share your knowledge and skills.
 * We're ready for you; you can start today!
 
 ___
 
-Do you want to work with us? Then send us your résumé and a little bit about yourself to [jobs@port-zero.com](mailto:jobs@port-zero.com). If you'd like to show us your Github profile or other projects you've worked on, feel free to pass those along too! Photo and DOB are not necessary to include. 
+Do you want to work with us? Then send us your résumé and a little bit about yourself to [jobs@port-zero.com](mailto:jobs@port-zero.com). If you'd like to show us your Github profile or other projects you've worked on, feel free to pass those along too! Photo and DOB are not necessary to include.
 
