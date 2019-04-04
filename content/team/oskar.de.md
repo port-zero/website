@@ -6,5 +6,9 @@ type: teammember
 image: img/team/oskar.jpg
 ---
 
-takes idea to finished product. Coming from a decade of managing fine projects such as Alive Festival, Radio4000 and Strrr TV, Oskar helps Port Zero and their clients with technical consulting, project management and good vibes. Enjoys cats, teaching, learning, jazz, and vim — and has been making websites since float hacks were a thing.
-
+macht Ideen zu Produkten. Nachdem er über zehn Jahre lang Projekte wie [Alive
+Festival](https://www.alivefestival.dk/), [Radio4000](https://radio4000.om),
+und [Strrr TV](https://strrr.tv/) zum Erfolg verholfen hat, hilft Oskar uns und
+unseren Kunden durch technischen Rat, Projekt-Management, und guter Laune. Er
+mag Katzen, Lernen und Lehren, Jazz, und Vim—und macht Websiten schon seitdem
+wir uns mit float hacks rumgeplagt haben.
