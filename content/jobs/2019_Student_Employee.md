@@ -1,5 +1,5 @@
 ---
-title: Student Employee — System Administrator
+title: Student Employee — Linux System Administrator
 type: jobs
 image: img/noimage.png
 ---
@@ -7,11 +7,13 @@ image: img/noimage.png
 We are a small, independent IT company that develops and operates software systems with a focus on security and stability.
 
 We are currently looking for someone to join our team as a student employee to
-help manage our internal services, learning about Linux and server
-administration in the process.
+help manage our internal services. These services run on Linux. You should
+already have some experience working with Linux and administrating servers, and
+you will be able to deepen your understanding of those with us.
 
-Ideally, you have some proficiency with the command line—especially in UNIX
-systems—and you’re interested in learning about the whole lifecycle of a
+We manage our services through the command line. That means that you should
+already have some experience working with command lines—especially in UNIX
+systems—, and you’re interested in learning about the whole lifecycle of a
 service deployment.
 
 **Job profile:**
@@ -23,7 +25,7 @@ service deployment.
 **Your role:**
 
 You will work in a small and effective team, supporting them by deploying and maintaing all kinds of internal services. You’ll also be able to pair with the
-rest of the team on client projects, picking up different toolchains, stacks,
+rest of the team on client projects, and pick up different toolchains, stacks,
 and programming languages in the process!
 
 **What you can expect:**
