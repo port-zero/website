@@ -2,7 +2,7 @@
 	<base href="{{ .Site.BaseURL }}">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{- .Title }} - {{ .Site.Title -}}</title>
+	<title>{{- .Title }}{{ if not .IsHome}} - {{ .Site.Title -}}{{ end }}</title>
 	<link rel="shortcut icon" href="/img/logo.png" />
 	<meta name="description" content="{{ .Site.Params.description }}">
 
