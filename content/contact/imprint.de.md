@@ -36,7 +36,7 @@ Paul-Lincke-Ufer 7e<br />
 
 ## Datenschutz
 
-Unsere Datenschutzerklärung finden Sie auf der [eigens dafür eingerichteten Seite](/de/privacypolicy/").
+Unsere Datenschutzerklärung finden Sie auf der [eigens dafür eingerichteten Seite](/de/contact/privacypolicy/").
 
 ## Ausschluss der Haftung
 

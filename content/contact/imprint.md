@@ -36,7 +36,7 @@ Paul-Lincke-Ufer 7E<br />
 
 ## Privacy
 
-[General Privacy Policy](/privacypolicy/)
+[General Privacy Policy](/contact/privacypolicy/)
 
 ## Disclaimer
 
