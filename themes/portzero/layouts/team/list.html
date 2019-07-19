@@ -8,11 +8,7 @@
 <div class="List">
   {{ range sort .Data.Pages }}
   <article class="List-item">
-    {{ with.Params.image }}
-      <img src="{{ . }}" class="List-image" />
-    {{ else }}
-      <img src="img/logo.png" class="List-image" /> 
-    {{ end }}
+    <img alt="Photo of {{ .Title }}" src="{{ with .Params.image }}{{ . }}{{ else }}img/logo.png{{ end }}" class="List-image" />
     <div class="List-text">
       <h3>{{ .Title }}</h3>
       <h4>{{ .Params.description }}</h4>
