@@ -7,7 +7,7 @@
 <div class="List">
   {{ range where .Data.Pages "Type" "=" "client" }}
   <article class="List-item">
-    <img alt="{{ .Title }} logo" src="{{ with .Params.image }}{{ . }}{{ else }}img/logo.png{{ end }}" class="List-image" />
+    <img alt="{{ .Title }} logo" src="{{ .Params.image | default "img/logo.png" }}" class="List-image" />
     <div class="List-text">
       <h3>{{ .Title }}</h3>
       <h4>{{ .Params.description }}</h4>
