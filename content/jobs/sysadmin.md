@@ -35,7 +35,7 @@ respect the opinion of others.
 
 ## Port Zero: About Us
 
-We are a company with a strong focus or helping each other, learning from each
+We are a company with a strong focus on helping each other, learning from each
 other and growing as people. We co-create our workspace and work environment and
 are happy and grateful for everyone bringing in their own ideas. We strive for
 technical excellency and do not accept mediocrity. When we work in projects, we
