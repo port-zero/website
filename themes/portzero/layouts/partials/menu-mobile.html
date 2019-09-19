@@ -1,0 +1,39 @@
+<nav class="menu_mobile">
+    {{ $currentNode := . }}
+    <form id="mobile-menu">
+	<label>
+	    <select>
+		<option value="{{ "/" | relLangURL }}">
+		    Menu
+		</option>
+		{{ range .Site.Menus.main -}}
+		<optgroup>
+		    {{ if .HasChildren }}
+		    <option value="{{ .URL }}" class="withchildren {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}">
+			{{ .Name }}
+		    </option>
+		    {{ range .Children }}
+		    <option value="{{ .URL }}" class="sub-menu">
+			{{ .Name }}
+		    </option>
+		    {{ end }}
+		    {{ else }}
+		    <option value="{{ .URL }}" class="main-menu {{if ($currentNode.IsMenuCurrent "main" .) }}active{{end}}">
+			{{ .Name }}
+		    </option>
+		    {{ end }}
+		</optgroup>
+		{{- end  }}
+
+		
+		<optgroup>
+		    {{ range $.Translations }}
+		    <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+		    {{ end }}
+		    <option value="{{ .Permalink }}">{{ .Language.LanguageName }}</option>
+		</optgroup>
+	    </select>
+	</label>
+    </form>
+
+</nav>
