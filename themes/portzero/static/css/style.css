@@ -87,10 +87,6 @@ hr {
   margin-left: 0;
 }
 
-select option[active] {
-    font-weight: 400;
-}
-
 /* Layout */
 html,
 body {
