@@ -1,6 +1,6 @@
-<nav class="menu_mobile">
+<nav class="menu">
     {{ $currentNode := . }}
-    <form id="mobile-menu">
+    <form id="mobile-menu" class="menu_mobile">
 	<label>
 	    <select>
 		<option disabled value="{{ "/" | relLangURL }}">
@@ -32,5 +32,4 @@
 	    </select>
 	</label>
     </form>
-
 </nav>

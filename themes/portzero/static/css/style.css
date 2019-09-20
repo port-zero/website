@@ -126,7 +126,7 @@ body {
 }
 @media (min-width: 40rem) {
     .sidebar {
-	max-width: 20rem;
+	max-width: 17rem;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-end;
@@ -282,9 +282,16 @@ body {
 
 .mobile_footer {
   padding-top: 2rem;
-  text-align: center;
   display: flex;
+  flex-direction: column;
 }
+.mobile_footer .menu_social {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    padding-left: 0;
+}
+
 @media (min-width: 40rem) {
     .mobile_footer {
 	display: none;
