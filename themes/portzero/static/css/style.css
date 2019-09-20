@@ -239,6 +239,8 @@ hr {
 .List-item {
   display: flex;
   min-height: 9rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
   background-color: hsla(0, 0%, 0%, 0.01);
@@ -248,7 +250,8 @@ hr {
 }
 
 .List-image {
-  /* border: 1px inset; */
+  padding-top: 1rem;
+  padding-left: 1rem;
   width: 6rem;
   flex-shrink: 0;
   align-self: flex-start;
