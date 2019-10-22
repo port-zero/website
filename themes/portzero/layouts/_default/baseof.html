@@ -4,10 +4,10 @@
     <body>
         <div class="content">
             {{  partial "sidebar.html" .  }}
-		    <div class="text">
+	    <div class="text">
                 {{ block "main" . -}}{{- end }}
             </div>
-            {{  partial "foot.html" .  }}
+            {{  partial "footer.html" .  }}
         </div>
 
         <script src="/js/index.js"></script>

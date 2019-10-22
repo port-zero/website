@@ -1,3 +1,6 @@
-<p class="copyright">
-  <small>&copy;{{ now.Format "2006" }} by Port Zero</small>
-</p>
+<div class="mobile_footer">
+    {{ partial "copyright.html" . }}
+    <nav class="menu menu--footer">
+	{{ partial "menu-social" . }}
+    </nav>
+</div>
