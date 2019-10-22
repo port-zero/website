@@ -150,6 +150,13 @@ body {
 .sidebar .sub-menu {
     font-size: 1.0rem;
 }
+.menu_mobile option {
+    font-size: 1rem;
+}
+.menu_mobile optgroup[label] {
+    font-size: 1rem;
+}
+
 
 /* Menu */
 .menu {

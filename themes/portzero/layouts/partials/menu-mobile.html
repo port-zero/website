@@ -3,9 +3,6 @@
     <form id="mobile-menu" class="menu_mobile">
 	<label>
 	    <select>
-		<option disabled value="{{ "/" | relLangURL }}">
-		    Menu
-		</option>
 		{{ range .Site.Menus.main -}}
 		{{ if .HasChildren }}
 		<option value="{{ .URL }}" class="withchildren {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}">
@@ -13,7 +10,7 @@
 		</option>
 		{{ range .Children }}
 		<option value="{{ .URL }}" class="sub-menu">
-		    {{ .Name }}
+		    &nbsp;&nbsp;{{ .Name }}
 		</option>
 		{{ end }}
 		{{ else }}
