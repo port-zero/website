@@ -12,5 +12,8 @@ jobs:
           name: Install rsync
           command: 'sudo apt install rsync'
       - run:
+          name: Providing the Hostkey for Verification
+          command: echo $HOSTKEY_WEB01_P0 >> ~/.ssh/known_hosts
+      - run:
           name: Build and Deploy
           command: ./scripts/build_and_deploy.sh
