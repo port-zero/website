@@ -1,3 +1,7 @@
+:root {
+    --menu-height: 50px;
+}
+
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
@@ -91,24 +95,19 @@ hr {
 html,
 body {
     min-height: 100%;
-    display: flex;
     width: 100%;
 }
 body {
+    position: relative;
     margin: 0;
-    /* The base for laying out with flex child elements, 
-     so they are centered */
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
     min-height: 100vh;
-    align-items: center;
 }
 
 .content {
   max-width: 60rem;
   display: flex;
   width: 100%;
-  padding: 2rem;
   flex-grow: 1;
 }
 
@@ -160,86 +159,52 @@ body {
 
 /* Menu */
 .menu {
-  font-weight: 400;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
+    position: fixed;
+    background: white;
+    display: grid;
+    grid-template-rows: var(--menu-height) auto;
+    grid-template-columns: auto min-content;
+    grid-template-areas: "logo menu-icon" "menu-items menu-items";
+    flex-direction: row;
 }
-.menu ul {
+
+.menu-logo {
+    grid-area: logo;
+    width: 200px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo figcaption {
+    vertical-align: center;
+}
+
+.menu-logo img {
+    height: 100%;
+}
+
+.menu-mobile-label {
+    grid-area: menu-icon;
+}
+
+.menu-mobile-cb {
+    display: none;
+}
+
+.menu-items {
+    grid-area: menu-items;
+    padding: 0;
+    display: none;
+}
+
+.menu-mobile-cb:checked ~ .menu-items {
+    display: block;
+}
+
+.menu-items > li {
     padding: 0;
     list-style: none;
-    font-size: 1.5rem;
-}
-.menu li {
-    display: flex;
-    justify-content: flex-end;
-}
-.menu a {
-    padding: 0.1rem 0.5rem;
-}
-
-.menu_main {
-    display: none;
-    margin-left: 1rem;
-}
-@media (min-width: 40rem) {
-    .menu_main {
-	display: block;
-    }    
-}
-.menu_language {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    display : none;
-}
-@media (min-width: 40rem) {
-    .menu_language {
-	display: block;
-    }    
-}
-
-.menu_mobile select {
-    padding: 0.4rem;
-    font-size: 1.2rem;
-    background-color: transparent;
-    border-width: 0.1rem;
-    text-align: left;
-}
-.menu_mobile select option {
-    margin-left: 0;
-}
-@media (min-width: 40rem) {
-    .menu_mobile {
-	display: none;
-    }    
-}
-
-.menu .withchildren:first-of-type {
-  /* font-weight: normal; */
-}
-
-.menu .active > a {
-  color: black;
-}
-
-.menu_social {
-    display: none;
-}
-@media (min-width: 40rem) {
-    .menu_social {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-    }    
-}
-
-.menu_social li a {
-  color: #212529;
-}
-
-.menu_social li a:hover {
-  text-decoration: none;
 }
 
 /* Logo */
@@ -254,6 +219,17 @@ body {
 
 .Logo img {
   width: 64px;
+}
+
+/* Content */
+.content {
+    margin-top: var(--menu-height);
+    display: flex;
+    flex-direction: column;
+}
+
+.content > * {
+    height: 1000px;
 }
 
 /* footer */
@@ -302,7 +278,7 @@ body {
 @media (min-width: 40rem) {
     .mobile_footer {
 	display: none;
-    }    
+    }
 }
 
 /* imprint */
