@@ -2,13 +2,32 @@
 <html {{with .Site.LanguageCode}}lang="{{.}}"{{end}}>
     {{ partial "head.html" . }}
     <body>
-        <div class="content">
-            {{  partial "sidebar.html" .  }}
-	    <div class="text">
-                {{ block "main" . -}}{{- end }}
-            </div>
-            {{  partial "footer.html" .  }}
-        </div>
+        <nav class="menu">
+            <figure class="menu-logo">
+                <img src="img/logo.svg" alt="Port Zero Logo" />
+                <figcaption>Port Zero</figcaption>
+            </figure>
+            <input type="checkbox" id="menu-mobile-checkbox" class="menu-mobile-cb">
+            <label for="menu-mobile-checkbox" class="menu-mobile-label">
+                <i class="icon-menu"></i>
+            </label>
+            <ul class="menu-items">
+                {{ range .Site.Data.sections }}
+                <li><a href="#{{ .slug }}">{{ .title }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+        <main class="content">
+            {{ range .Site.Data.sections }}
+            <section id="{{ .slug }}">
+                <h1>{{ .title }}</h1>
+                {{ partial .partial . }}
+            </section>
+            {{ end }}
+
+        </main>
+
+        {{ partial "footer" .}}
 
         <script src="/js/index.js"></script>
     </body>
