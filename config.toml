@@ -1,60 +1,55 @@
 baseURL = "https://port-zero.com/"
 theme = "portzero"
+
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
 
-
 [languages]
   [languages.en]
     title = "Port Zero"
-	languageName = "English"
+    languageName = "English"
     weight = 1
     [languages.en.params]
       description = "IT-Security and software development"
   [languages.de]
     title = "Port Zero"
-	languageName = "Deutsch"
+    languageName = "Deutsch"
     weight = 2
     [languages.de.params]
       description = "IT-Sicherheit und Software Entwicklung auf höchstem Niveau"
 
 DefaultContentLanguage = "de"
 
-[[menu.secondary]]
+[[menu.social]]
   name = "GitHub"
   weight = -100
   identifier = "github"
   url = "https://github.com/port-zero"
-[[menu.secondary]]
+[[menu.social]]
   name = "LinkedIn"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
-[[menu.secondary]]
+[[menu.social]]
   name = "Twitter"
   weight = -80
   identifier = "twitter"
   url = "https://twitter.com/port_zer0"
 
 
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "GitHub"
   weight = -100
   identifier = "github"
   url = "https://github.com/port-zero"
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "LinkedIn"
   weight = -90
   identifier = "linkedin"
   url = "https://www.linkedin.com/company/5061707/"
-[[languages.de.menu.secondary]]
+[[languages.de.menu.social]]
   name = "Twitter"
   weight = -80
   identifier = "twitter"
   url = "https://twitter.com/port_zer0"
-
-
-
-
-

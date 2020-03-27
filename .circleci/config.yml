@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "64:26:04:aa:33:2d:f6:45:f4:79:df:c8:60:2b:d0:6a"
+      - run:
+          name: Install rsync
+          command: 'sudo apt install rsync'
+      - run:
+          name: Providing the Hostkey for Verification
+          command: echo $HOSTKEY_WEB01_P0 >> ~/.ssh/known_hosts
+      - run:
+          name: Build and Deploy
+          command: ./scripts/build_and_deploy.sh

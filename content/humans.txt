@@ -1,0 +1,19 @@
+  _____           _     ______
+ |  __ \         | |   |___  /
+ | |__) |__  _ __| |_     / / ___ _ __ ___
+ |  ___/ _ \| '__| __|   / / / _ \ '__/ _ \
+ | |  | (_) | |  | |_   / /_|  __/ | | (_) |
+ |_|   \___/|_|   \__| /_____\___|_|  \___/
+
+If you like Pina Coladas, and writing code in the rain
+If you're not into Electron, if you have half a brain
+If you like config make install at midnight, insecure software to break,
+I'm the job that you've looked for, write to me, and escape!
+
+This web page is built by a small team of software engineers and designers in
+an office full of plants, programmers and possibilities.
+
+Feel free to join and contact us via jobs@port-zero.com!
+
+Contributors to this site: @vidister, @hellerve, @vilwarin, @krmnn,
+@meredithmichael, @jonbecker, @wieueberall, @Akendo, @XenGi, @hugurp.

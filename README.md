@@ -1,17 +1,24 @@
-# Website Redesign 2018
+# Website
 
-The new Port Zero website. Minimalistic, Responsive, using Hugo, the static
+The Port Zero website. Minimalistic, Responsive, using [Hugo](https://gohugo.io/), the static
 content generator.
 
-## Build
+## Contributing
 
-Building the website is as easy as running `build.sh`. You’ll need access
-to `web01.port-ze.ro`, though. If you’re an external person, you’ll need to
-update the build script to point to your web host after changing the content.
+* There is a private `P0 Website` channel in the Port Zero Mattermost chat
+  that can be used to discuss about the website
+* Follow the [GitHub Flow](https://guides.github.com/introduction/flow/) for contributions
 
-## Font
+## Using Hugo
 
-The font we use is ["Fira Sans"](https://github.com/mozilla/Fira). The [License](themes/portzero/static/fonts/LICENSE) is located in the directory `static/fonts`.
+You can run the [Hugo](https://gohugo.io/) server locally to build and serve the website on your machine to preview changes.
+
+* [How to install Hugo?](https://gohugo.io/getting-started/installing/)
+* How to run Hugo? `hugo server`
+
+## In-depth documentation
+
+For for in-depth documentation check out the [docs folder](docs).
 
 ## License
 
