@@ -1,0 +1,15 @@
+- title: Services
+  slug: services
+  partial: services
+
+- title: Community
+  slug: community
+  partial: community
+
+- title: Projects
+  slug: projects
+  partial: projects
+
+- title: Careers
+  slug: careers
+  partial: careers
