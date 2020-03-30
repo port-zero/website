@@ -40,7 +40,7 @@ html {
   font-size: 16px;
 }
 
-i {
+em {
   font-style: normal;
   color: var(--color-highlight);
 }
@@ -126,8 +126,8 @@ body {
   padding: 1rem 2rem 0;
   display: grid;
   grid-template-rows: var(--menu-height) auto;
-  grid-template-columns: auto min-content;
-  grid-template-areas: "logo menu-icon" "menu-items menu-items";
+  grid-template-columns: auto min-content min-content;
+  grid-template-areas: "logo language menu-icon" "menu-items menu-items menu-items";
   flex-direction: row;
 }
 
@@ -154,6 +154,21 @@ body {
 
 .menu-logo img {
   height: 100%;
+}
+
+.language-selector {
+  grid-area: language;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.language-selector > * + * {
+  border-left: 1px solid var(--color-text-dark);
+  margin-left: 5px;
+  padding-left: 5px;
 }
 
 .menu-mobile-label {
@@ -210,7 +225,7 @@ body {
   color: var(--color-text-light);
 }
 
-.content-section--blue i {
+.content-section--blue em {
   color: var(--color-text-dark);
 }
 
@@ -219,11 +234,11 @@ body {
   color: var(--color-text-light);
 }
 
-.content-section-dark i {
+.content-section-dark em {
   color: var(--color-highlight);
 }
 
-.banner {
+.banner > p {
   margin: 0;
   text-align: center;
   font-size: 20px;
@@ -296,7 +311,7 @@ body {
   margin: 0;
 }
 
-/* Lists as seen on references, partners and team pages etc. */
+/* Lists as seen on projects, partners and team pages etc. */
 .List {}
 .List-item {
   display: flex;
