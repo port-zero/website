@@ -1,4 +1,17 @@
-{{ range .Site.Data.team }}
-<h2>{{ .name }}</h2>
-<p>{{ .description.en }}</p>
-{{end}}
+<section class="content-section content-section-dark">
+    <p>
+        At <em>Port Zero</em> all of us are super cool people that like to work and grow together.
+        You will love us too!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+</section>
+
+<section class="content-section">
+    {{ range where .Site.RegularPages "Section" "team" }}
+    <h2>{{ .Title }}</h2>
+    <p>{{ .Description }}</p>
+    <p>{{ .Content }}</p>
+    {{end}}
+</section>

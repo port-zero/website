@@ -1,0 +1,16 @@
+{{ with .Site.GetPage "projects" }}
+<section class="content-section content-section--blue">
+    <p>{{ .Summary }}</p>
+    <p>{{ .Description }}</p>
+</section>
+{{ end }}
+
+<section class="content-section">
+    {{ range where .Site.RegularPages "Section" "projects" }}
+    {{ .Title }}
+    {{ end }}
+</section>
+
+<style>
+
+</style>
