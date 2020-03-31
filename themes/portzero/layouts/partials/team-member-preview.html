@@ -1,0 +1,7 @@
+{{ $imageName := printf "%s.*" .item.File.TranslationBaseName }}
+{{ with .item.Parent.Resources.GetMatch $imageName }}
+    {{ $thumbnail := .Fill "90x90" }}
+    <img src="{{ $thumbnail.Permalink }}" alt="Photo of {{ $.item.Title }}">
+{{ else }}
+    ?
+{{ end }}

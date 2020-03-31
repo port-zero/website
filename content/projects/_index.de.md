@@ -13,8 +13,3 @@ description: |
     justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
     ipsum dolor sit amet.
 ---
-
-<p class="lead">
-  Hier möchten wir Ihnen einige der Kunden vorstellen, mit denen wir
-  zusammenarbeiten.
-</p>

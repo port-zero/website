@@ -360,40 +360,64 @@ body {
   }
 }
 
-.detail-tiles-content,
-.detail-tiles-radio {
+.detail-tiles-radio,
+.detail-tiles-content {
   display: none;
+}
+
+.detail-tiles-preview {
+  border: 1px solid var(--color-text-dark);
+  color: var(--color-text-dark);
+  filter: grayscale(1);
+  transition: border-color 300ms, color 300ms, filter 300ms;
+}
+
+.detail-tiles-radio:checked + .detail-tiles-preview {
+  border-color: var(--color-highlight);
+  color: var(--color-highlight);
+  filter: grayscale(0);
 }
 
 .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
   display: block;
 }
 
-.section-services {
+.section-services,
+.section-community-team {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: -8px;
 }
 
-.section-services .detail-tiles-preview {
+.section-community-team {
+  justify-content: space-evenly;
+}
+
+.section-services .detail-tiles-preview,
+.section-community-team .detail-tiles-preview {
+  margin: 8px;
   flex: 1;
   order: 1;
-  border: 1px solid var(--color-text-dark);
-  color: var(--color-text-dark);
   display: flex;
-  min-height: 3rem;
-  align-items: center;
   justify-content: center;
 }
 
-.section-services .detail-tiles-preview ~ .detail-tiles-preview {
-  margin-left: 15px;
+.section-services .detail-tiles-preview {
+  min-height: 3rem;
+  align-items: center;
 }
 
-.section-services .detail-tiles-radio:checked + .detail-tiles-preview {
+.section-community-team .detail-tiles-preview {
+  flex: 0 0 94px;
+  height: 94px;
+  border-width: 2px;
+  background: var(--color-highlight);
+}
+
+.section-services .detail-tiles-radio:checked + .detail-tiles-preview,
+.section-community-team .detail-tiles-radio:checked + .detail-tiles-preview {
   position: relative;
-  border-color: var(--color-highlight);
-  color: var(--color-highlight);
 }
 
 .section-services .detail-tiles-radio:checked + .detail-tiles-preview:after {
@@ -404,9 +428,27 @@ body {
   right: auto;
 }
 
-.section-services .detail-tiles-content {
+.section-community-team .detail-tiles-preview {
+  line-height: 90px;
+  font-size: 65px;
+}
+
+.section-community-team .detail-tiles-radio:checked + .detail-tiles-preview {
+  color: var(--color-text-dark);
+}
+
+.section-services .detail-tiles-content,
+.section-community-team .detail-tiles-content {
   order: 2;
-  width: 100%;
+  flex: 0 0 100%;
   margin-top: 40px;
   text-align: center;
+}
+
+.team-member-title {
+  margin: 0 0 3px;
+}
+
+.team-member-description {
+  font-family: "Fira Sans Semibold";
 }
