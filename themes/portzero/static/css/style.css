@@ -366,6 +366,7 @@ body {
 }
 
 .detail-tiles-preview {
+  position: relative;
   border: 1px solid var(--color-text-dark);
   color: var(--color-text-dark);
   filter: grayscale(1);
@@ -383,19 +384,22 @@ body {
 }
 
 .section-services,
-.section-community-team {
+.section-community-team,
+.section-projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: -8px;
 }
 
-.section-community-team {
+.section-community-team,
+.section-projects {
   justify-content: space-evenly;
 }
 
 .section-services .detail-tiles-preview,
-.section-community-team .detail-tiles-preview {
+.section-community-team .detail-tiles-preview,
+.section-projects .detail-tiles-preview{
   margin: 8px;
   flex: 1;
   order: 1;
@@ -413,11 +417,6 @@ body {
   height: 94px;
   border-width: 2px;
   background: var(--color-highlight);
-}
-
-.section-services .detail-tiles-radio:checked + .detail-tiles-preview,
-.section-community-team .detail-tiles-radio:checked + .detail-tiles-preview {
-  position: relative;
 }
 
 .section-services .detail-tiles-radio:checked + .detail-tiles-preview:after {
@@ -438,7 +437,8 @@ body {
 }
 
 .section-services .detail-tiles-content,
-.section-community-team .detail-tiles-content {
+.section-community-team .detail-tiles-content,
+.section-projects .detail-tiles-content {
   order: 2;
   flex: 0 0 100%;
   margin-top: 40px;
@@ -451,4 +451,22 @@ body {
 
 .team-member-description {
   font-family: "Fira Sans Semibold";
+}
+
+.section-projects .detail-tiles-preview {
+  flex: 0;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.section-projects .detail-tiles-radio + .detail-tiles-preview {
+  border-bottom: 2px solid transparent;
+}
+
+
+.section-projects .detail-tiles-radio:checked + .detail-tiles-preview {
+  border-bottom-color: var(--color-highlight);
 }
