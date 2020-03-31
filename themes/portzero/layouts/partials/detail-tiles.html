@@ -1,0 +1,11 @@
+{{ range $index, $item := .items }}
+    {{ $name := (printf "detail-tiles-%s" $.name) }}
+    {{ $id := (printf "%s-%d" $name $index) }}
+    <input type="radio" class="detail-tiles-radio" name="{{ $name }}" id="{{ $id }}">
+    <label class="detail-tiles-preview" for="{{ $id }}">
+        {{ $item.Title }}
+    </label>
+    <div class="detail-tiles-content">
+        {{ $item.Content }}
+    </div>
+{{ end }}

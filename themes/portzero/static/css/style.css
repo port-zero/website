@@ -208,7 +208,7 @@ body {
 
 .content-header {
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   color: var(--color-highlight);
   font-size: 16px;
   font-family: "Fira Sans Semibold";
@@ -216,7 +216,7 @@ body {
 }
 
 .content-section {
-  padding: 2em;
+  padding: 1.5rem 2rem;
   color: var(--color-text-dark)
 }
 
@@ -358,4 +358,55 @@ body {
   .content {
     flex-direction: column;
   }
+}
+
+.detail-tiles-content,
+.detail-tiles-radio {
+  display: none;
+}
+
+.detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
+  display: block;
+}
+
+.section-services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-services .detail-tiles-preview {
+  flex: 1;
+  order: 1;
+  border: 1px solid var(--color-text-dark);
+  color: var(--color-text-dark);
+  display: flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-services .detail-tiles-preview ~ .detail-tiles-preview {
+  margin-left: 15px;
+}
+
+.section-services .detail-tiles-radio:checked + .detail-tiles-preview {
+  position: relative;
+  border-color: var(--color-highlight);
+  color: var(--color-highlight);
+}
+
+.section-services .detail-tiles-radio:checked + .detail-tiles-preview:after {
+  position: absolute;
+  content: "▲";
+  bottom: -30px;
+  left: auto;
+  right: auto;
+}
+
+.section-services .detail-tiles-content {
+  order: 2;
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
 }
