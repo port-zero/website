@@ -1,10 +1,6 @@
 ---
 title: Referenzen
 language: de
-slug: /references/
-menu:
-  main:
-    parent: Port Zero
 weight: 10
 summary: |
     Here is what _Port Zero_ thinks about their clients and with which  goals they do their work
