@@ -1,17 +1,10 @@
-<section class="content-section content-section-dark">
-    <p>
-        At <em>Port Zero</em> all of us are super cool people that like to work and grow together.
-        You will love us too!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-</section>
+{{ with .Site.GetPage "community" }}
+    <section class="content-section content-section-dark section-community-description">
+        <p>{{ .Summary }}</p>
+        <p>{{ .Description }}</p>
+    </section>
 
-<section class="content-section">
-    {{ range where .Site.RegularPages "Section" "team" }}
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Description }}</p>
-    <p>{{ .Content }}</p>
-    {{end}}
-</section>
+    <section class="content-section section-community-team">
+        {{ partial "detail-tiles" (dict "name" "community" "default" 0 "preview-partial" "team-member-preview" "content-partial" "team-member-content" "items" (where .Site.RegularPages "Section" "community" | sort)) }}
+    </section>
+{{ end }}

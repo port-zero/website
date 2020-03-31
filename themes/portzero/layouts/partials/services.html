@@ -1,3 +1,3 @@
 <section class="content-section section-services">
-    {{ partial "detail-tiles" (dict "name" "services" "items" (where .Site.RegularPages "Section" "services" | sort)) }}
+    {{ partial "detail-tiles" (dict "name" "services" "default" 0 "items" (where .Site.RegularPages "Section" "services" | sort)) }}
 </section>

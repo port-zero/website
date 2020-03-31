@@ -1,9 +1,15 @@
 ---
-title: References
+title: Team
 language: en
-weight: 10
+slug: /team/
+menu: main
+menu:
+  main:
+    parent: Port Zero
+weight: 30
 summary: |
-    Here is what _Port Zero_ thinks about their clients and with which  goals they do their work
+    At _Port Zero_ all of us are super cool people that like to work and grow together.
+    You will love us too!
 description: |
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
     ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
@@ -13,3 +19,7 @@ description: |
     justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
     ipsum dolor sit amet.
 ---
+
+<p class="lead">
+  Port Zero is currently composed of a team of 12 IT Experts and supported by a wide net of partners and freelancers. Here you can meet some of the central personalities at Port Zero.
+</p>
