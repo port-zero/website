@@ -371,6 +371,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .copyright {
@@ -390,4 +391,22 @@ body {
 
 .social-links a {
   color: var(--color-text-light);
+}
+
+.legal-pages {
+  width: 100%;
+  line-height: 16px;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.legal-pages li {
+  padding: 0 15px;
+}
+
+.legal-pages li + li {
+  border-left: 1px solid var(--color-text-light);
 }
