@@ -269,6 +269,11 @@ p:last-of-type {
   }
 }
 
+.content-summary {
+  font-family: "Fira Sans Semibold";
+  font-weight: bold;
+}
+
 .detail-tiles-radio,
 .detail-tiles-content {
   display: none;
