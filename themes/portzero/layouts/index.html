@@ -1,33 +1,4 @@
 {{ define "main" }}
-
-<nav class="menu">
-    <a class="menu-logo" href="#home">
-        <figure>
-            <img src="img/logo.svg" alt="Port Zero Logo" />
-            <figcaption>Port Zero</figcaption>
-        </figure>
-    </a>
-    <div class="language-selector">
-        {{ range .AllTranslations }}
-        {{ if eq .Language $.Language }}
-        <span>{{ .Language.Lang | humanize }}</span>
-        {{ else }}
-        <a href="{{ .Permalink }}">{{ .Language.Lang | humanize }}</a>
-        {{ end }}
-        {{ end }}
-    </div>
-    <input type="checkbox" id="menu-mobile-checkbox" class="menu-mobile-cb">
-    <label for="menu-mobile-checkbox" class="menu-mobile-label">
-        <i class="icon-menu"></i>
-    </label>
-    <ul class="menu-items">
-        {{ range .Site.Data.sections }}
-        <li><a href="#{{ .slug }}">{{ .title }}</a></li>
-        {{ end }}
-    </ul>
-</nav>
-
-<main class="content">
     <section id="home">
         {{ with .Site.GetPage "banner" }}
         {{ partial "banner" . }}
@@ -42,6 +13,4 @@
     {{ end }}
 
     {{ partial "footer" .}}
-</main>
-
 {{ end }}
