@@ -3,7 +3,7 @@ title: Matthias Hannig
 description: Senior System Engineer
 type: teammember
 weight: -89
-image: img/team/matthias.jpg
+image: matthias-hannig.jpg
 ---
 supervises the building of software systems from scratch to implementation.
 He tries to find the best solution to a problem in a creative manner.

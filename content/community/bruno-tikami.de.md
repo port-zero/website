@@ -3,7 +3,7 @@ title: Bruno Tikami
 description: System Engineer
 weight: -100
 type: teammember
-image: img/team/bruno.jpg
+image: bruno-tikami.jpg
 ---
 hat mehr als zehn Jahre Erfahrung in der Software-Entwicklung, und bereits mit Cloud Computing, CRMs,
 VOIP-Systemen, und Kryptowährungen gearbeitet. Obwohl er auch einige Vorträge auf Python-verwandten
