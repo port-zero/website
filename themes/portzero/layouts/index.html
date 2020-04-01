@@ -6,11 +6,9 @@
     </section>
 
     {{ range .Site.Data.sections }}
-    <section id="{{ .slug }}">
-        <h1 class="content-header">{{ .title }}</h1>
-        {{ partial .partial $ }}
-    </section>
+        <section id="{{ .slug }}">
+            <h1 class="content-header">{{ .title }}</h1>
+            {{ partial .partial $ }}
+        </section>
     {{ end }}
-
-    {{ partial "footer" .}}
 {{ end }}
