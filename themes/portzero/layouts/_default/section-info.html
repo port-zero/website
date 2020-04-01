@@ -1,0 +1,6 @@
+{{ if and (isset .Params "summary") (isset .Params "description") }}
+    <section class="content-section content-section--{{ .Params.infoBackground | default "blue" }}  content-info">
+        <p class="content-summary">{{ .Summary }}</p>
+        <p class="content-description">{{ .Description }}</p>
+    </section>
+{{ end }}

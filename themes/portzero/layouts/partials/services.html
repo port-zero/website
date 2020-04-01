@@ -1,5 +1,0 @@
-{{ with .Site.GetPage "services" }}
-    <section class="content-section section-services">
-        {{ partial "detail-tiles" (dict "name" "services" "default" 0 "items" .Pages) }}
-    </section>
-{{ end }}

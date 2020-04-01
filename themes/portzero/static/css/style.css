@@ -4,6 +4,7 @@
   --color-highlight: #0E97D5;
   --menu-height: 50px;
   --spacing-vertical: 1.5rem;
+  --spacing-vertical-big: 3rem;
   --spacing-horizontal: 2rem;
 }
 
@@ -196,12 +197,6 @@ p:last-of-type {
   padding: 1rem 0 0.3rem;
   display: none;
 }
-.menu-legal-page {
-  margin-top: 10px;
-}
-.menu-legal-page + .menu-legal-page {
-  margin-top: 0;
-}
 
 .menu-mobile-cb:checked ~ .menu-items {
   display: block;
@@ -265,12 +260,9 @@ p:last-of-type {
 }
 
 /* Smaller screens */
-@media (max-width: 48rem) {
+@media (max-width: 40rem) {
   .text {
-  margin-left: 0;
-  }
-  .content {
-    flex-direction: column;
+    margin-left: 0;
   }
 }
 
@@ -465,7 +457,7 @@ p:last-of-type {
 }
 
 
-@media (min-width: 48rem) {
+@media (min-width: 40rem) {
   .menu {
     height: var(--menu-height);
     grid-template-rows: 1fr 1fr;
@@ -497,7 +489,7 @@ p:last-of-type {
     align-items: flex-end;
   }
 
-  .menu-legal-page {
-    margin: 0;
+  .content-section {
+    padding: var(--spacing-vertical) calc((100% - 30rem) / 2) var(--spacing-vertical-big);
   }
 }
