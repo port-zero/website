@@ -1,10 +1,10 @@
 {{ with .Site.GetPage "projects" }}
-<section class="content-section content-section--blue">
-    <p>{{ .Summary }}</p>
-    <p>{{ .Description }}</p>
-</section>
-{{ end }}
+    <section class="content-section content-section--blue">
+        <p>{{ .Summary }}</p>
+        <p>{{ .Description }}</p>
+    </section>
 
-<section class="content-section section-projects">
-    {{ partial "detail-tiles" (dict "name" "projects" "preview-partial" "project-preview" "content-partial" "project-content" "items" (where .Site.RegularPages "Section" "projects")) }}
-</section>
+    <section class="content-section section-projects">
+        {{ partial "detail-tiles" (dict "name" "projects" "preview-partial" "project-preview" "content-partial" "project-content" "items" .Pages) }}
+    </section>
+{{ end }}

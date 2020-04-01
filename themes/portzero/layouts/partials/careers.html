@@ -5,7 +5,7 @@
     </section>
 
     <section class="content-section">
-        {{ range  where .Site.Pages "Section" "careers" }}
+        {{ range .Pages }}
             {{ .Content }}
         {{ end }}
     </section>
