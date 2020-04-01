@@ -3,7 +3,7 @@ title: Jonas Becker
 description: Integration Team Lead
 weight: -500
 type: teammember
-image: /img/team/jonas.jpg
+image: jonas-becker.jpg
 ---
 
 betreut seit Jahren für Port Zero die Providersparte und vereinigt hier die

@@ -3,7 +3,7 @@ title: Tobias Brosge
 description: Software Engineer
 weight: -27
 type: teammember
-image: /img/team/tobias.jpg
+image: tobias-brosge.jpg
 ---
 
 ist erfahrener Full-Stack-Entwickler, der sich vor allem im Frontend wie
