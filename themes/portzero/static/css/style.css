@@ -281,7 +281,6 @@ p:last-of-type {
 
 .detail-tiles-preview {
   position: relative;
-  border: 1px solid var(--color-text-dark);
   color: var(--color-text-dark);
   filter: grayscale(1);
   transition: border-color 300ms, color 300ms, filter 300ms;
@@ -318,19 +317,51 @@ p:last-of-type {
   flex: 1;
   order: 1;
   display: flex;
-  justify-content: center;
+  justify-content: center;;
 }
 
 .section-services .detail-tiles-preview {
   min-height: 3rem;
   align-items: center;
+  border: 1px solid var(--color-text-dark);
 }
 
 .section-community-team .detail-tiles-preview {
   flex: 0 0 94px;
-  height: 94px;
-  border-width: 2px;
+}
+
+.team-member-preview-image {
+  display: block;
+  text-align: center;
+  width: 100px;
+  border: 2px solid var(--color-text-dark);
+  border-radius: 50%;
   background: var(--color-highlight);
+  line-height: 96px;
+  font-size: 65px;
+  transition: border-color 300ms;
+}
+
+.detail-tiles-radio:checked + .detail-tiles-preview .team-member-preview-image {
+  border-color: var(--color-highlight);
+
+}
+
+.team-member-preview-name {
+  margin: 5px 0;
+  display: block;
+  line-height: 1rem;
+  font-size: .75rem;
+  text-align: center;
+  transition: color 300ms;
+}
+
+.detail-tiles-radio:checked + .detail-tiles-preview .team-member-preview-name {
+  color: var(--color-highlight);
+}
+
+.team-member-content {
+  margin-top: 1rem;
 }
 
 .section-services .detail-tiles-radio:checked + .detail-tiles-preview:after {
@@ -339,11 +370,6 @@ p:last-of-type {
   bottom: -30px;
   left: auto;
   right: auto;
-}
-
-.section-community-team .detail-tiles-preview {
-  line-height: 90px;
-  font-size: 65px;
 }
 
 .section-community-team .detail-tiles-radio:checked + .detail-tiles-preview {
