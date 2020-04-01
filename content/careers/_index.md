@@ -1,6 +1,7 @@
 ---
 title: Careers
 language: en
+infoBackground: dark
 slug: /jobs/
 menu:
   main:

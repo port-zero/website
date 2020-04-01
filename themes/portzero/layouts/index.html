@@ -8,7 +8,9 @@
     {{ range .Site.Data.sections }}
         <section id="{{ .slug }}">
             <h1 class="content-header">{{ .title }}</h1>
-            {{ partial .partial $ }}
+            {{ with $.Site.GetPage .content }}
+                {{ .Render "content-section" }}
+            {{ end }}
         </section>
     {{ end }}
 {{ end }}

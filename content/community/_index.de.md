@@ -1,6 +1,7 @@
 ---
 title: Team
 language: de
+infoBackground: dark
 slug: /team/
 menu:
   main:

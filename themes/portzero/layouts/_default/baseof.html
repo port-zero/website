@@ -26,11 +26,6 @@
                 {{ range .Site.Data.sections }}
                     <li><a href="/#{{ .slug }}">{{ .title }}</a></li>
                 {{ end }}
-                {{ range where .Site.RegularPages "Section" "legal-pages" }}
-                    <li class="menu-legal-page">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    </li>
-                {{ end }}
             </ul>
         </nav>
         <main class="content">
