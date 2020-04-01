@@ -1,7 +1,7 @@
-<ul class="menu_social">
+<ul class="social-links">
     {{ range .Site.Menus.social -}}
     <li>
-        <a href="{{.URL}}" target="_BLANK" title="{{ .Name }}">
+        <a href="{{.URL}}" target="_BLANK" rel="noreferrer noopener nofollow" title="{{ .Name }}">
             <i class="icon-{{ .Identifier }}"></i>
         </a>
     </li>

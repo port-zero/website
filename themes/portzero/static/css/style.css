@@ -245,110 +245,6 @@ body {
   font-weight: bold;
 }
 
-/* footer */
-.footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  border-top: 1px solid #0d96d5;
-  bottom: 10px;
-}
-
-.footer-section {
-  border-left: 1px solid #0d96d5;
-  padding: 0.5rem;
-  margin: 1rem;
-}
-
-.footer-section h3 {
-  color: #0d96d5;
-  margin-bottom: 0.2rem;
-  margin-top: 0;
-}
-
-.footer-section ul {
-  margin: 0;
-  padding-left: 0.1rem;
-  list-style: none;
-}
-
-.footer-section li a {
-  border-bottom: 0;
-}
-
-.mobile_footer {
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-.mobile_footer .menu_social {
-  display: flex;
-  list-style: none;
-  font-size: 1.2rem;
-  padding-left: 0;
-}
-
-@media (min-width: 40rem) {
-  .mobile_footer {
-	display: none;
-  }
-}
-
-/* imprint */
-.imprint-legalese {
-  max-width: 700px;
-  max-height: 400px;
-  overflow: scroll;
-}
-
-.imprint-section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.imprint-section p {
-  margin: 0;
-}
-
-/* Lists as seen on projects, partners and team pages etc. */
-.List {}
-.List-item {
-  display: flex;
-  min-height: 9rem;
-  padding-top: 1.5rem;
-  padding-right: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
-  background-color: hsla(0, 0%, 0%, 0.01);
-}
-.List-item:last-child {
-  border-bottom: 0 none;
-}
-
-.List-image {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  width: 6rem;
-  flex-shrink: 0;
-  align-self: flex-start;
-  margin-right: 1rem;
-}
-
-@media (min-width: 90rem) {
-  .List-image {
-  width: 8rem;
-  }
-}
-
-.List h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0;
-}
-
-.List h4 {
-  margin-bottom: 0.5rem;
-}
-
 /* Smaller screens */
 @media (max-width: 40rem) {
   .text {
@@ -468,4 +364,30 @@ body {
 
 .section-projects .detail-tiles-radio:checked + .detail-tiles-preview {
   border-bottom-color: var(--color-highlight);
+}
+
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-links li {
+  margin: 0 5px;
+}
+
+.social-links a {
+  color: var(--color-text-light);
 }
