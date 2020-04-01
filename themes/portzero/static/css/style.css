@@ -229,12 +229,12 @@ body {
   color: var(--color-text-dark);
 }
 
-.content-section-dark {
+.content-section--dark {
   background: var(--color-text-dark);
   color: var(--color-text-light);
 }
 
-.content-section-dark em {
+.content-section--dark em {
   color: var(--color-highlight);
 }
 
