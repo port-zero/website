@@ -284,7 +284,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: -8px;
+  padding: calc(1.5rem - 8px) calc(2rem - 8px);
 }
 
 .section-community-team,
