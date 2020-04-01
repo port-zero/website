@@ -1,0 +1,7 @@
+{{ with .Site.GetPage "legal-pages" }}
+    <ul class="legal-pages">
+        {{ range .Pages }}
+            <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+{{ end }}
