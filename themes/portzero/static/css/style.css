@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 300;
   src:
-  url('../font/fira-sans-v8-latin-300.woff2') format('woff2'),
-  url('../font/fira-sans-v8-latin-300.woff') format('woff');
+    url('../font/fira-sans-v8-latin-300.woff2') format('woff2'),
+    url('../font/fira-sans-v8-latin-300.woff') format('woff');
 }
 
 @font-face {
@@ -21,8 +21,17 @@
   font-style: normal;
   font-weight: 400;
   src:
-  url('../font/fira-sans-v8-latin-400.woff2') format('woff2'),
-  url('../font/fira-sans-v8-latin-400.woff') format('woff');
+    url('../font/fira-sans-v8-latin-400.woff2') format('woff2'),
+    url('../font/fira-sans-v8-latin-400.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src:
+    url('../font/FiraSans-SemiBold.woff2') format('woff2'),
+    url('../font/FiraSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
 }
 
 /*
@@ -153,8 +162,7 @@ p:last-of-type {
   vertical-align: center;
   text-transform: uppercase;
   color: var(--color-text-dark);
-  font-family: "Fira Sans Semibold";
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .menu-logo img {
@@ -222,8 +230,7 @@ p:last-of-type {
   padding: calc(2 * var(--spacing-vertical)) var(--spacing-horizontal) 0;
   color: var(--color-highlight);
   font-size: 16px;
-  font-family: "Fira Sans Semibold";
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .content-section {
@@ -255,8 +262,7 @@ p:last-of-type {
   margin: 0;
   text-align: center;
   font-size: 20px;
-  font-family: "Fira Sans Semibold";
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* Smaller screens */
@@ -270,8 +276,7 @@ p:last-of-type {
 }
 
 .content-summary {
-  font-family: "Fira Sans Semibold";
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .detail-tiles-radio,
@@ -390,7 +395,7 @@ p:last-of-type {
 }
 
 .team-member-description {
-  font-family: "Fira Sans Semibold";
+  font-weight: 600;
 }
 
 .section-projects .detail-tiles-preview {
