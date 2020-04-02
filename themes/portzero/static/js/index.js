@@ -6,22 +6,30 @@ const detailTilesHover = (event) => {
   // Change selection
   const cbPreviewId = el.getAttribute('for');
   const cbPreview = document.getElementById(cbPreviewId);
+  let changed = cbPreview.checked;
   cbPreview.checked = true;
 
   // restore selection on mouse out, if not clicked in the mean time
-  const onMouseOut = () => {
-    cbPreview.checked = false;
-    if (cbBefore) {
-      cbBefore.checked = true;
+  const onMouseLeave = () => {
+    if (!changed) {
+      cbPreview.checked = false;
+      if (cbBefore) {
+        cbBefore.checked = true;
+      }
     }
-    removeListeners();
+    el.removeEventListener('mouseleave', onMouseLeave);
+    el.removeEventListener('click', handleClick);
   };
-  const removeListeners = () => {
-    el.removeEventListener('mouseleave', onMouseOut);
-    el.removeEventListener('click', removeListeners);
+  const handleClick = (e) => {
+    e.preventDefault();
+    if (changed) {
+      cbPreview.checked = !cbPreview.checked;
+    } else {
+      changed = true;
+    }
   };
-  el.addEventListener('mouseleave', onMouseOut);
-  el.addEventListener('click', removeListeners)
+  el.addEventListener('mouseleave', onMouseLeave);
+  el.addEventListener('click', handleClick)
 };
 
 
