@@ -1,7 +1,7 @@
 ---
 title: Karriere
 language: de
-infoBackground: dark
+infoBackground: blue
 slug: /jobs/
 menu: main
 menu:

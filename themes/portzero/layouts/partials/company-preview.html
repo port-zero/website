@@ -1,7 +1,7 @@
 {{ $imageName := printf "%s.*" .item.File.TranslationBaseName }}
 {{ with .item.Parent.Resources.GetMatch $imageName }}
     {{ $thumbnail := .Fit "130x50" }}
-    <img src="{{ $thumbnail.Permalink }}" alt="Photo of {{ $.item.Title }}">
+    <img src="{{ $thumbnail.Permalink }}" alt="Logo of {{ $.item.Title }}">
 {{ else }}
     ?
 {{ end }}

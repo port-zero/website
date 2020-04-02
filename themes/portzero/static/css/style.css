@@ -310,7 +310,7 @@ p:last-of-type {
 
 .section-services,
 .section-community-team,
-.section-projects {
+.section-companies {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -318,13 +318,13 @@ p:last-of-type {
 }
 
 .section-community-team,
-.section-projects {
+.section-companies {
   justify-content: space-evenly;
 }
 
 .section-services .detail-tiles-preview,
 .section-community-team .detail-tiles-preview,
-.section-projects .detail-tiles-preview{
+.section-companies .detail-tiles-preview{
   margin: 8px;
   flex: 1;
   order: 1;
@@ -390,7 +390,7 @@ p:last-of-type {
 
 .section-services .detail-tiles-content,
 .section-community-team .detail-tiles-content,
-.section-projects .detail-tiles-content {
+.section-companies .detail-tiles-content {
   order: 2;
   flex: 0 0 100%;
   margin-top: 40px;
@@ -405,7 +405,7 @@ p:last-of-type {
   font-weight: 600;
 }
 
-.section-projects .detail-tiles-preview {
+.section-companies .detail-tiles-preview {
   flex: 0;
   display: inline-flex;
   align-items: center;
@@ -414,12 +414,12 @@ p:last-of-type {
   padding-bottom: 8px;
 }
 
-.section-projects .detail-tiles-radio + .detail-tiles-preview {
+.section-companies .detail-tiles-radio + .detail-tiles-preview {
   border-bottom: 2px solid transparent;
 }
 
 
-.section-projects .detail-tiles-radio:checked + .detail-tiles-preview {
+.section-companies .detail-tiles-radio:checked + .detail-tiles-preview {
   border-bottom-color: var(--color-highlight);
 }
 
