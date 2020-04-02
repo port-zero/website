@@ -8,7 +8,7 @@ menu:
     parent: Port Zero
 weight: 40
 summary: |
-    You should work with us at <em>Port Zero</em>, all of us are super cool and we think you are
+    You should work with us at _Port Zero_, all of us are super cool and we think you are
     too!
 description: |
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
