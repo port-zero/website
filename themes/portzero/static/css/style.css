@@ -421,9 +421,9 @@ p:last-of-type {
 
 /* footer */
 .footer {
-  padding: var(--spacing-vertical) var(--spacing-horizontal);
-  margin-top: var(--spacing-vertical);
+  padding: 0.2rem var(--spacing-horizontal);
   background: var(--color-text-dark);
+  border-top: 1px solid var(--color-highlight);
   color: var(--color-text-light);
   display: flex;
   flex-wrap: wrap;
@@ -450,10 +450,15 @@ p:last-of-type {
   color: var(--color-text-light);
 }
 
+.social-links a:last-child {
+  margin-left: 0;
+}
+
 .legal-pages {
   width: 100%;
-  line-height: 16px;
-  margin: 20px 0 0;
+  margin:  5px 0;
+  line-height: 14px;
+  font-size: 14px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -461,11 +466,7 @@ p:last-of-type {
 }
 
 .legal-pages li {
-  padding: 0 15px;
-}
-
-.legal-pages li + li {
-  border-left: 1px solid var(--color-text-light);
+  margin: 0 0.5rem;
 }
 
 
@@ -526,7 +527,11 @@ p:last-of-type {
   .legal-pages {
     order: 2;
     width: auto;
-    margin-top: 0;
+    margin: 0;
+  }
+
+  .legal-pages li {
+    margin: 0 1rem;
   }
 
   .social-links {
