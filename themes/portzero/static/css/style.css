@@ -482,7 +482,9 @@ p:last-of-type {
   }
 
   .language-selector {
+    margin: 0;
     align-items: flex-start;
+    justify-content: flex-end;
   }
 
   .menu-mobile-cb:checked ~ .menu-items,
@@ -490,6 +492,7 @@ p:last-of-type {
     padding: 0;
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
     line-height: 1;
     font-weight: 400;
   }
@@ -497,13 +500,6 @@ p:last-of-type {
   .menu-items li {
     margin-left: 10px;
     white-space: nowrap;
-  }
-
-  .menu-items,
-  .language-selector {
-    margin: 0;
-    justify-content: flex-end;
-    align-items: flex-end;
   }
 
   .content-section {
