@@ -23,8 +23,19 @@
                 <i class="icon-menu"></i>
             </label>
             <ul class="menu-items">
-                {{ range .Site.Data.sections }}
-                    <li><a href="/#{{ .slug }}" class="content-section-link" id="link-{{ .slug }}">{{ .title }}</a></li>
+                {{ $home := $.GetPage "/" }}
+                {{ range $section := .Site.Data.sections }}
+                    {{ with $.Site.GetPage $section }}
+                        <li>
+                            <a
+                                href="{{ printf "%s#%s" $home.Permalink $section }}"
+                                class="content-section-link"
+                                id="link-{{ $section }}"
+                            >
+                                {{ .Title }}
+                            </a>
+                        </li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </nav>

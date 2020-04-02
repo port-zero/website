@@ -1,15 +1,4 @@
-- title: Services
-  slug: services
-  content: services
-
-- title: Community
-  slug: community
-  content: community
-
-- title: Projects
-  slug: projects
-  content: projects
-
-- title: Careers
-  slug: careers
-  content: careers
+- services
+- community
+- projects
+- careers
