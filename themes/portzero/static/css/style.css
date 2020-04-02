@@ -1,4 +1,5 @@
 :root {
+ --color-background: #FFFFFF;
   --color-text-dark: #2B2B2B;
   --color-text-light: #FEFEFE;
   --color-highlight: #0E97D5;
@@ -222,8 +223,12 @@ p:last-of-type {
 }
 
 .content-header {
-  margin: 0;
-  padding: calc(2 * var(--spacing-vertical)) var(--spacing-horizontal) 0;
+  position: sticky;
+  top: 0;
+  margin: var(--spacing-vertical-big) 0 0;
+  padding: 0 var(--spacing-horizontal);
+  background: var(--color-background);
+  z-index: 1;
   color: var(--color-highlight);
   font-size: 16px;
   font-weight: 600;
