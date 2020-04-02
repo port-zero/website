@@ -12,26 +12,25 @@ Angaben gemäß § 5 Telemediengesetz (TMG):
 
 ## Port Zero GmbH
 
-Softwareentwicklung & IT Service<br />
-Paul-Lincke-Ufer 7e<br />
-10999 Berlin
-
-Geschäftsführer: Michael Prinzinger<br />
-Registergericht: Amtsgericht Charlottenburg, HRB 149523<br />
-Steuernummer: 29/464/10651<br />
+Softwareentwicklung & IT Service\
+Paul-Lincke-Ufer 7e\
+10999 Berlin\
+Geschäftsführer: Michael Prinzinger\
+Registergericht: Amtsgericht Charlottenburg, HRB 149523\
+Steuernummer: 29/464/10651\
 USt.IdNr.: DE290377155
 
 ## Kontakt
 
-Tel.: +49 (0) 30 / 12 089 345<br />
-Fax: +49 (0) 30 / 92 108 032<br />
-E-Mail: contact at port-zero.com<br />
+Tel.: +49 (0) 30 / 12 089 345\
+Fax: +49 (0) 30 / 92 108 032\
+E-Mail: contact at port-zero.com\
 PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)
 
 ## Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 RStV
 
-Michael Prinzinger<br />
-Paul-Lincke-Ufer 7e<br />
+Michael Prinzinger\
+Paul-Lincke-Ufer 7e\
 10999 Berlin
 
 ## Datenschutz
