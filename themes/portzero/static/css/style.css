@@ -277,6 +277,7 @@ p:last-of-type {
 
 .detail-tiles-preview {
   position: relative;
+  cursor: pointer;
   color: var(--color-text-dark);
   filter: grayscale(1);
   transition: border-color 300ms, color 300ms, filter 300ms;
