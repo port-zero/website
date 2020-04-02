@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Community
 language: de
 infoBackground: dark
 slug: /team/
