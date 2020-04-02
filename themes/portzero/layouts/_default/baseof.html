@@ -24,11 +24,11 @@
             </label>
             <ul class="menu-items">
                 {{ range .Site.Data.sections }}
-                    <li><a href="/#{{ .slug }}">{{ .title }}</a></li>
+                    <li><a href="/#{{ .slug }}" class="content-section-link" id="link-{{ .slug }}">{{ .title }}</a></li>
                 {{ end }}
             </ul>
         </nav>
-        <main class="content">
+        <main id="content" class="content">
             {{ block "main" . }}{{ end }}
             {{ partial "footer" .}}
         </main>

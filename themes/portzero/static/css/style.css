@@ -207,6 +207,10 @@ p:last-of-type {
   list-style: none;
 }
 
+.content-section-link.active {
+  color: var(--color-text-dark);
+}
+
 /* Content */
 .content {
   display: flex;

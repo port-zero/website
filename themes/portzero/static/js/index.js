@@ -24,8 +24,25 @@ const detailTilesHover = (event) => {
   el.addEventListener('click', removeListeners)
 };
 
+
+const content = document.getElementById('content');
+const links = document.getElementsByClassName('content-section-link');
+const contentSections = Array.from(content.children).reverse();
+const updateMenuHighlight = () => {
+  const offset = content.getBoundingClientRect().top;
+  const current = contentSections.find(child => child.getBoundingClientRect().top <= offset);
+  window.history.replaceState(null, window.title, `#${current.id}`);
+  for (const link of links) {
+      link.classList.toggle('active', link.id === `link-${current.id}`);
+  }
+};
+
+
 document.addEventListener('DOMContentLoaded', (event) => {
   for (const el of document.getElementsByClassName('detail-tiles-preview')) {
     el.addEventListener('mouseenter', detailTilesHover)
   }
+
+  window.addEventListener('resize', updateMenuHighlight);
+  content.addEventListener('scroll', updateMenuHighlight);
 });
