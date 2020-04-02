@@ -1,5 +1,5 @@
 ---
-title: Careers
+title: Karriere
 language: de
 infoBackground: dark
 slug: /jobs/

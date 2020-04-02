@@ -1,5 +1,5 @@
 ---
-title: References
+title: Projects
 language: en
 weight: 10
 summary: |

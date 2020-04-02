@@ -1,5 +1,5 @@
 ---
-title: Referenzen
+title: Projekte
 language: de
 weight: 10
 summary: |
