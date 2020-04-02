@@ -38,6 +38,18 @@ const updateMenuHighlight = () => {
 };
 
 
+const smoothScroll = (link) => (event) => {
+  if (event.preventDefault) {
+    event.preventDefault();
+  } else {
+    event.returnValue = false;
+  }
+  const id = link.hash.substring(1);
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  return false;
+};
+
+
 document.addEventListener('DOMContentLoaded', (event) => {
   for (const el of document.getElementsByClassName('detail-tiles-preview')) {
     el.addEventListener('mouseenter', detailTilesHover)
@@ -45,4 +57,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   window.addEventListener('resize', updateMenuHighlight);
   content.addEventListener('scroll', updateMenuHighlight);
+
+  for (const link of document.getElementsByTagName('a')) {
+    if (link.origin === window.location.origin && link.pathname === window.location.pathname) {
+      link.addEventListener('click', smoothScroll(link));
+    }
+  }
 });

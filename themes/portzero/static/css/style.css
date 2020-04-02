@@ -217,6 +217,8 @@ p:last-of-type {
   flex-direction: column;
   overflow: auto;
   flex-grow: 1;
+  scroll-behavior: smooth;
+  -ms-scroll-chaining: chained;
 }
 
 .content-header {
