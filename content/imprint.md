@@ -2,9 +2,7 @@
 title: Imprint
 language: en
 slug: /imprint/
-menu:
-  main:
-    parent: Contact
+menu: footer
 weight: 10
 ---
 

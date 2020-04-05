@@ -3,10 +3,8 @@ title: Careers
 language: en
 infoBackground: blue
 slug: /jobs/
-menu:
-  main:
-    parent: Port Zero
-weight: 40
+menu: main
+weight: 50
 summary: |
     You should work with us at _Port Zero_, all of us are super cool and we think you are
     too!

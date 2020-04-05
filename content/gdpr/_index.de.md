@@ -2,7 +2,6 @@
 title: DSGVO
 language: de
 slug: /gdpr/
-menu: main
 weight: 20
 ---
 

@@ -4,10 +4,7 @@ language: en
 infoBackground: dark
 slug: /team/
 menu: main
-menu:
-  main:
-    parent: Port Zero
-weight: 30
+weight: 20
 summary: |
     At _Port Zero_ all of us are super cool people that like to work and grow together.
     You will love us too!

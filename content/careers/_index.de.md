@@ -4,10 +4,7 @@ language: de
 infoBackground: blue
 slug: /jobs/
 menu: main
-menu:
-  main:
-    parent: Port Zero
-weight: 40
+weight: 50
 summary: |
     Du solltest mit uns bei _Port Zero_ arbeiten. Wir sind alle super cool und wir denken,
     dass bist du auch!

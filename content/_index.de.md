@@ -2,7 +2,6 @@
 title: Port Zero
 language: de
 slug: /
-menu: main
 weight: 1
 ---
 

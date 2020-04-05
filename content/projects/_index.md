@@ -1,7 +1,8 @@
 ---
 title: Projects
 language: en
-weight: 10
+menu: main
+weight: 30
 summary: |
     Here is what _Port Zero_ thinks about their clients and with which  goals they do their work
 description: |
