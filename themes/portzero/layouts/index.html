@@ -5,12 +5,12 @@
         {{ end }}
     </section>
 
-    {{ range $section := .Site.Data.sections }}
-        <section id="{{ $section }}">
-            {{ with $.Site.GetPage $section }}
+    {{ range $section := .Site.Menus.main }}
+        {{ with .Page }}
+            <section id="{{ .Section }}">
                 <h1 class="content-header">{{ .Title }}</h1>
                 {{ .Render "content-section" }}
-            {{ end }}
-        </section>
+            </section>
+        {{ end }}
     {{ end }}
 {{ end }}

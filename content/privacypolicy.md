@@ -2,9 +2,7 @@
 title: Privacy Policy
 language: en
 slug: privacypolicy/
-menu:
-  main:
-    parent: Contact
+menu: footer
 weight: 20
 ---
 

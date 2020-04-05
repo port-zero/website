@@ -3,10 +3,8 @@ title: Partner
 language: de
 infoBackground: dark
 slug: /partners/
-menu:
-  main:
-    parent: Port Zero
-weight: 20
+menu: main
+weight: 40
 summary: |
     Auch unsere Partner Firmen sind super cool.
 description: |

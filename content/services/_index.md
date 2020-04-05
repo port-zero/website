@@ -1,5 +1,6 @@
 ---
 title: Services
 language: en
-weight: 100
+menu: main
+weight: 10
 ---

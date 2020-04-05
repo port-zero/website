@@ -2,9 +2,7 @@
 title: Impressum
 language: de
 slug: /imprint/
-menu:
-  main:
-    parent: Kontakt
+menu: footer
 weight: 10
 ---
 

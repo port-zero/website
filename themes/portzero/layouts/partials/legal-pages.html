@@ -1,7 +1,7 @@
-{{ with .Site.GetPage "legal-pages" }}
-    <ul class="legal-pages">
-        {{ range .Pages }}
-            <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+<ul class="legal-pages">
+    {{ range .Site.Menus.footer }}
+        {{ with .Page }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{ end }}
-    </ul>
-{{ end }}
+    {{ end }}
+</ul>

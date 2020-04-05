@@ -3,10 +3,8 @@ title: Community
 language: de
 infoBackground: dark
 slug: /team/
-menu:
-  main:
-    parent: Port Zero
-weight: 30
+menu: main
+weight: 20
 summary: |
     Bei _Port Zero_ sind alle super cool. Wir wollen zusammen zu arbeite und wachsen.
     Du wirst uns auch lieben!
