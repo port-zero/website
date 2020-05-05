@@ -19,7 +19,12 @@ jobs:
         tar xf hugo_0.69.2_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo
+        pwd
+
     - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build
       run: |
         ls
         pwd
