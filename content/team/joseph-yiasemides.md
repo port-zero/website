@@ -1,5 +1,5 @@
 ---
-title: Joseph
+title: Joseph Yiasemides
 description: Software Team Lead
 weight: -32
 type: teammember
