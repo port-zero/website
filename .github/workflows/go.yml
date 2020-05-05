@@ -18,7 +18,7 @@ jobs:
         # FIXME check the binary checksum
         tar xf hugo_0.69.2_Linux-64bit.tar.gz
         chmod a+x hugo
-        ./hugo
+        ./hugo version
         pwd
 
     - name: Checkout code
