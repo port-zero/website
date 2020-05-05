@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+    - name: Checkout code
+      uses: actions/checkout@v2
+
     - name: Setup hugo
       run: |
         curl -LO https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz
@@ -19,11 +22,6 @@ jobs:
         tar xf hugo_0.69.2_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo version
-        pwd
-
-    - name: Checkout code
-      uses: actions/checkout@v2
-
     - name: Build
       run: |
         ls
