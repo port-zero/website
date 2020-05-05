@@ -1,0 +1,25 @@
+name: Hugo
+on:
+  push:
+    branches: [ github-actions-dev ]
+  pull_request:
+    branches: [ github-actions-dev ]
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Setup hugo
+      run: |
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz
+        # FIXME check the binary checksum
+        tar xf hugo_0.69.2_Linux-64bit.tar.gz
+        chmod a+x hugo
+        ./hugo
+    - name: Checkout code
+      run: |
+        ls
+        pwd
