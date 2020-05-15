@@ -22,7 +22,6 @@ jobs:
         tar xf hugo_0.69.2_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo version
-    - name: Build
+    - name: Run hugo
       run: |
-        ls
-        pwd
+        ./hugo
