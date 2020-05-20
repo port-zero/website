@@ -1,7 +1,5 @@
 name: Staging
 on:
-  push:
-    branches: [ github-actions-dev ]
   # Run on any pull-request
   pull_request:
 
@@ -22,8 +20,7 @@ jobs:
         ./hugo version
     - name: Run hugo
       run: |
-        ./hugo
-
+        ./hugo --baseURL="${{ secrets.STAGING_URL }}"
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
       env:
