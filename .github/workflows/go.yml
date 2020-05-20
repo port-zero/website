@@ -1,17 +1,15 @@
-name: Hugo
+name: Staging
 on:
   push:
     branches: [ github-actions-dev ]
+  # Run on any pull-request
   pull_request:
-    branches: [ github-actions-dev ]
 
 jobs:
-
-  build:
+  build_push_staging:
     name: Build
     runs-on: ubuntu-latest
     steps:
-
     - name: Checkout code
       uses: actions/checkout@v2
 
@@ -25,3 +23,14 @@ jobs:
     - name: Run hugo
       run: |
         ./hugo
+
+    - name: push to staging
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "--recursive --delete"
+        SERVER_PORT: "22"
+        FOLDER: "./public/"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
