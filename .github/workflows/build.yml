@@ -1,13 +1,13 @@
-name: build_deploy
+name: build_deploy_staging
 on:
   push:
     branches:
-      - "master"
+      - master
   # Run on any pull-request
   pull_request:
 
 jobs:
-  build_push:
+  build_push_staging:
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -21,9 +21,43 @@ jobs:
         tar xf hugo_0.69.2_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo version
+
     - name: Run hugo
       run: |
         ./hugo --baseURL="${{ secrets.STAGING_URL }}"
+
+    - name: push to staging
+      uses: AEnterprise/rsync-deploy@v1.0
+      if: ${{ github.event_name == 'pull_request' }}
+      env:
+        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "--recursive --delete"
+        SERVER_PORT: "22"
+        FOLDER: "./public/"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
+
+  build_push_master:
+    needs: build_push_staging
+    if: ${{ github.event_name == 'push' && github.ref == 'master' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup hugo
+      run: |
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz
+        # FIXME check the binary checksum
+        tar xf hugo_0.69.2_Linux-64bit.tar.gz
+        chmod a+x hugo
+        ./hugo version
+
+    - name: Run hugo
+      run: |
+        ./hugo
+
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
       env:
@@ -33,15 +67,4 @@ jobs:
         FOLDER: "./public/"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
-    - name: push to production
-      if: ${{ github.event_name == 'push' && github.ref == 'master' }}
-      uses: AEnterprise/rsync-deploy@v1.0
-      env:
-        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        ARGS: "--recursive --delete"
-        SERVER_PORT: "22"
-        FOLDER: "./public/"
-        SERVER_IP: ${{ secrets.SERVER_IP }}
-        USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
+        SERVER_DESTINATION: ${{ secrets.PRODUCTION_SERVER_DESTINATION }}
