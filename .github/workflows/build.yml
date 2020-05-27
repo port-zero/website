@@ -24,7 +24,8 @@ jobs:
 
     - name: Run hugo
       run: |
-        ./hugo --baseURL="${{ secrets.STAGING_URL }}"
+        export PR_NUMBER=$(echo '${{ github.ref }}' | awk 'BEGIN { FS = "/" } ; { print $3 }')
+        ./hugo --baseURL="${{ secrets.STAGING_URL }}/$PR_NUMBER"
 
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
