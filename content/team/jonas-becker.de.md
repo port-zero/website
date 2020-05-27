@@ -3,7 +3,7 @@ title: Jonas Becker
 description: Development & Operations
 weight: -500
 type: teammember
-image: img/team/jonas.jpg
+image: /img/team/jonas.jpg
 ---
 
 betreut seit Jahren für Port Zero die Providersparte und vereinigt hier die

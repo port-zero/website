@@ -3,7 +3,7 @@ title: Jonas Becker
 description: Development & Operations
 weight: -500
 type: teammember
-image: img/team/jonas.jpg
+image: /img/team/jonas.jpg
 ---
 oversees the Provider Division at Port Zero which combines programming, administration and project management.
 He carries out projects with precision, and, at this point, even great international projects have become routine. His specialties include conceptual design and occasional training sessions.

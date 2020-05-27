@@ -1,7 +1,7 @@
 ---
 title: Finanz- und Rechnungswesen
 type: jobs
-image: img/noimage.png
+image: /img/noimage.png
 ---
 
 Im Finanz- und Rechnungswesen arbeitst du viel mit Zahlen und Mathematik, prüfst
