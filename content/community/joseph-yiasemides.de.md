@@ -3,7 +3,7 @@ title: Joseph Yiasemides
 description: Software Team Lead
 weight: -500
 type: teammember
-image: /img/team/joseph.jpg
+image: joseph-yiasemides.jpg
 ---
 
 Joseph hat Erfahrung mit der Server-Seite (Erlang, Elixir und Go), explorativer Anwendungssoftware mit dem [Glamorous Toolkit](https://gtoolkit.com)/Pharo und ein wenig JS für's Web.
