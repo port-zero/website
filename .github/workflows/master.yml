@@ -33,4 +33,4 @@ jobs:
         FOLDER: "./public/"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
+        SERVER_DESTINATION: ${{ secrets.PRODUCTION_SERVER_DESTINATION }}
