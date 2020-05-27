@@ -1,0 +1,40 @@
+name: build_deploy_staging
+on:
+  # Run on any pull-request
+  pull_request:
+
+jobs:
+  build_push_staging:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup hugo
+      run: |
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Linux-64bit.tar.gz
+        echo '18d95148464b15ff16d94de600b26edb565fbe84723650ea8974ffb670873b14  hugo_0.71.1_Linux-64bit.tar.gz' > checksum.txt
+        sha256sum -c checksum.txt
+        tar xf hugo_0.71.1_Linux-64bit.tar.gz
+        chmod a+x hugo
+        ./hugo version
+
+    - name: Run hugo
+      run: |
+        export PR_NUMBER=PR-$(echo '${{ github.ref }}' | awk 'BEGIN { FS = "/" } ; { print $3 }')
+        ./hugo --baseURL="${{ secrets.STAGING_URL }}/$PR_NUMBER"
+        echo "::set-env name=PR_NUMBER::$PR_NUMBER"
+
+    - name: push to staging
+      uses: AEnterprise/rsync-deploy@v1.0
+      if: ${{ github.event_name == 'pull_request' }}
+      env:
+        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "--recursive --delete"
+        SERVER_PORT: "22"
+        FOLDER: "./public/"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}/${{ env.PR_NUMBER }}
+

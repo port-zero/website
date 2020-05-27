@@ -1,0 +1,36 @@
+name: build_deploy_master
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_push_master:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup hugo
+      run: |
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Linux-64bit.tar.gz
+        echo '18d95148464b15ff16d94de600b26edb565fbe84723650ea8974ffb670873b14  hugo_0.71.1_Linux-64bit.tar.gz' > checksum.txt
+        sha256sum -c checksum.txt
+        tar xf hugo_0.71.1_Linux-64bit.tar.gz
+        chmod a+x hugo
+        ./hugo version
+
+    - name: Run hugo
+      run: |
+        ./hugo
+
+    - name: push to staging
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "--recursive --delete"
+        SERVER_PORT: "22"
+        FOLDER: "./public/"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.PRODUCTION_SERVER_DESTINATION }}

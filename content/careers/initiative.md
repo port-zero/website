@@ -2,7 +2,7 @@
 title: Speculative Application
 type: jobs
 weight: -0
-image: img/noimage.png
+image: /img/noimage.png
 ---
 We are a small, independent IT company that develops and operates software systems with a focus on security and stability. 
 
