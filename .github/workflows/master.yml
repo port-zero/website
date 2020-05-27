@@ -1,11 +1,11 @@
-name: build_deploy_staging
+name: build_deploy_master
 on:
-  # Run on any pull-request
-  pull_request:
+  push:
+    branches:
+      - master
 
 jobs:
-  build_push_staging:
-    name: Build
+  build_push_master:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -22,13 +22,10 @@ jobs:
 
     - name: Run hugo
       run: |
-        export PR_NUMBER=PR-$(echo '${{ github.ref }}' | awk 'BEGIN { FS = "/" } ; { print $3 }')
-        ./hugo --baseURL="${{ secrets.STAGING_URL }}/$PR_NUMBER"
-        echo "::set-env name=PR_NUMBER::$PR_NUMBER"
+        ./hugo
 
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
-      if: ${{ github.event_name == 'pull_request' }}
       env:
         DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: "--recursive --delete"
@@ -36,5 +33,4 @@ jobs:
         FOLDER: "./public/"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}/${{ env.PR_NUMBER }}
-
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
