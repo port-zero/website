@@ -28,7 +28,7 @@ jobs:
         ./hugo --baseURL="${{ secrets.STAGING_URL }}/$PR_NUMBER"
         mv public $PR_NUMBER
         mkdir public
-        mv $PR_NUMER public/
+        mv $PR_NUMBER public/
 
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
