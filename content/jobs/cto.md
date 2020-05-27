@@ -1,7 +1,7 @@
 ---
 title: Chief Technical Officer
 type: jobs
-image: img/noimage.png
+image: /img/noimage.png
 ---
 
 Port Zero is a small, privately owned and self-financed consulting company with about 15 employees.
