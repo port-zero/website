@@ -16,9 +16,11 @@ jobs:
 
     - name: Setup hugo
       run: |
-        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Linux-64bit.tar.gz
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_checksums.txt
+        sha256sum -c <<(cat hugo_0.71.1_checksums.txt | grep hugo_0.71.1_Linux-64bit.tar.gz)
         # FIXME check the binary checksum
-        tar xf hugo_0.69.2_Linux-64bit.tar.gz
+        tar xf hugo_0.71.1_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo version
 
@@ -50,9 +52,10 @@ jobs:
 
     - name: Setup hugo
       run: |
-        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz
-        # FIXME check the binary checksum
-        tar xf hugo_0.69.2_Linux-64bit.tar.gz
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Linux-64bit.tar.gz
+        curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_checksums.txt
+        sha256sum -c <<(cat hugo_0.71.1_checksums.txt | grep hugo_0.71.1_Linux-64bit.tar.gz)
+        tar xf hugo_0.71.1_Linux-64bit.tar.gz
         chmod a+x hugo
         ./hugo version
 
