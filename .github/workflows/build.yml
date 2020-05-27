@@ -24,23 +24,21 @@ jobs:
 
     - name: Run hugo
       run: |
-        export PR_NUMBER=$(echo '${{ github.ref }}' | awk 'BEGIN { FS = "/" } ; { print $3 }')
+        export PR_NUMBER=PR-$(echo '${{ github.ref }}' | awk 'BEGIN { FS = "/" } ; { print $3 }')
         ./hugo --baseURL="${{ secrets.STAGING_URL }}/$PR_NUMBER"
-        mv public $PR_NUMBER
-        mkdir public
-        mv $PR_NUMBER public/
+        echo "::set-env name=PR_NUMBER::$PR_NUMBER"
 
     - name: push to staging
       uses: AEnterprise/rsync-deploy@v1.0
       if: ${{ github.event_name == 'pull_request' }}
       env:
         DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        ARGS: "--recursive"
+        ARGS: "--recursive --delete"
         SERVER_PORT: "22"
         FOLDER: "./public/"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}/${{ PR_NUMBER }}
 
   build_push_master:
     needs: build_push_staging
