@@ -1,5 +1,6 @@
 baseURL = "https://port-zero.com/"
 theme = "portzero"
+canonifyURLs = true
 
 [outputs]
   home = ["HTML"]
