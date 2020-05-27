@@ -38,7 +38,7 @@ jobs:
         FOLDER: "./public/"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}/${{ PR_NUMBER }}
+        SERVER_DESTINATION: ${{ secrets.STAGING_SERVER_DESTINATION }}/${{ env.PR_NUMBER }}
 
   build_push_master:
     needs: build_push_staging
