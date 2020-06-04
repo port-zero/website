@@ -424,6 +424,11 @@ p:last-of-type {
   border-bottom-color: var(--color-highlight);
 }
 
+.service-more {
+  display: block;
+  margin-top: 12px;
+}
+
 
 /* footer */
 .footer {

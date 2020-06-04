@@ -1,0 +1,36 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ range .Pages }}
+        <section id="{{ .Section }}">
+            {{ .Render "section-info" }}
+            <section class="content-section">
+                {{ .Content }}
+            </section>
+        </section>
+    {{ end }}
+
+
+    <section id="{{ .Section }}-{{ .ContentBaseName }}-team">
+        <h1 class="content-header">{{ .Params.teamTitle }}</h1>
+        <div class="content-section section-community-team">
+            {{ $community := (.Site.GetPage "community").Pages }}
+            {{ $leads := where $community "Params.team_lead_of" .File.ContentBaseName }}
+            {{ $members := where $community "Params.team" .File.ContentBaseName }}
+            {{ with uniq (union $leads $members) }}
+                {{ partial "detail-tiles" (dict "name" "community" "default" 0 "preview-partial" "team-member-preview" "content-partial" "team-member-content" "items" .) }}
+            {{ end }}
+        </div>
+    </section>
+
+    <section id="{{ .Section }}-{{ .ContentBaseName }}-projects">
+        <h1 class="content-header">{{ .Params.projectsTitle }}</h1>
+        <div class="content-section section-companies section-projects">
+            {{ $projects := (.Site.GetPage "projects").Pages }}
+            {{ with where $projects "Params.services" "intersect" (slice .File.ContentBaseName) }}
+                {{ partial "detail-tiles" (dict "name" "projects" "default" 0 "preview-partial" "company-preview" "content-partial" "company-content" "items" .) }}
+            {{ end }}
+        </div>
+    </section>
+{{ end }}
