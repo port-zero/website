@@ -5,5 +5,7 @@ description: Highlight the core concepts from textbooks in a 15-minute audio-vis
 weight: -100
 type: client
 image: /img/references/blinkist.png
+services: ["security"]
 ---
+
 At Blinkist, we perform penetration tests and provide IT Security advice for the Blinkist App and on the website.

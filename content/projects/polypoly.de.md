@@ -4,6 +4,7 @@ description: Ein neuer Weg für den fairen Umgang mit Benutzerdaten im Internet
 weight: -110
 type: client
 image: /img/references/polypoly.png
+services: ["security", "development", "integration"]
 ---
 
 Bei polypoly sind wir in der Entwicklung des Kernprodukts, ein Tool um Kontrolle über die
