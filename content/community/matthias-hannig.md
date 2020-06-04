@@ -4,6 +4,7 @@ description: Senior System Engineer
 type: teammember
 weight: -89
 image: matthias-hannig.jpg
+team: development
 ---
 supervises the building of software systems from scratch to implementation.
 He tries to find the best solution to a problem in a creative manner.

@@ -4,6 +4,7 @@ description: Development & Operations
 weight: -500
 type: teammember
 image: jonas-becker.jpg
+team_lead_of: integration
 ---
 
 betreut seit Jahren für Port Zero die Providersparte und vereinigt hier die
