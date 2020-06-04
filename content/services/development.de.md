@@ -6,6 +6,7 @@ summary: |
     Something about development!
 teamTitle: Unsere Softwareentwicklungsexperten
 projectsTitle: Firmen welche wir im Bereich der Softwareentwicklung unterstützt haben
+readMore: Weiter lesen...
 ---
 
 Something about development!

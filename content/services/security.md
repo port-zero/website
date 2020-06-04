@@ -6,6 +6,7 @@ summary: |
     We make your system secure!
 teamTitle: Our security experts
 projectsTitle: Companies that we supported in terms of security
+readMore: Read more...
 ---
 
 We make your system secure!

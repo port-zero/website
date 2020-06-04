@@ -6,6 +6,7 @@ summary: |
     Something about integration!
 teamTitle: Our system integration experts
 projectsTitle: Companies that we supported in terms of system integration
+readMore: Read more...
 ---
 
 Something about integration!

@@ -6,6 +6,7 @@ summary: |
     Something about integration!
 teamTitle: Unsere Systemintegrationsexperten
 projectsTitle: Firmen welche wir im Bereich der Systemintegration unterstützt haben
+readMore: Weiter lesen...
 ---
 
 Something about integration!
