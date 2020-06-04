@@ -4,6 +4,7 @@ description: Datenschutzbeauftragter und –consultant
 weight: -27
 type: teammember
 image: artur-andretta.png
+team: security
 ---
 
 Artur ist als erfahrener Datenschützer und zertifizierter

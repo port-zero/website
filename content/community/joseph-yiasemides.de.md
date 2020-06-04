@@ -4,6 +4,7 @@ description: Software Team Lead
 weight: -500
 type: teammember
 image: joseph-yiasemides.jpg
+team_lead_of: development
 ---
 
 Joseph hat Erfahrung mit der Server-Seite (Erlang, Elixir und Go), explorativer Anwendungssoftware mit dem [Glamorous Toolkit](https://gtoolkit.com)/Pharo und ein wenig JS für's Web.

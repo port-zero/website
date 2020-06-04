@@ -4,6 +4,7 @@ description: Software Engineer
 weight: -27
 type: teammember
 image: tobias-brosge.jpg
+team: development
 ---
 
 is an experienced full stack developer who knows his way best around the front

@@ -4,6 +4,7 @@ description: Software Engineer
 weight: -27
 type: teammember
 image: tobias-brosge.jpg
+team: development
 ---
 
 ist erfahrener Full-Stack-Entwickler, der sich vor allem im Frontend wie
