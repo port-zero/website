@@ -24,18 +24,16 @@
             </label>
             <ul class="menu-items">
                 {{ $home := $.GetPage "/" }}
-                {{ range $section := .Site.Menus.main }}
-                    {{ with .Page }}
+                {{ range where .Site.Menus.main "Page" "!=" nil }}
                     <li>
                         <a
-                            href="{{ printf "%s#%s" $home.Permalink .Section }}"
+                            href="{{ printf "%s#%s" $home.Permalink .Page.Section }}"
                             class="content-section-link"
-                            id="link-{{ $section }}"
+                            id="link-{{ .Page.Name }}"
                         >
-                            {{ .Title }}
+                            {{ .Page.LinkTitle }}
                         </a>
                     </li>
-                        {{ end }}
                 {{ end }}
             </ul>
         </nav>
