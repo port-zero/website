@@ -6,6 +6,7 @@ summary: |
     Wir machen ihr System sicher!
 teamTitle: Unsere Sicherheitsexperten
 projectsTitle: Firmen welche wir im Bereich der IT-Sicherheit unterstützt haben
+readMore: Weiter lesen...
 ---
 
 Wir machen ihr System sicher!

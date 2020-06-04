@@ -6,6 +6,7 @@ summary: |
     Something about development!
 teamTitle: Our software development experts
 projectsTitle: Companies that we supported in terms of software development
+readMore: Read more...
 ---
 
 Something about development!
