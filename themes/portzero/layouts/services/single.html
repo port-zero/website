@@ -1,6 +1,8 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <h1 class="content-header">{{ .Title }}</h1>
+    <section class="content-section content-section--blue">
+        <p>{{ .Content }}</p>
+    </section>
 
     {{ range .Pages }}
         <section id="{{ .Section }}">
@@ -11,9 +13,14 @@
         </section>
     {{ end }}
 
-
     <section id="{{ .Section }}-{{ .ContentBaseName }}-team">
         <h1 class="content-header">{{ .Params.teamTitle }}</h1>
+        {{ if and .Params.teamSummary .Params.teamDescription }}
+            <section class="content-section content-section--dark content-info">
+                <p class="content-summary">{{ .Params.teamSummary }}</p>
+                <p class="content-description">{{ .Params.teamDescription }}</p>
+            </section>
+        {{ end }}
         <div class="content-section section-community-team">
             {{ $community := (.Site.GetPage "community").Pages }}
             {{ $leads := where $community "Params.team_lead_of" .File.ContentBaseName }}
@@ -26,6 +33,12 @@
 
     <section id="{{ .Section }}-{{ .ContentBaseName }}-projects">
         <h1 class="content-header">{{ .Params.projectsTitle }}</h1>
+        {{ if and .Params.projectsSummary .Params.projectsDescription }}
+            <section class="content-section content-section--blue content-info">
+                <p class="content-summary">{{ .Params.projectsSummary }}</p>
+                <p class="content-description">{{ .Params.projectsDescription }}</p>
+            </section>
+        {{ end }}
         <div class="content-section section-companies section-projects">
             {{ $projects := (.Site.GetPage "projects").Pages }}
             {{ with where $projects "Params.services" "intersect" (slice .File.ContentBaseName) }}
