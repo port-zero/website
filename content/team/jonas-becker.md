@@ -1,6 +1,6 @@
 ---
 title: Jonas Becker
-description: Development & Operations
+description: Integration Team Lead
 weight: -500
 type: teammember
 image: /img/team/jonas.jpg
