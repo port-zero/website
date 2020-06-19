@@ -1,6 +1,6 @@
 ---
 title: Artur Andretta
-description: Data Privacy consultant
+description: Data Privacy Consultant
 weight: -27
 type: teammember
 image: /img/team/artur.png
