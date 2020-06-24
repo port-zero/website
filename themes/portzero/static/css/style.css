@@ -362,7 +362,7 @@ p:last-of-type {
 .section-companies .detail-tiles-content {
   display: block;
   overflow: hidden;
-  transition: flex-basis 300ms;
+  transition: flex-basis 300ms, height 300ms step-end;
   flex-basis: 0;
   height: 0;
 }
@@ -375,6 +375,7 @@ p:last-of-type {
 .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content,
 .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
   flex-basis: 100%;
+  transition: flex-basis 300ms, height 300s step-start;
 }
 
 .section-community-team .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
