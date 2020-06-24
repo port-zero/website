@@ -1,7 +1,7 @@
 ---
 title: Joseph Yiasemides
 description: Software Team Lead
-weight: -32
+weight: -500
 type: teammember
 image: joseph-yiasemides.jpg
 team_lead_of: development

@@ -1,7 +1,7 @@
 ---
 title: Akendo
-description: Security Consultant
-weight: -27
+description: Security Team Lead
+weight: -500
 type: teammember
 image: akendo.jpg
 team_lead_of: security
