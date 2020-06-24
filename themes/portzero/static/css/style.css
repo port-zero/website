@@ -358,6 +358,28 @@ p:last-of-type {
   flex: 0 0 94px;
 }
 
+.section-community-team .detail-tiles-content,
+.section-companies .detail-tiles-content {
+  display: block;
+  overflow: hidden;
+  height: 0;
+  transition: height 300ms, margin-top 300ms;
+
+}
+
+.section-community-team .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content,
+.section-companies .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
+  margin-top: 40px;
+}
+
+.section-community-team .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
+  height: 280px;
+}
+
+.section-companies .detail-tiles-radio:checked + .detail-tiles-preview + .detail-tiles-content {
+  height: 130px;
+}
+
 .team-member-preview-image {
   display: block;
   text-align: center;
@@ -400,7 +422,6 @@ p:last-of-type {
 .section-companies .detail-tiles-content {
   order: 2;
   flex: 0 0 100%;
-  margin-top: 40px;
   text-align: center;
 }
 
