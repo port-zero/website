@@ -2,6 +2,7 @@
 weight: 3
 language: en
 title: Development
+logo: development.png
 summary: |
     Something about development!
 teamTitle: Our software development experts
