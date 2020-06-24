@@ -3,7 +3,8 @@ title: Dhananjay Balan
 description: Software Engineer
 weight: -27
 type: teammember
-image: /img/team/dhananjay.jpg
+image: dhananjay-balan.jpg
+team: development
 ---
 
 ist Teil des Software-Teams von Port Zero. In früheren Funktionen hat er eine Web-Scraping- und Datenverarbeitungsplattform für eine Suchmaschine aufgebaut, Smartphones seziert, um entsprechende Patente zu ermitteln, und dabei geholfen, eine Web-Telefonie-SaaS zu skalieren.

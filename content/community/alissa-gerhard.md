@@ -3,7 +3,8 @@ title: Alissa Gerhard
 description: System Engineer
 weight: -27
 type: teammember
-image: img/team/alissa.png
+image: alissa-gerhard.png
+team: integration
 ---
 
 is a Python developer who specializes in computer networks.
