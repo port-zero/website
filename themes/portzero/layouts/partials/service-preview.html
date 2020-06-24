@@ -1,8 +1,0 @@
-{{ $imageName := printf "%s.*" .item.File.TranslationBaseName }}
-
-{{ with .item.Parent.Resources.GetMatch $imageName }}
-    {{ $thumbnail := .Fit "100x100" }}
-    <img src="{{ $thumbnail.Permalink }}" alt="{{ $.item.Title }}">
-{{ else }}
-  {{ .item.Title }}
-{{ end }}

@@ -1,5 +1,14 @@
 <section class="content-section section-services">
-    {{ partial "detail-tiles" (dict "name" "services" "preview-partial" "service-preview" "content-partial" "service-content" "items" .Pages) }}
+    {{ range .Pages }}
+        <a class="service-logo" href="{{ .Permalink }}">
+            {{ $imageName := printf "%s.*" .File.TranslationBaseName }}
+            {{ with .Parent.Resources.GetMatch $imageName }}
+                {{ $thumbnail := .Fit "100x100" }}
+                <img src="{{ $thumbnail.Permalink }}" alt="{{ $.Title }}">
+            {{ end }}
+            <h3 class="section-service-header">{{ .LinkTitle }}</h3>
+        </a>
+    {{ end }}
 </section>
 
 <img class="services-landscape" src="/img/services-landscape.jpg" alt="">
