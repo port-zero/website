@@ -13,6 +13,16 @@
         </section>
     {{ end }}
 
+    <section id="{{ .Section }}-{{ .ContentBaseName }}-products">
+        <h1 class="content-header">{{ .Params.productsTitle }}</h1>
+        {{ if and .Params.productsSummary .Params.productsDescription }}
+            <section class="content-section">
+                <p class="content-summary">{{ .Params.productsSummary }}</p>
+                <p class="content-description">{{ .Params.productsDescription }}</p>
+            </section>
+        {{ end }}
+    </section>
+
     <section id="{{ .Section }}-{{ .ContentBaseName }}-team">
         <h1 class="content-header">{{ .Params.teamTitle }}</h1>
         {{ if and .Params.teamSummary .Params.teamDescription }}

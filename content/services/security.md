@@ -4,6 +4,13 @@ language: en
 title: IT-Security
 summary: |
     We make your system secure!
+productsTitle: Products
+productsSummary: |
+    Here are our products
+productsDescription: |
+    * Product 1
+    * Product 2
+    * Product 3
 teamTitle: Our security experts
 teamSummary: |
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
