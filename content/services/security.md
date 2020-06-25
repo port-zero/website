@@ -8,8 +8,8 @@ productsTitle: Products
 productsSummary: |
     Here are our products
 productsDescription: |
-    * Product 1
-    * Product 2
+    * Product 1 |
+    * Product 2 |
     * Product 3
 teamTitle: Our security experts
 teamSummary: |
