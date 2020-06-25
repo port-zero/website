@@ -6,11 +6,9 @@ summary: |
     We make your system secure!
 productsTitle: Products
 productsSummary: |
-    Here are our products
+    * Product 1
 productsDescription: |
-    * Product 1 |
-    * Product 2 |
-    * Product 3
+    This 1 Product is an awesome product. Always wanted a cool Product? We have them all! But if you're really down for awesome? Buy this one!
 teamTitle: Our security experts
 teamSummary: |
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
