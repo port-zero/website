@@ -1,5 +1,5 @@
 ---
-title: Software Development
+title: Software Entwicklung
 language: de
 slug: dev
 menu:

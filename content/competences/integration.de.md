@@ -1,5 +1,5 @@
 ---
-title: System Integration
+title: Integration von Softwarelösungen
 language: de
 slug: sys
 menu:
