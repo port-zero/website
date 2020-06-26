@@ -4,7 +4,7 @@ language: de
 slug: dev
 menu:
   main:
-    parent: Competences
+    parent: Kompetenzen
 weight: 20
 ---
 

@@ -4,7 +4,7 @@ language: de
 slug: sec
 menu:
   main:
-    parent: Competences
+    parent: Kompetenzen
 weight: 30
 ---
 
