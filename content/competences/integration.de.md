@@ -5,7 +5,7 @@ slug: sys
 menu:
   main:
     parent: Kompetenzen
-weight: 10
+weight: 30
 ---
 
 <p class="lead">
