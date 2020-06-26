@@ -23,24 +23,6 @@
         {{ end }}
     </section>
 
-    <section id="{{ .Section }}-{{ .ContentBaseName }}-team">
-        <h1 class="content-header">{{ .Params.teamTitle }}</h1>
-        {{ if and .Params.teamSummary .Params.teamDescription }}
-            <section class="content-section content-section--dark content-info">
-                <p class="content-summary">{{ .Params.teamSummary }}</p>
-                <p class="content-description">{{ .Params.teamDescription }}</p>
-            </section>
-        {{ end }}
-        <div class="content-section section-community-team">
-            {{ $community := (.Site.GetPage "community").Pages }}
-            {{ $leads := where $community "Params.team_lead_of" .File.ContentBaseName }}
-            {{ $members := where $community "Params.team" .File.ContentBaseName }}
-            {{ with uniq (union $leads $members) }}
-                {{ partial "detail-tiles" (dict "name" "community" "default" 0 "preview-partial" "team-member-preview" "content-partial" "team-member-content" "items" .) }}
-            {{ end }}
-        </div>
-    </section>
-
     <section id="{{ .Section }}-{{ .ContentBaseName }}-projects">
         <h1 class="content-header">{{ .Params.projectsTitle }}</h1>
         {{ if and .Params.projectsSummary .Params.projectsDescription }}
