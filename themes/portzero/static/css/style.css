@@ -432,7 +432,7 @@ p:last-of-type {
 
 .services-landscape {
   display: block;
-  max-width: 100%;
+  max-width: 75%;
   max-height: 75vh;
   margin: 0 auto;
 }
