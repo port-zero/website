@@ -1,5 +1,6 @@
 ---
-title: Building and Training of internal Security Teams | Red Teaming
+title: Red Teaming
+subtitle: Building and Training of internal Security Teams
 language: en
 weight: 30
 ---

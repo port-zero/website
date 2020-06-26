@@ -596,25 +596,38 @@ p:last-of-type {
 }
 
 .product-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+}
+
+.product-preview {
+  margin-bottom: 1rem;
 }
 
 .product-title {
+  margin: 0;
   font-size: 1.5rem;
-  line-height: 1.8;
+}
+
+.product-subtitle {
+  margin-top: 0.5rem;
 }
 
 .product-description {
   border-left: 2px solid var(--color-text-dark);
+  height: 100%;
 }
 
 .product-list .detail-tiles-preview {
-  order: 1;
+  grid-column: 1 / 1;
+  width: auto;
 }
 
 .product-list .detail-tiles-content {
-  order: 2;
-  page-break-before: always;
+  grid-row: 1 / -1;
+  grid-column: 2 / 2;
+}
+
+.product-list .detail-tiles-content > * {
+  width: auto;
 }

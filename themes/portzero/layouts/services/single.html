@@ -19,7 +19,7 @@
             <section class="content-section content-section--dark">
                 {{ .Content }}
             </section>
-            <div class="content-section product-list content-info">
+            <div class="content-section product-list content-info" style="grid-template-rows: repeat({{ len .Pages }}, auto)">
                 {{ partial "detail-tiles" (dict "name" "products" "default" 0 "preview-partial" "product-preview" "content-partial" "product-content" "items" .Pages) }}
             </div>
         </section>
