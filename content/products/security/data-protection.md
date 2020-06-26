@@ -1,7 +1,7 @@
 ---
 title: Data Protection
 language: en
-weight: 60
+weight: 80
 ---
 
 * GDPR Consulting
