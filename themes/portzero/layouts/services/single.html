@@ -13,13 +13,15 @@
         </section>
     {{ end }}
 
-    <section id="{{ .Section }}-{{ .ContentBaseName }}-products">
-        <h1 class="content-header">{{ .Params.productsTitle }}</h1>
-        {{ if and .Params.productsSummary .Params.productsDescription }}
-            <section class="content-section">
-                <p class="content-summary">{{ .Params.productsSummary }}</p>
-                <p class="content-description">{{ .Params.productsDescription }}</p>
+    {{ with .Site.GetPage (printf "/products/%s" .ContentBaseName) }}
+        <section id="{{ .Section }}-{{ .ContentBaseName }}-products">
+            <h1 class=content-header>{{ .Title }}</h2>
+            <section class="content-section content-section--dark">
+                {{ .Content }}
             </section>
-        {{ end }}
-    </section>
+            <div class="content-section product-list content-info">
+                {{ partial "detail-tiles" (dict "name" "products" "default" 0 "preview-partial" "product-preview" "content-partial" "product-content" "items" .Pages) }}
+            </div>
+        </section>
+    {{ end }}
 {{ end }}

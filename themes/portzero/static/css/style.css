@@ -572,7 +572,8 @@ p:last-of-type {
 
   .content-description {
     flex: 5;
-    margin-left: 15%;
+    margin-left: 10%;
+    padding-left: 5%;
   }
 
   .copyright {
@@ -592,4 +593,28 @@ p:last-of-type {
   .social-links {
     order: 3;
   }
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.product-description {
+  border-left: 2px solid var(--color-text-dark);
+}
+
+.product-list .detail-tiles-preview {
+  order: 1;
+}
+
+.product-list .detail-tiles-content {
+  order: 2;
+  page-break-before: always;
 }
