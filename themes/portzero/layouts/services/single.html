@@ -22,20 +22,4 @@
             </section>
         {{ end }}
     </section>
-
-    <section id="{{ .Section }}-{{ .ContentBaseName }}-projects">
-        <h1 class="content-header">{{ .Params.projectsTitle }}</h1>
-        {{ if and .Params.projectsSummary .Params.projectsDescription }}
-            <section class="content-section content-section--blue content-info">
-                <p class="content-summary">{{ .Params.projectsSummary }}</p>
-                <p class="content-description">{{ .Params.projectsDescription }}</p>
-            </section>
-        {{ end }}
-        <div class="content-section section-companies section-projects">
-            {{ $projects := (.Site.GetPage "projects").Pages }}
-            {{ with where $projects "Params.services" "intersect" (slice .File.ContentBaseName) }}
-                {{ partial "detail-tiles" (dict "name" "projects" "default" 0 "preview-partial" "company-preview" "content-partial" "company-content" "items" .) }}
-            {{ end }}
-        </div>
-    </section>
 {{ end }}
