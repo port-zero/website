@@ -1,11 +1,11 @@
 ---
-title: Software Entwicklung
+title: Software-Entwicklung
 language: de
 slug: dev
 menu:
   main:
     parent: Competences
-weight: 30
+weight: 20
 ---
 
 <p class="lead">

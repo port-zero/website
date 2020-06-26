@@ -1,11 +1,11 @@
 ---
-title: Integration von Softwarelösungen
+title: Systemintegration
 language: de
 slug: sys
 menu:
   main:
     parent: Competences
-weight: 30
+weight: 10
 ---
 
 <p class="lead">

@@ -1,5 +1,5 @@
 ---
-title: Competences
+title: Kompetenzen
 language: de
 slug: /competences/
 menu: main

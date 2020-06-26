@@ -1,5 +1,5 @@
 ---
-title: IT-Sicherheitsberatung
+title: IT-Sicherheit
 language: de
 slug: sec
 menu:
