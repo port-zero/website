@@ -1,6 +1,16 @@
 {{ define "main" }}
+    <section id="home">
+        {{ with .Site.GetPage "banner" }}
+        {{ partial "banner" . }}
+        {{ end }}
+    </section>
 
-<h1 class="tagline">{{ .Title }}</h1>
-{{ .Content }}
-
+    {{ range $section := .Site.Menus.main }}
+        {{ with .Page }}
+            <section id="{{ .Section }}">
+                <h1 class="content-header">{{ .Title }}</h1>
+                {{ .Render "content-section" }}
+            </section>
+        {{ end }}
+    {{ end }}
 {{ end }}

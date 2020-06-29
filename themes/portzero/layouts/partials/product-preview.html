@@ -1,0 +1,6 @@
+<div class="content-summary product-preview">
+    <h2 class="product-title">{{ .item.Title }}</h2>
+    {{ if isset .item.Params "subtitle" }}
+        <span class="product-subtitle">{{ .item.Params.subtitle }}</span>
+    {{ end }}
+</div>

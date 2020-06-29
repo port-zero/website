@@ -1,0 +1,25 @@
+{{ range $index, $item := .items }}
+    {{ $itemName := (printf "detail-tiles-%s" $.name) }}
+    {{ $itemId := (printf "%s-%d" $itemName $index) }}
+    <input
+        {{ if isset $ "default" | and (eq $index $.default) }}checked="checked"{{ end }}
+        type="radio"
+        class="detail-tiles-radio"
+        name="{{ $itemName }}"
+        id="{{ $itemId }}"
+    >
+    <label class="detail-tiles-preview" for="{{ $itemId }}">
+        {{ if isset $ "preview-partial" }}
+            {{ partial (index $ "preview-partial") (dict "item" $item "name" $itemName "id" $itemId) }}
+        {{ else }}
+            {{ $item.Title }}
+        {{ end }}
+    </label>
+    <div class="detail-tiles-content">
+        {{ if isset $ "content-partial" }}
+            {{ partial (index $ "content-partial") (dict "item" $item "name" $itemName "id" $itemId) }}
+        {{ else }}
+            {{ $item.Content }}
+        {{ end }}
+    </div>
+{{ end }}

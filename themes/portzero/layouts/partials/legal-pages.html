@@ -1,0 +1,7 @@
+<ul class="legal-pages">
+    {{ range .Site.Menus.footer }}
+        {{ with .Page }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>

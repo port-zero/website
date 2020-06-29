@@ -2,7 +2,6 @@
 title: GDPR
 language: en
 slug: /gdpr/
-menu: main
 weight: 20
 ---
 

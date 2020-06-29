@@ -2,14 +2,45 @@
 <html {{with .Site.LanguageCode}}lang="{{.}}"{{end}}>
     {{ partial "head.html" . }}
     <body>
-        <div class="content">
-            {{  partial "sidebar.html" .  }}
-	    <div class="text">
-                {{ block "main" . -}}{{- end }}
+        <nav class="menu">
+            <a class="menu-logo" href="#home">
+                <figure>
+                    <img src="img/logo.svg" alt="Port Zero Logo" />
+                    <figcaption>Port Zero</figcaption>
+                </figure>
+            </a>
+            <div class="language-selector">
+                {{ range .AllTranslations }}
+                    {{ if eq .Language $.Language }}
+                        <span>{{ .Language.Lang | humanize }}</span>
+                    {{ else }}
+                        <a href="{{ .Permalink }}">{{ .Language.Lang | humanize }}</a>
+                    {{ end }}
+                {{ end }}
             </div>
-            {{  partial "footer.html" .  }}
-        </div>
-
+            <input type="checkbox" id="menu-mobile-checkbox" class="menu-mobile-cb">
+            <label for="menu-mobile-checkbox" class="menu-mobile-label">
+                <i class="icon-menu"></i>
+            </label>
+            <ul class="menu-items">
+                {{ $home := $.GetPage "/" }}
+                {{ range where .Site.Menus.main "Page" "!=" nil }}
+                    <li>
+                        <a
+                            href="{{ printf "%s#%s" $home.Permalink .Page.Section }}"
+                            class="content-section-link"
+                            id="link-{{ .Page.Section }}"
+                        >
+                            {{ .Page.LinkTitle }}
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </nav>
+        <main id="content" class="content">
+            {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer" .}}
         <script src="/js/index.js"></script>
     </body>
 </html>

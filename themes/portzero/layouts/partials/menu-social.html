@@ -1,9 +1,0 @@
-<ul class="menu_social">
-    {{ range .Site.Menus.social -}}
-    <li>
-        <a href="{{.URL}}" target="_BLANK" title="{{ .Name }}">
-            <i class="icon-{{ .Identifier }}"></i>
-        </a>
-    </li>
-    {{- end  }}
-</ul>

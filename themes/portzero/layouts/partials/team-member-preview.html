@@ -1,0 +1,16 @@
+{{ $imageName := printf "%s.*" .item.File.TranslationBaseName }}
+<div class="team-member-preview">
+    {{ with .item.Parent.Resources.GetMatch $imageName }}
+        {{ $thumbnail := .Fill "100x100" }}
+        <img
+            class="team-member-preview-image"
+            src="{{ $thumbnail.Permalink }}"
+            alt="Photo of {{ $.item.Title }}"
+        >
+    {{ else }}
+        <span class="team-member-preview-image">?</span>
+    {{ end }}
+    <span class="team-member-preview-name">
+        {{ .item.Title }}
+    </span>
+</div>
