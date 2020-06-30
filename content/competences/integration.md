@@ -41,4 +41,4 @@ Green-field Setups, Maintenance, Feature Extension, Migration, Upgrades, Debuggi
 
 ## Our Way
 
-We champion Open Source internally at Port Zero and in our work. We understand ourselves as DevOps, approaching problems and solutions directly in a real-world envirnoment. To bridge between system administration and software development and find the best **integration** between the two. 
+We champion Open Source internally at Port Zero and in our work. We understand ourselves as DevOps, approaching problems and solutions directly in a real-world environment. To bridge between system administration and software development and find the best **integration** between the two. 
