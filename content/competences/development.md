@@ -20,7 +20,7 @@ If you want to respect privacy without compromising on features and functionalit
 It is self-contained: it does not use 3rd parties, but does not compromise on other aspects such as analytics.
 It is a synthesis of open-source components for privacy and -of course- a site crafted for you.
 
-![X](Y)
+![]()
 
 What it offers:
 
@@ -42,13 +42,33 @@ On the technical side:
 
 ## Development with a Focus on Security & Integration
 
-More often than not we work on multiple fronts.
-We provide technical guidance and execution, from requirements collection to implementation detail.
+Our work is interdisciplinary.
+We provide technical guidance _and_ execution, from requirements collection to implementation detail.
 Our competences span the full stack and those of security and automation.
+
+Some of the languages we work in:
+
+- Go
+- Python
+- JavaScript
+- Pharo
+- Haskell
+- Elixir
+
+Some of the frameworks we are familiar with:
+
+- React
+- Django
+- GToolkit
+
+We have worked in the [SDN space](/references/wobcom), the realm of [personal data](/references/polypoly), and [logistics](/references/saloodo) to name a few.
+See our [references](/references) for more details.
 
 ## Open Source
 
 We use Open Source internally at Port Zero and in our work.
-When it comes to architecture and security, the breadth and depth of our technical expertise really finds a home.
-We work in the SDN space, the realm of personal data, and logistics to name a few.
-Some of our favourite mainstream languages are Go, Python, and JS as well as Haskell, Pharo, and Elixir.
+It means:
+
+- You have access to all the source code for your solution.
+- Collectively we can contribute functionality and features useful for others but not critical to business.
+- Both parties have the opportunity to show their work.
