@@ -1,7 +1,7 @@
 ---
 title: System Integration
 language: en
-slug: dev
+slug: sys
 menu:
   main:
     parent: Competences
