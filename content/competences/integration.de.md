@@ -12,7 +12,7 @@ weight: 30
    A Header of sorts.
 </p>
 
-We offer System Integration with a focus on **digitization** and **automatization**. Modernizing legacy infrastructure, integrating (manual) workflows and connecting your systems without vendor locking. By always supporting open-source solutions we improve maintainability as well as security.
+We offer System Integration for Linux based infrastructures with a focus on **digitization** and **automatization**. Modernizing legacy infrastructure, integrating (manual) workflows and connecting your systems without vendor locking. By always supporting open-source solutions we improve maintainability as well as security.
 
 ## Monitoring Systems
 
@@ -35,7 +35,7 @@ We can also help you with the administration of your existing infrastructure. Fo
 
 - Setting up a CI/CD pipeline.
 - Setting up Ansible for managing your infrastructure configuration.
-- Setting up extensible Jitsi servers for your organization.
+- Setting up extensible Jitsi video conferencing servers for your organization.
 - All things system administration! Configuring failovers or webserservers, upgrading a Linux distribution, ...
 
 

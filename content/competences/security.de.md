@@ -12,9 +12,11 @@ weight: 10
    A Header of sorts.
 </p>
 
+Information Security and Data Privacy are among our core values: both are a process, not a state. As a logical implication, we achieve our mission by enabling you to make sound decisions yourself, understand their risks and focus your resources on where they make the most security impact.
+
 Uniting a diverse community of expert individuals is a unique strength of our community.
 
-Our specific combination of skill sets and fields of expertise enables us to support our customers with what we love to do:
+Our specific combination of skill sets and fields of expertise enables us to support you with what we love to do:
 
 ## Security Consulting
 
@@ -24,7 +26,7 @@ We tackle tricky individual challenges with them, or actively support them as lo
 
 We love to play on our unique strength to bring together a diverse team of highly-skilled specialists to ensure deep contribution in all relevant fields.
 
-Management frameworks and certifications in which we have particularly solid implementation experience include _ISO 27000+_, _BSI IT-Grundschutz_, _C5_, _TISAX_ and _PCI DSS_.
+Management frameworks and certifications in which we have particularly solid implementation experience include __ISO 27000+__, __BSI IT-Grundschutz__, __C5__, __TISAX__ and __PCI DSS__.
 
 ## Penetration Testing
 

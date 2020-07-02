@@ -14,7 +14,9 @@ weight: 20
 
 Our competences span the whole software life-cycle, from requirements collection to implementation detail, the full-stack, security, and automation.
 
-## Privacy Conscious? You Don't Have To Compromise
+## Privacy Conscious Website
+
+You Don't Have To Compromise
 
 If you want to respect privacy without compromising on features and functionality, then our privacy conscious site might be for you.
 It is self-contained: it does not use 3rd parties, but does not compromise on other aspects such as analytics.

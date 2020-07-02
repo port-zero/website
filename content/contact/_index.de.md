@@ -10,7 +10,9 @@ weight: 50
   Treten Sie gerne mit uns in Kontakt!
 </p>
 
-Michael Prinzinger, CEO\
+Paul-Lincke Ufer 7e\
+10999 Berlin
+
 Tel.: [+49 (0) 30 / 12 089 345](tel:00493012089345)\
 Fax: +49 (0) 30 / 92 108 032
 
