@@ -26,10 +26,7 @@ We reserve the right to subsequently review the server log files if we discover 
 
 We would like to make clear that you have right of access to your personal data collected by us (in case this statement is insufficient) and can––at any time––obtain the relevant information from us. Unless your request conflicts with a legal obligation to store data (e.g. data retention), you are entitled to the correction of incorrect data and to block or erase your personal data.
 
-Please contact our data protection officer at
-[datenschutz@port-zero.com](mailto:datenschutz@port-zero.com)
-(PGP Key: [C56E F7FD 3D3A 34F5 39AA 1304 E0E2 BAEE 4887
-F679](/pubkey-datenschutz.asc) — [what is PGP](https://emailselfdefense.fsf.org/en/infographic.html)?) to this end or for more information.
+Please contact our data protection officer at [datenschutz@port-zero.com](mailto:datenschutz@port-zero.com) (PGP Key: [C56E F7FD 3D3A 34F5 39AA 1304 E0E2 BAEE 4887 F679](/pubkey-datenschutz.asc) — [what is PGP](https://emailselfdefense.fsf.org/en/infographic.html)?) to this end or for more information.
 
 Assertion of these rights is free of charge.
 
