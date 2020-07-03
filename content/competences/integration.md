@@ -18,7 +18,7 @@ We offer System Integration for Linux based infrastructures with a focus on **di
 
 We have extensive knowledge about setting up and integrating monitoring systems for your existing or new infrastructure.
 
-- Out of the box, deployed in minutes, fully open source, fully customizable: our monitoring and alerting stack consists of ansible, prometheus, grafana and the alertmanager.
+- Out of the box, deployed in minutes, fully open source, fully customizable: our monitoring and alerting stack consists of [Ansible](https://www.ansible.com/), [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/) and [Alertmanager](https://github.com/prometheus/alertmanager).
 - We integrate into existing monitoring solutions (Nagios, etc).
 - We provide debugging and feature extension for existing monitoring solutions.
 
@@ -26,12 +26,12 @@ We have extensive knowledge about setting up and integrating monitoring systems 
 
 We know you've got a cronjob that is running a PHP CSV parser that pushes data directly into another system's database somewhere in your infrastructure. We can help!
 - We design and implement a modern API to connect your services.
-- We can modernize, add features to or debug existing APIs in your infrastructure.
-- We can set up a centralized user & rights management concept and system (LDAP + interfaces).
+- We modernize, add features to or debug existing APIs in your infrastructure.
+- We set up centralized user & rights management concepts and systems.
 
 ## Administrating Systems
 
-We can also help you with the administration of your existing infrastructure. For example:
+We will also help you with the administration of your existing infrastructure. For example:
 
 - Setting up a CI/CD pipeline.
 - Setting up extensible Jitsi video conferencing servers for your organization.
