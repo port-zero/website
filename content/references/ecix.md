@@ -5,7 +5,5 @@ weight: -130
 type: client
 image: /img/references/ecix.png
 ---
-Together with ecix we developed in-house solutions
-for Client and Resource Management and Monitoring,
-as well as an open-source
-[Looking Glass system](https://github.com/ecix/birdseye).
+
+Together with [ecix](https://www.ecix.net/) we developed in-house solutions for Client and Resource Management and Monitoring, as well as an open-source [Looking Glass system](https://github.com/ecix/birdseye).

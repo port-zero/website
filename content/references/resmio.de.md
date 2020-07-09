@@ -5,5 +5,5 @@ weight: -105
 type: client
 image: /img/references/resmio.png
 ---
-Für resmio übernehmen wir die Entwicklung und Betreuung des Backends, in Code
-und Operations.
+
+Für [resmio](https://www.resmio.com/) übernehmen wir die Entwicklung und Betreuung des Backends, in Code und Operations.

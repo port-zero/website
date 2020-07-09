@@ -1,10 +1,9 @@
 ---
-title: saloodo!
-description: Ihre digitale Frachtplattform
+title: Saloodo!
+description: realtime logistics
 weight: -110
 type: client
 image: /img/references/saloodo.png
 ---
 
-Bei Saloodo! haben wir an einem anspruchsvollem Marktplatz für gloable Logistikrouten
-mitentwickelt.
+Bei [Saloodo!](https://www.saloodo.com/de/) haben wir einen anspruchsvollen Marktplatz für globale Logistikrouten mitentwickelt.

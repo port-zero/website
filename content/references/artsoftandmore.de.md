@@ -6,4 +6,4 @@ type: client
 image: /img/references/artsoftandmore.gif
 ---
 
-Für art soft and more bauen wir eine skalierbare Jitsi-Videokonferenzarchitektur mit einem starken Fokus auf Sicherheit und Datenschutz, die in Schulen in ganz Deutschland verwendet wird.
+Für [art soft and more](http://www.artsoftandmore.com/) bauen wir eine skalierbare Jitsi-Videokonferenzarchitektur mit einem starken Fokus auf Sicherheit und Datenschutz, die in Schulen in ganz Deutschland verwendet wird.

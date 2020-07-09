@@ -5,5 +5,5 @@ weight: -110
 type: client
 image: /img/references/orderbird.png
 ---
-Bei orderbird kümmen wir uns um die Themen Datenschutz und Sicherheit in
-Operations, Infrastruktur, und Programmierung.
+
+Bei [orderbird](https://www.orderbird.com/) kümmen wir uns um die Themen Datenschutz und IT-Sicherheit in Operations, Infrastruktur und Entwicklung.
