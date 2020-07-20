@@ -52,12 +52,14 @@ We think that data privacy is, above all else, important.
 
 We officially serve as external Data Protection Officer for a diverse group of customers, where we translate relevant regulations to their individual business operations, enable them to make decisions in the field and sensibly utilize available budget.
 
+We accompany our customers throughout the process, whether it comes to setting up an initial structure for a data privacy management system or working on either specific industrial standards or certification requirements.
+
 Our individual strength lies in the interface between Data Privacy and Information Security and by this in our ability to effectively work with our customers on all legal, operational and technical levels.
 
 ## Additional fields of expertise
 
 We also regularly work with our customers in the following fields:
-* Thread Modelling and Risk Analysis
+* Thread Modeling and Risk Analysis
 * Security Trainings
   * Secure Coding
   * Security in DevOps and IT operations
