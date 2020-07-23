@@ -14,15 +14,17 @@ weight: 20
 
 Our competences span the whole software life-cycle, from requirements collection to implementation detail, the full-stack, security, and automation.
 
-## Privacy Conscious Website
+## Featrued Product - Privacy Conscious Website
 
-You Don't Have To Compromise
+### You Don't Have To Compromise
 
 If you want to respect privacy without compromising on features and functionality, then our privacy conscious site might be for you.
 It is self-contained: it does not use 3rd parties, but does not compromise on other aspects such as analytics.
 It is a synthesis of open-source components for privacy and -of course- a site crafted for you.
 
-![]()
+Take a look at the [polypoly](https://polypoly.eu/en/home) site:
+
+![https://polypoly.eu/en/home](/img/product/polypoly-privacy-conscious-site.png)
 
 What it offers:
 
@@ -42,7 +44,7 @@ On the technical side:
 - Analytics: [Matomo](https://matomo.org/)
 - [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/)
 
-## Development with a Focus on Security & Integration
+## Services - Development with a Focus on Security & Integration
 
 Our work is interdisciplinary.
 We provide technical guidance _and_ execution, from requirements collection to implementation detail.
