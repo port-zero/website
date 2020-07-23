@@ -37,10 +37,10 @@ Use self-hosted video, rather than a 3rd party, to deliver content.
 
 On the technical side:
 
-- CMS: Directus
-- CI/CD: Jenkins
-- Analytics: Matomo
-- Gatsby and React
+- CMS: [Directus](https://directus.io/)
+- CI/CD: [Jenkins](https://www.jenkins.io/)
+- Analytics: [Matomo](https://matomo.org/)
+- [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/)
 
 ## Development with a Focus on Security & Integration
 
@@ -53,15 +53,15 @@ Some of the languages we work in:
 - Go
 - Python
 - JavaScript
-- Pharo
-- Haskell
-- Elixir
+- [Pharo](https://pharo.org/)
+- [Haskell](https://www.haskell.org/)
+- [Elixir](https://elixir-lang.org/)
 
 Some of the frameworks we are familiar with:
 
 - React
 - Django
-- GToolkit
+- [GToolkit](https://gtoolkit.com/)
 
 We have worked in the [SDN space](/references/wobcom), the realm of [personal data](/references/polypoly), and [logistics](/references/saloodo) to name a few.
 See our [references](/references) for more details.
