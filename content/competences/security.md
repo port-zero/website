@@ -34,7 +34,7 @@ Our many years of experience in comprehensive penetration tests of a broad range
 
 Our security engineers simulate the actions of a potential attacker, placing special focus on identifying vulnerabilities that cannot be found automatically by scanning tools.
 
-Our conclusive reportings based on industry best practices evaluate the target's information security level and make concrete recommendations for its improvement, ensuring the highest level of operative value for our customers. 
+Our conclusive reporting based on industry best practice evaluate the target's information security level and make concrete recommendations for its improvement, ensuring the highest level of operative value for our customers.
 
 Lastly, our experience in the field translates into our regular activities in security research and contributions to the development of penetration testing standards inside the expert community.
 
@@ -42,7 +42,7 @@ Lastly, our experience in the field translates into our regular activities in se
 
 The wide field of independent security audits is where we combine all our strengths and skills from our long and diverse work experience in the security sector.
 
-We both love to support IT teams with code security and infrastructure audits of customer applications where we help them introduce and harden a substainable security routine into their products, as well as conducting compliance audits in the scope of security certifications and due dilligence procedures in M&A scenarios where we perform a stock analysis and evaluation of the actual performance and effectiveness of Information Security operations of an organisation.
+We both love to support IT teams with code security and infrastructure audits of customer applications where we help them introduce and harden a sustainable security routine into their products, as well as conducting compliance audits in the scope of security certifications and due diligence procedures in M&A scenarios where we perform a stock analysis and evaluation of the actual performance and effectiveness of Information Security operations of an organization.
 
 ## Data Protection
 
@@ -59,12 +59,10 @@ Our individual strength lies in the interface between Data Privacy and Informati
 ## Additional fields of expertise
 
 We also regularly work with our customers in the following fields:
-* Thread Modeling and Risk Analysis
-* Security Trainings
+* Threat Modeling and Risk Analysis
+* Security Training
   * Secure Coding
   * Security in DevOps and IT operations
-  * Trainings of employees as part of compliance requirements
+  * Training employees as part of compliance requirements
 * Red Teaming
 * Emergency Response
-
-
