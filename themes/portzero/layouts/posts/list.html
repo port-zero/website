@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<h2 class="tagline">{{ .Title }}</h2>
+{{ .Content }}
+
+<div class="List">
+  {{ if .Data.Pages}}
+    {{ range sort .Data.Pages }}
+    <article class="List-item">
+      {{ with.Params.image }}
+        <img src="{{ . }}" class="List-image" />
+      {{ else }}
+        <img src="img/logo.png" class="List-image" />
+      {{ end }}
+      <div class="List-text">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h4>{{ .Params.description }}</h4>
+        {{ .Summary }}
+      </div>
+    </article>
+    {{ end }}
+  {{ else }}
+    <p>{{ i18n "no_posts" . }}</p>
+  {{ end }}
+</div>
+
+{{ end }}

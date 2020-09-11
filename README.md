@@ -15,6 +15,7 @@ You can run the [Hugo](https://gohugo.io/) server locally to build and serve the
 
 * [How to install Hugo?](https://gohugo.io/getting-started/installing/)
 * How to run Hugo? `hugo server`
+* How to create a new post? `hugo new posts/my_post.md`
 
 ## In-depth documentation
 
