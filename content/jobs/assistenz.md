@@ -32,8 +32,7 @@ Im Finanz- und Rechnungswesen arbeitest Du viel mit unseren Zahlen und Mathemati
 
 ## Was Du davon hast
 
-* Arbeitszeit: 20-30 Stunden / Woche
-* Gehalt: 1500 EUR brutto bei 20h; 2250 EUR brutto bei 30h; bezahlte Überstunden
+* Arbeitszeit: 10-20 Stunden / Woche
 * 25 Tage bezahlter Urlaub im Jahr
 * Sicheres und unterstützendes Umfeld
 * Raum und Unterstützung beim Lernen neuer Fähigkeiten und Wachsen als Person
