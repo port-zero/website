@@ -42,7 +42,7 @@ Paul-Lincke-Ufer 7E\
 
 ### Content
 
-All of the information contained on our site was compiled with the greatest possible care. However we take no responsibility for the timeliness, accuracy, completeness or quality of the information provided. In accordance with the § 7 Paragaph 1 TMG, we are responsible for our own content on our site. In accordance with §§ 8, 9 and 10 TMG, we have, however, no obligation to ensure the timeliness, accuracy, completeness or quality of the information provided by third parties. We are still obligated to block or remove information that the general laws comes to impose. We take liability only when we receive a concrete acknowledgement of trangression of rights. In this case, we will remove the content promptly.
+All of the information contained on our site was compiled with the greatest possible care. However we take no responsibility for the timeliness, accuracy, completeness or quality of the information provided. In accordance with the § 7 Paragraph 1 TMG, we are responsible for our own content on our site. In accordance with §§ 8, 9 and 10 TMG, we have, however, no obligation to ensure the timeliness, accuracy, completeness or quality of the information provided by third parties. We are still obligated to block or remove information that the general laws comes to impose. We take liability only when we receive a concrete acknowledgement of trangression of rights. In this case, we will remove the content promptly.
 
 ### Links
 
