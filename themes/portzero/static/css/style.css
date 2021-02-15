@@ -77,6 +77,10 @@ hr {
   border-bottom: 1px solid #0d96d5;
 }
 
+img {
+  width: 100%;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
