@@ -14,7 +14,7 @@ weight: 20
 
 Our competences span the whole software life-cycle, from requirements collection to implementation detail, the full-stack, security, and automation.
 
-## Featrued Product - Privacy Conscious Website
+## Featured Product - Privacy Conscious Website
 
 ### You Don't Have To Compromise
 
