@@ -467,10 +467,66 @@ p:last-of-type {
 }
 
 .services-landscape {
-  display: block;
+  position: relative;
   max-width: 65%;
   max-height: 75vh;
   margin: 0 auto;
+}
+
+.services-landscape-img, .services-landscape-gray {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.services-landscape-gray {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: grayscale(1);
+  transition:  200ms opacity;
+}
+
+.services-landscape:hover .services-landscape-gray {
+  opacity: 1;
+}
+
+.services-landscape-security, .services-landscape-integration, .services-landscape-development {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.services-landscape-security {
+  left: 0;
+  right: 66.66%;
+}
+
+.services-landscape-integration {
+  left: 33.33%;
+  right: 33.33%;
+}
+
+.services-landscape-development {
+  left: 66.66%;
+  right: 0;
+}
+
+.services-landscape-security:hover ~ .services-landscape-gray {
+  mask-image: linear-gradient(to right, transparent 33.33%, black 36.66%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(33.33%, transparent), color-stop(36.66%, black));
+}
+
+.services-landscape-integration:hover ~ .services-landscape-gray {
+  mask-image: linear-gradient(to right, black 30%, transparent 33.33%, transparent 66.66%, black 70%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(33.33%, transparent), color-stop(66.66%, transparent), color-stop(70%, black));
+}
+
+.services-landscape-development:hover ~ .services-landscape-gray {
+  mask-image: linear-gradient(to right, black 63.333%, transparent 66.66%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(63.333%, black), color-stop(66.66%, transparent));
 }
 
 
