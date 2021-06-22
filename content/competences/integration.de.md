@@ -12,39 +12,46 @@ weight: 30
    A Header of sorts.
 </p>
 
-We offer System Integration for Linux based infrastructures with a focus on **digitization** and **automatization**. Modernizing legacy infrastructure, integrating (manual) workflows and connecting your systems without vendor locking. By always supporting open-source solutions we improve maintainability as well as security.
+Wir bieten Systemintegration für Linux-basierte Infrastrukturen mit dem Fokus auf **Digitalisierung** und **Automatisierung**. Wir modernisieren Legacy-Infrastrukturen, integrieren (manuelle) Workflows und verbinden Ihre Systeme ohne Vendor Locking. Indem wir stets Open-Source-Lösungen unterstützen, verbessern wir sowohl die Wartbarkeit als auch die Sicherheit. Unsere Tätigkeit umfasst beispielweise:
 
 ## Monitoring Systems
 
-We have extensive knowledge about setting up and integrating monitoring systems for your existing or new infrastructure.
+Wir haben umfangreiches Wissen über die Einrichtung und Integration von Überwachungssystemen für Ihre bestehende oder neue Infrastruktur. Sie erhalten ein Monitoring-System, das
 
-- Out of the box, deployed in minutes, fully open source, fully customizable: our monitoring and alerting stack consists of [Ansible](https://www.ansible.com/), [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/) and [Alertmanager](https://github.com/prometheus/alertmanager).
-- We integrate into existing monitoring solutions (Nagios, etc).
-- We provide debugging and feature extension for existing monitoring solutions.
+- sofort einsatzbereit, in wenigen Minuten implementiert, vollständig quelloffen und vollständig anpassbar ist: Unser Monitoring- und Alerting-Stack besteht aus [Ansible](https://www.ansible.com/), [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/) und [Alertmanager](https://github.com/prometheus/alertmanager).
+
+- sich in Ihre bestehende Monitoring-Lösungen integriert (Nagios, etc.).
+
+- Ihre bestehenden Monitoring-Lösungen mit Debugging und anderen Funktionen erweitert.
 
 ## Integrating Systems
 
-We know you've got a cronjob that is running a PHP CSV parser that pushes data directly into another system's database somewhere in your infrastructure. We can help!
-- We design and implement a modern API to connect your services.
-- We modernize, add features to or debug existing APIs in your infrastructure.
-- We set up centralized user & rights management concepts and systems.
+Wir wissen, dass Sie einen Cronjob haben, der einen PHP-CSV-Parser ausführt, der irgendwo in Ihrer Infrastruktur Daten direkt in die Datenbank eines anderen Systems schiebt. Wir können helfen!
+
+- Sie erhalten eine von uns entworfene und moderne API, die alle Ihre wichtigen Dienste verbindet,  und von uns implementiert wird. 
+
+- Die APIs Ihrer Infrastruktur werden modernisiert, ergänzt oder debuggt. 
+
+- Wir richten zentralisierte Benutzer- und Rechteverwaltungskonzepte und -systeme ein.
 
 ## Administrating Systems
 
-We will also help you with the administration of your existing infrastructure. For example:
+Wir helfen Ihnen auch bei der Verwaltung Ihrer bestehenden Infrastruktur. Zum Beispiel:
 
-- Setting up a CI/CD pipeline.
-- Setting up extensible Jitsi video conferencing servers for your organization.
-- Setting up Ansible for managing your infrastructure configuration.
-- All things system administration! Configuring failovers or webserservers, upgrading a Linux distribution, ...
+- Einrichten einer CI/CD-Pipeline.
 
+- Einrichten von erweiterbaren Jitsi-Videokonferenzservern für Ihr Unternehmen.
+
+- Einrichten von Ansible zur Verwaltung Ihrer Infrastrukturkonfiguration.
+
+- Alles rund um die Systemadministration! Konfigurieren von Failovers oder Webservern, Upgraden einer Linux-Distribution, ...
 
 ## Breadth & Depth of Technical Expertise
 
-We have worked extensively in the following areas, with a multitude of underlying technologies:
-Green-field Setups, Maintenance, Feature Extension, Migration, Upgrades, Debugging, Incident Response, Performance Optimizations, HA/Redundant Setups/Recovery, Backups, Automation, System Integration, Trainings
+Wir haben umfangreich in den folgenden Bereichen gearbeitet, mit einer Vielzahl von zugrunde liegenden Technologien:
 
+Green-Field-Setups, Wartung, Funktionserweiterung, Migration, Upgrades, Fehlersuche, Incident Response, Leistungsoptimierung, HA/Redundante Setups/Recovery, Backups, Automatisierung, Systemintegration, Schulungen
 
 ## Our Way
 
-We champion Open Source internally at Port Zero and in our work. We understand ourselves as DevOps, approaching problems and solutions directly in a real-world environment. To bridge between system administration and software development and find the best **integration** between the two.
+Wir setzen uns intern bei Port Zero und in unserer Arbeit für Open Source ein. Wir verstehen uns als DevOps, die Probleme und Lösungen direkt in einer realen Umgebung angehen. Die Brücke zwischen Systemadministration und Softwareentwicklung zu schlagen und die beste **Integration** zwischen beiden zu finden.

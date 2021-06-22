@@ -12,43 +12,39 @@ weight: 20
    A Header of sorts.
 </p>
 
-Our competences span the whole software life-cycle, from requirements collection to implementation detail, the full-stack, security, and automation.
+Ihren gesamten Software-Llifecycle, vom Anforderungsmanagement bis zur detaillierten Implementierung, Full-Stack Development, der Code Security und der Automatisierung aufzubauen und zu optimieren – dafür stehen wir und an jeder Stelle können Sie auf uns zählen. Hier ein Einblick in was wir für Sie tun können:
 
-## Privacy Conscious Website
+## Datenschutz Respektierende Webseite
 
-You Don't Have To Compromise
-
-If you want to respect privacy without compromising on features and functionality, then our privacy conscious site might be for you.
-It is self-contained: it does not use 3rd parties, but does not compromise on other aspects such as analytics.
-It is a synthesis of open-source components for privacy and -of course- a site crafted for you.
-
+Sie müssen keine Kompromisse eingehen.
+Wenn Sie die Privatsphäre respektieren wollen, ohne Kompromisse bei den Features und der Funktionalität einzugehen, dann ist unsere datenschutz-respektierende Website etwas für Sie.
+Die Webseite ist in sich geschlossen: Sie verwendet keine Drittanbieter, und geht keine Kompromisse bei Aspekten wie Website Analytics ein. Das bedeutet, dass Sie ohne Einschränkungen aus dem gegenwärtigen Arsenal an Werkzeugen wählen können und trotzdem die Datenhoheit behalten und so die Daten Ihrer Kunden schützen und respektieren.
+Sie ist eine Synthese aus Open-Source-Komponenten für den Datenschutz und - natürlich - einer für Sie gestalteten Website.
 ![]()
+Inhalte:
+- Ein **in sich geschlossenes** Paket bis hin zu den Schriftarten.
+Nichts wird aus dem Web geholt.
+Weder Videos noch Schriftarten.
 
-What it offers:
+- **Analysen**, die die Privatsphäre respektieren, aber Ihnen Einblicke in Ihre Besucher*innen geben.
+- **Reichhaltige Medien**, die die Privatsphäre nicht beschränken.
+Verwenden Sie z.B. selbst gehostete Videos, statt der Einbindung eines Drittanbieters, um Inhalte bereitzustellen.
 
-- A **self-contained** package down to fonts.
-Nothing is fetched from across the Web.
-Not video and not fonts.
-
-- **Analytics** that respect privacy but give you insight.
-
-- **Rich media** that does not have to compromise privacy.
-Use self-hosted video, rather than a 3rd party, to deliver content.
-
-On the technical side:
-
+Auf der technischen Seite:
 - CMS: Directus
 - CI/CD: Jenkins
-- Analytics: Matomo
-- Gatsby and React
+- Analytik: Matomo
+- Gatsby und React
 
-## Development with a Focus on Security & Integration
+## Software Entwicklung mit Fokus auf die IT-Sicherheit
 
-Our work is interdisciplinary.
-We provide technical guidance _and_ execution, from requirements collection to implementation detail.
-Our competences span the full stack and those of security and automation.
+Unsere Arbeit ist interdisziplinär.
 
-Some of the languages we work in:
+Wir bieten technische Beratung _und_ Ausführung, von der Anforderungserhebung bis zum Implementierungsdetail.
+
+Dabei finden Sie Unterstützung über den gesamten Stack, sowie vor allem zu den Bereiche Sicherheit und Automatisierung.
+
+Einige der Sprachen, in denen wir besonders viel arbeiten:
 
 - Go
 - Python
@@ -57,20 +53,24 @@ Some of the languages we work in:
 - Haskell
 - Elixir
 
-Some of the frameworks we are familiar with:
-
+Einige der Frameworks, mit denen wir vertraut sind:
 - React
 - Django
 - GToolkit
 
-We have worked in the [SDN space](/references/wobcom), the realm of [personal data](/references/polypoly), and [logistics](/references/saloodo) to name a few.
-See our [references](/references) for more details.
+Wir haben im [SDN-Bereich](/references/wobcom), im Bereich [persönliche Daten](/references/polypoly) und [Logistik](/references/saloodo) gearbeitet, um nur einige zu nennen.
+
+Unsere [Referenzen](/references) verraten Ihnen mehr.
 
 ## Open Source
 
-We use Open Source internally at Port Zero and in our work.
-It means:
+Open Source und das Teilen von Wissen ist ein Kernwert für Port Zero.
+Wenn es für Sie und Ihr Projekt sinnvoll ist, nutzen wir daher gerne Open Source Lösungen in unserer Arbeit. Auch intern bei Port Zero verwenden wir vor allem Open Source Lösungen.
+Das bedeutet:
+- Sie haben Zugriff auf den gesamten Quellcode Ihrer Lösung.
 
-- You have access to all the source code for your solution.
-- Collectively we can contribute functionality and features useful for others but not critical to business.
-- Both parties have the opportunity to show their work.
+- Sie profitieren von Beiträgen aus der Community, welche die von Ihnen eingesetzt Lösung sicherer machen und mit zusätzlichen Features und Möglichkeiten anreichert.
+- Die von Ihnen eingesetzte Lösung ist durch Sie und uns stets anpassbar und erweiterbar.
+- Gemeinsam können wir Funktionen und Features beisteuern, die für andere nützlich, aber nicht geschäftskritisch sind.
+- Sie haben die Möglichkeit die gemeinsam entwickelte Lösung öffentlich zu präsentieren
+
