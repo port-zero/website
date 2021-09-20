@@ -1,6 +1,6 @@
 ---
 title: Dominik Köhler
-description: Security Consultant
+description: Security Team Lead
 weight: -27
 type: teammember
 image: img/team/dominik.jpg
