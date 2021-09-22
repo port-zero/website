@@ -8,7 +8,13 @@
 <div class="List">
   {{ range sort .Data.Pages }}
   <article class="List-item">
-    <img alt="Photo of {{ .Title }}" src="{{ .Params.image | default "/img/logo.png" }}" class="List-image" />
+    {{ $image := resources.Get (print "img/team/" .File.TranslationBaseName ".jpg") }}
+    {{ if $image }}
+      {{ $resized := $image.Fill "112x112 q100" }}
+      <img alt="Photo of {{ .Title }}" src="{{ $resized.RelPermalink }}" class="List-image" />
+    {{ else }}
+      <img alt="Photo of {{ .Title }}" src="{{ .Params.image | default "/img/logo.png" }}" class="List-image" />
+    {{ end }}
     <div class="List-text">
       <h3>{{ .Title }}</h3>
       <h4>{{ .Params.description }}</h4>
