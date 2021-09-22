@@ -1,7 +1,7 @@
 ---
 title: Dominik Köhler
 description: Security Team Lead
-weight: -27
+weight: -500
 type: teammember
 image: img/team/dominik.jpg
 ---
