@@ -1,3 +1,4 @@
 public/
 .idea
 *.swp
+/resources/_gen/images/*
