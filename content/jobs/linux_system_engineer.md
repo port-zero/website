@@ -5,6 +5,9 @@ image: /img/noimage.png
 weight: 10
 ---
 
+Since this position requires good German language skills, we only offer this position in German.
+
+
 **Deine Aufgaben**
 - Administration und Entwicklung von Autokonfigurationsservern (ACS) im Internet Service Provider (ISP)-Bereich
 - Installation, Konfiguration und Upgrades der Anwendung
