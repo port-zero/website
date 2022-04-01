@@ -5,7 +5,6 @@ image: /img/noimage.png
 weight: 11
 ---
 
-
 Since this position requires good German language skills, we only offer this position in German.
 
 Als Mitglied unserer System Integration Crew kennst du dich mit Linux Server Administration und
@@ -18,11 +17,11 @@ an den Einsatz von OpenSource und Free Software?
 
 **Fähigkeiten - Was du mitbringst**
 
-* Arbeit im Selbststudium
-* Investigatives Arbeiten und die Entwicklung kreativer Lösungsstrategien
-* Sehr gute Kommunikationsfähigkeiten und Deutschkenntnisse für unsere Kunden im D-A-CH Raum
-* Zuverlässigkeit
-* Engagement & Einsatzbereitschaft
+- Arbeit im Selbststudium
+- Investigatives Arbeiten und die Entwicklung kreativer Lösungsstrategien
+- Sehr gute Kommunikationsfähigkeiten und Deutschkenntnisse für unsere Kunden im D-A-CH Raum
+- Zuverlässigkeit
+- Engagement & Einsatzbereitschaft
 
 
 **Aufgaben**
@@ -32,51 +31,51 @@ geben und vermutlich hast du nicht in allen der hier aufgelisteten Aufgaben scho
 Erfahrungen. Deine Skills sollten sich aber teilweise mit der folgenden Liste deiner zukünftigen
 Herausforderungen decken:
 
-* Server Management und Virtualisierungsumgebungen für Maschinen und Container
-* Server Setup und Integration
-    * Webserver: nginx, Apache
-    * ssl-Zertifikate (Let's Encrypt, Certbot)
-    * Automatisierung (z.B. Ansible)
-* Server Pflege und Maintenance (Updates, Monitoring, Hardening)
-* Server und Service Sicherheit
-    * Schwachstellen, Tests, Updates
-    * Systemhärtung
-    * Zugangskontrolle (ssh Key-Management)
-    * Monitoring und Logging
-* Hochverfügbarkeit von Servern und Datenbanken
-* Management von Benutzerkonten und -rechten
-* System Backups
-* Kenntnisse über Netzwerke und deren Administration
-    * LAN und WAN
-    * Firewalls (IP-Tables)
-    * Routing und VPN
-    * DNS Records und Domain Management
-    * Service und Netzwerk Dokumentation
-* Wartung und Verwaltung unserer selbst gehosteten Dienste:
-    * Confluence, GitLab, Mattermost, VPN, LDAP, Jitsi, Nextcloud
-* E-Mail Hosting: mailcow, SOGo
-* Telefonie:  SIP, VOIP
-* Kenntnisse einer oder mehrerer Programmier- oder Scriptsprachen
-* Relationale und nonrelationale Datenbanken
-* Interfaces: Rest API, SOAP
+- Server Management und Virtualisierungsumgebungen für Maschinen und Container
+- Server Setup und Integration
+    - Webserver: nginx, Apache
+    - ssl-Zertifikate (Let's Encrypt, Certbot)
+    - Automatisierung (z.B. Ansible)
+- Server Pflege und Maintenance (Updates, Monitoring, Hardening)
+- Server und Service Sicherheit
+    - Schwachstellen, Tests, Updates
+    - Systemhärtung
+    - Zugangskontrolle (ssh Key-Management)
+    - Monitoring und Logging
+- Hochverfügbarkeit von Servern und Datenbanken
+- Management von Benutzerkonten und -rechten
+- System Backups
+- Kenntnisse über Netzwerke und deren Administration
+    - LAN und WAN
+    - Firewalls (IP-Tables)
+    - Routing und VPN
+    - DNS Records und Domain Management
+    - Service und Netzwerk Dokumentation
+- Wartung und Verwaltung unserer selbst gehosteten Dienste:
+    - Confluence, GitLab, Mattermost, VPN, LDAP, Jitsi, Nextcloud
+- E-Mail Hosting: mailcow, SOGo
+- Telefonie:  SIP, VOIP
+- Kenntnisse einer oder mehrerer Programmier- oder Scriptsprachen
+- Relationale und nonrelationale Datenbanken
+- Interfaces: Rest API, SOAP
 
 
 **Job Profile**
 
-* Teilzeit oder Vollzeit (mindestens 18 Monate)
-* Büro: Berlin, Kreuzberg
-* Remote Work und Home Office möglich
-* Nach der Trainingszeit kannst du deine Arbeitszeiten in Abstimmung mit deinen Teamkollegen selbst festlegen.
-* Du hast die Möglichkeit unabhängig zu arbeiten, Organisieren und Lernen, natürlich mit so viel Unterstützung durch das Team, wie du brauchst
+- Teilzeit oder Vollzeit (mindestens 18 Monate)
+- Büro: Berlin, Kreuzberg
+- Remote Work und Home Office möglich
+- Nach der Trainingszeit kannst du deine Arbeitszeiten in Abstimmung mit deinen Teamkollegen selbst festlegen.
+- Du hast die Möglichkeit unabhängig zu arbeiten, Organisieren und Lernen, natürlich mit so viel Unterstützung durch das Team, wie du brauchst
 
 
 **Was kannst du bei uns erwarten**
 
-* Ein Team von motivierten Fachleuten/Experten/Spezialisten
-* Flache Hierarchien und viele Möglichkeiten zur aktiven Mitarbeit
-* Selbständiges Arbeiten in einem unterstützenden Team
-* Herausforderungen, die gemeinschaftliche Lösungen erfordern
-* Umfassendes Onboarding und persönliche Betreuung danach
+- Ein Team von motivierten Fachleuten/Experten/Spezialisten
+- Flache Hierarchien und viele Möglichkeiten zur aktiven Mitarbeit
+- Selbständiges Arbeiten in einem unterstützenden Team
+- Herausforderungen, die gemeinschaftliche Lösungen erfordern
+- Umfassendes Onboarding und persönliche Betreuung danach
 
 
 **Port Zero: Über Uns**
@@ -96,6 +95,7 @@ Wert darauf, uns gegenseitig als Individuen mit unterschiedlichen Stärken und S
 respektieren. Wir spielen keine Rollen: Wir wollen eine Arbeitsatmosphäre, wo alle sie selbst sein
 können und sich offen zeigen können, so wie sie sind.
 
+---
 Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Anschreiben
 an jobs@port-zero.com.
 

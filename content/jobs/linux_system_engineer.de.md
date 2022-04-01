@@ -6,6 +6,7 @@ weight: 10
 ---
 
 **Deine Aufgaben**
+
 - Administration und Entwicklung von Autokonfigurationsservern (ACS) im Internet Service Provider (ISP)-Bereich
 - Installation, Konfiguration und Upgrades der Anwendungen
 - Implementierung der Business-Logik
@@ -13,7 +14,9 @@ weight: 10
 - Projektmanagement eigener Projekte im ISP-Bereich
 - Kundenkommunikation im Rahmen der Projektarbeit (Anforderungen, Rahmenbedingungen, etc.)
 
+
 **Das bringst du mit**
+
 - Gute Kenntnisse in der Programmiersprache Python
 - Gute Kenntnisse zu Linux-Servern
 - Kenntnis über Chroots und Ansible
@@ -24,18 +27,23 @@ weight: 10
 - Offene, ehrliche und direkte Kommunikation
 - Gute Deutschkenntnisse für unsere Kunden im D-A-CH Raum
 
+
 **Das zeichnet dich aus**
+
 - Bereitschaft, dich tief in ein Thema einzuarbeiten
 - Teamplayer:in mit Engagement, hohem Verantwortungsbewusstsein und guter Selbstreflexion
 - Gute Kommunikationsfähigkeiten im Deutschen (viel Kundenkommunikation)
 
+
 **Das bieten wir dir**
+
 - Ein inspirierendes Arbeitsumfeld und Kommunikation auf Augenhöhe
 - Ein multikulturelles, pluralistisch, diverses und vielfältiges Team, das sich gegenseitig unterstützt und voneinander lernt
 - Raum und Unterstützung beim Lernen neuer Fähigkeiten und Wachsen als Mensch
 - Großen Gestaltungsspielraum: z.B. flexible Arbeitszeiten, Home-Office bzw. Remote Work und Aufgabenbereiche
 - Möglichkeiten, dich selbst und eigene Ideen einzubringen
 - Chancen, dein Arbeitsumfeld mitzugestalten
+
 
 **Port Zero: Über Uns**
 
@@ -56,6 +64,7 @@ synergististisch dabei zu ergänzen.
 Wir spielen keine Rollen: Wir wollen eine Arbeitsatmosphäre, wo alle sie selbst sein können und sich
 offen zeigen können, sowie sie sind.
 
+---
 Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Anschreiben
 an jobs@port-zero.com.
 

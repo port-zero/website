@@ -9,5 +9,6 @@ weight: 40
 ---
 
 <p class="lead">
-  Want to work with us? We'd love to hear from you! Send us your application for any of our open positions:
+  Want to work with us? We'd love to hear from you! Send us your application for any of our open
+  positions:
 </p>

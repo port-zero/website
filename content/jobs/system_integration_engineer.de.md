@@ -5,7 +5,6 @@ image: /img/noimage.png
 weight: 11
 ---
 
-
 Als Mitglied unserer System Integration Crew kennst du dich mit Linux Server Administration und
 Linux Netzwerk Management aus. Du suchst technische Herausforderungen und die Möglichkeiten, diese
 zu lösen? Du dokumentierst deine Arbeit sorgsam und akribisch und stellst die Ergebnisse oder auch
@@ -94,6 +93,7 @@ Wert darauf, uns gegenseitig als Individuen mit unterschiedlichen Stärken und S
 respektieren. Wir spielen keine Rollen: Wir wollen eine Arbeitsatmosphäre, wo alle sie selbst sein
 können und sich offen zeigen können, so wie sie sind.
 
+---
 Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Anschreiben
 an jobs@port-zero.com.
 

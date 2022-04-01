@@ -5,7 +5,6 @@ image: /img/noimage.png
 weight: 9
 ---
 
-
 Wir sind ein eigenfinanziertes und privates Beraterunternehmen mit etwa 15 Angestellten. Port Zero
 unterstützt andere Firmen in den Bereichen Softwareentwicklung, IT-Sicherheit und Infrastruktur.
 Dabei blicken wir stets über den Tellerrand hinaus und wollen zusammen mit unseren Kunden in allen
@@ -20,6 +19,7 @@ Als Crew Lead triffst du gemeinsam mit dem Software-Team technische Entscheidung
 deine Kolleg*innen und planst neue Projekte mit unseren Kunden. Du entwickelst aktiv Software und
 hast dabei ein Auge auf Sicherheit.
 
+
 **Was dich begeistert:**
 
 1. Ein offenes Ohr für deine Kolleg*innen zu haben und herauszufinden, was sie für Zufriedenheit und Produktivität brauchen.
@@ -30,6 +30,7 @@ hast dabei ein Auge auf Sicherheit.
 Du wirst bei uns Teil eines diversen Teams mit einer hohen Bandbreite von Fähigkeiten und hilfst
 erfahrenen, motivierten Mitarbeiter*innen dabei, großartige Resultate zu erbringen.
 
+
 **Was du mitbringst:**
 
 1. Erfahrung in der Teamführung in unterschiedlichsten Kontexten.
@@ -37,12 +38,14 @@ erfahrenen, motivierten Mitarbeiter*innen dabei, großartige Resultate zu erbrin
 3. Den Willen, an den Herausforderungen einer Führungsposition zu wachsen und zu lernen.
 4. Erfahrung mit den Technologien, die wir in unseren Projekten verwenden, u. A. Go, Python und JavaScript, sowie das Interesse, auch exotische Sprachen wie Smalltalk und Haskell zu lernen.
 
+
 **Das bieten wir dir:**
 
 - Ein Team aus motivierten Fachleuten, welche sich gegenseitig unterstützen.
 - Jede Menge Gelegenheiten, dich aktiv einzubringen.
 - Herausforderungen, die gemeinschaftlich gelöst werden wollen.
 - Die Chance, ein organisch wachsendes Unternehmen mitzugestalten.
+
 
 **Warum bei uns arbeiten?**
 
