@@ -99,4 +99,4 @@ können und sich offen zeigen können, so wie sie sind.
 Du hast Lust, mit uns zu arbeiten? Dann melde dich mit einem Lebenslauf und einem kurzen Anschreiben
 an jobs@port-zero.com.
 
-Fotos und Alter sind nicht erforderlich. 
+Foto und Alter sind nicht erforderlich. 
