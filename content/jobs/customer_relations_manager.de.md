@@ -58,20 +58,22 @@ du Verbesserungen am Sales Prozess vor und optimierst diesen basierend auf deine
 
 **Port Zero: Über Uns**
 
-Port Zero ist eine Agentur die andere Firmen in den Bereichen Software Entwicklung, IT-Sicherheit
-und Infrastruktur unterstützt. Dabei blicken wir stets über den Tellerrand hinaus und wollen
-zusammen mit unseren Kunden in allen Bereichen großartige Ergebnisse erreichen. Das bedeutet wir
-bauen nachhaltige Strukturen und Prozesse auf, so dass unser Kunde eigenständig und langfristig von
-der Zusammenarbeit profitiert. Wir erreichen das durch eine Doppelrolle als Berater und Umsetzer und
-durch Konzentration auf Kommunikation und Aufbau von Verständnis für die Situation vor Ort.
+Port Zero unterstützt andere Firmen in den Bereichen Software Entwicklung, IT-Sicherheit und
+Infrastruktur. Dabei blicken wir stets über den Tellerrand hinaus und wollen zusammen mit unseren
+Kunden in allen Bereichen großartige Ergebnisse erreichen. Das bedeutet wir bauen nachhaltige
+Strukturen und Prozesse auf, so dass unsere Kunden eigenständig und langfristig von der
+Zusammenarbeit mit uns profitieren. Wir erreichen das durch eine Doppelrolle als Berater und
+Umsetzer und durch Konzentration auf Kommunikation und Aufbau von Verständnis für die Situation vor
+Ort.
 
 Wir sind eine Firma mit starkem Fokus darauf uns gegenseitig zu unterstützen und voneinander zu
 lernen, sowie als Menschen zu wachsen. Wir schaffen unseren Arbeitsplatz und die Arbeitsumgebung
-gemeinsam und sind glücklich und dankbar für jede/n die/der sich hier mit eigenen Ideen mit
-einbringt. Wir streben nach Exzellenz und geben uns nicht mit Mittelmäßigkeit zufrieden. Wir setzten
-einen hohen Wert darauf, uns gegenseitig als Individuen mit unterschiedlichen Stärken und Schwächen
-zu respektieren. Wir spielen keine Rollen: Wir wollen eine Arbeitsatmosphäre, wo jeder sie/er selbst
-sein kann und sich offen zeigen kann, sowie sie/er ist.
+gemeinsam und wertschätzen, wenn sich Mitarbeitende mit eigenen Ideen einbringen. Wir streben nach
+Exzellenz und geben uns nicht mit Mittelmäßigkeit zufrieden. Wir legen sehr hohen Wert darauf,
+uns gegenseitig als Individuen mit unterschiedlichen Stärken und Schwächen, zu respektieren und uns
+synergististisch dabei zu ergänzen.
+Wir spielen keine Rollen: Wir wollen eine Arbeitsatmosphäre, wo alle sie selbst sein können und sich
+offen zeigen können, sowie sie sind.
 
 ---
 Du hast Lust, mit uns zu arbeiten? Dann melde dich bitte mit deinem Lebenslauf und einem Anschreiben
