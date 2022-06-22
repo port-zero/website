@@ -23,7 +23,7 @@ USt.IdNr.: DE290377155
 
 ## Kontakt
 
-Tel.: +49 (0) 30 / 12 089 345\
+Tel.: +49 (0) 30 / 12 089 345 0\
 Fax: +49 (0) 30 / 92 108 032\
 E-Mail: contact at port-zero.com\
 PGP: [0682 3089 FB67 BC06 4E0B B74C A365 7586 5EF5 2D92](/pubkey.asc)

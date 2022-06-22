@@ -13,7 +13,7 @@ weight: 50
 Paul-Lincke Ufer 7e\
 10999 Berlin
 
-Tel.: [+49 (0) 30 / 12 089 345](tel:00493012089345)\
+Tel.: [+49 (0) 30 / 12 089 345 0](tel:004930120893450)\
 Fax: +49 (0) 30 / 92 108 032
 
 E-Mail: contact at port-zero.com\
