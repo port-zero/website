@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: cibuilds/hugo:0.71.1
     steps:
       - checkout
       - add_ssh_keys:
